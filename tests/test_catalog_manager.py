@@ -20,6 +20,10 @@ class ManagerStateTests(unittest.TestCase):
         self.manager = ui.Manager(self.root, "/tmp/teopce-test-card")
 
     def tearDown(self):
+        # Tcl timers outlive their Python commands when a root is destroyed.
+        # Cancel timers before destroy() removes their registered Python commands.
+        for timer in self.root.tk.call("after", "info"):
+            self.root.tk.call("after", "cancel", timer)
         self.root.destroy()
 
     def test_preview_uses_original_cached_art_instead_of_console_thumbnail(self):
