@@ -1,0 +1,13 @@
+dist/
+build/
+.python-env/
+__pycache__/
+*.pyc
+.DS_Store
+._*
+.venv/
+.env
+.env.*
+*.zip
+*.exe
+*.app/

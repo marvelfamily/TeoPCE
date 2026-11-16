@@ -1,0 +1,56 @@
+name: Build Catalog Manager
+on:
+  workflow_dispatch:
+  push:
+    tags: ["v*"]
+permissions:
+  contents: read
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [macos-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -r requirements-build.txt
+      - run: python -m unittest discover -s tests -v
+      - run: python tools/build_manager.py --resources resources --output dist
+      - name: Check Windows executable
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: |
+          $process = Start-Process 'dist/TeoPCE Catalog Manager.exe' -ArgumentList '--smoke' -Wait -PassThru
+          if ($process.ExitCode -ne 0) { throw "Manager failed with exit $($process.ExitCode)" }
+      - name: Sign macOS application
+        if: runner.os == 'macOS'
+        run: |
+          xattr -cr "dist/TeoPCE Catalog Manager.app"
+          codesign --force --deep --sign - "dist/TeoPCE Catalog Manager.app"
+          codesign --verify --deep --strict "dist/TeoPCE Catalog Manager.app"
+      - name: Check macOS application
+        if: runner.os == 'macOS'
+        run: '"dist/TeoPCE Catalog Manager.app/Contents/MacOS/TeoPCE Catalog Manager" --smoke'
+      - name: Archive macOS application
+        if: runner.os == 'macOS'
+        run: |
+          cp LICENSE THIRD-PARTY.md README.md RELEASE-STATUS.md VERIFICATION.json dist/
+          cp -R licenses dist/
+          cp -R docs dist/
+          ditto -c -k --sequesterRsrc --keepParent --norsrc dist TeoPCE-Manager-${{ runner.os }}-${{ runner.arch }}.zip
+      - name: Archive Windows application
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: |
+          Copy-Item LICENSE,THIRD-PARTY.md,README.md,RELEASE-STATUS.md,VERIFICATION.json dist/
+          Copy-Item -Recurse licenses dist/
+          Copy-Item -Recurse docs dist/
+          Compress-Archive -Path dist/* -DestinationPath TeoPCE-Manager-${{ runner.os }}-${{ runner.arch }}.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: TeoPCE-Manager-${{ matrix.os }}-${{ runner.arch }}
+          path: TeoPCE-Manager-*.zip

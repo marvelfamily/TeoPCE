@@ -1,0 +1,32 @@
+name: Bug report
+description: Report a reproducible manager, launch or cheat problem
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "Do not upload games, BIOS, firmware, saves or card dumps. Redact personal paths."
+  - type: textarea
+    id: environment
+    attributes:
+      label: Versions and hardware
+      description: Manager/ROM version, OS/CPU, console, cartridge and native menu/firmware version.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps and expected result
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result and exact error
+      description: Include a small redacted report or screenshot if useful.
+    validations:
+      required: true
+  - type: textarea
+    id: game
+    attributes:
+      label: Game and native-launch comparison
+      description: Title, region/revision, relative path; does the same image work in Krikzz's menu with all codes off? For cheats, list groups and stage/character.

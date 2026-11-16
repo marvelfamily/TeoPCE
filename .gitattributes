@@ -1,0 +1,7 @@
+* text=auto
+*.pce binary
+*.png binary
+*.bin binary
+resources/** -text
+licenses/** -text
+vendor/** -text

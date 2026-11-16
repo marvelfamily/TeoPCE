@@ -1,0 +1,77 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/metadat/no-intro/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016.dat",
+    "sha256": "a0ef55ce15c251a361b097a540f80df5cb329177c383929b7a6583684f7f8cca",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/metadat/genre/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016.dat",
+    "sha256": "47f3c31e48b1ead075d91c05b6049f3dcbbc210a59add0304a7c936a2d08fcd1",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/metadat/releaseyear/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016.dat",
+    "sha256": "84ca3791d2e5d9c6b26ad454b3c0433641c4e1936e46673c270419db9c507f2f",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/metadat/developer/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016.dat",
+    "sha256": "2da65707710b3cd729553acc8c78ef554aaabad2292929190ded8ca97b69cd01",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/metadat/publisher/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016.dat",
+    "sha256": "a92566fbf36b212e0c16715dfa3f357b4eb4e9e959269972a3e4054b44f001cf",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/metadat/redump/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD.dat",
+    "sha256": "e1ceaac7069b507bd11328ac49e00c88d6f245fd0caf277a10962905c7377cc9",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/metadat/genre/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD.dat",
+    "sha256": "3caec81153c2df671a95f53d7cd30ffcfea4e05bf7376d17aac216d96c2c7be5",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/metadat/releaseyear/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD.dat",
+    "sha256": "78159540d5fbd8d8d9449462c407d6181b958120404d9975a5308baad537aa3a",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/metadat/developer/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD.dat",
+    "sha256": "5397f4a9994d0664f753b233498ece41896e8bdd053a85ba60d0b724632a65a8",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/metadat/publisher/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD.dat",
+    "sha256": "4fa8b758f427afaf71b7c6a04c8169226a84dda988c71eca60a472194e6a0d14",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/metadat/no-intro/NEC%20-%20PC%20Engine%20SuperGrafx.dat",
+    "sha256": "45336cec37d5cf6b3ee4d466671cce61f3282d329b23804775abb3688b8fcbc7",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/metadat/genre/NEC%20-%20PC%20Engine%20SuperGrafx.dat",
+    "sha256": "c41266c04d8dda86a8b13feca9b0d961506c44a6db73991ae08050be36ee1de6",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/metadat/releaseyear/NEC%20-%20PC%20Engine%20SuperGrafx.dat",
+    "sha256": "7f1e6566bdf6c63d1a7ff590135de1bfc66212304f514d71fe45f260e517be9c",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/metadat/developer/NEC%20-%20PC%20Engine%20SuperGrafx.dat",
+    "sha256": "7e691412fe7367caea34da5b98c5ddcf55c04cb93925b02c6434fa0256326b71",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/metadat/publisher/NEC%20-%20PC%20Engine%20SuperGrafx.dat",
+    "sha256": "b6611b66791bf34e68d3214fbd9b5e8786edf03e971c36bef13ca88495897266",
+    "license": "CC-BY-SA-4.0"
+  }
+]

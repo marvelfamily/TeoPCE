@@ -1,0 +1,43 @@
+{
+  "manager_version": "0.2.0-rc4",
+  "rom_version": "0.9.13",
+  "rom_sha256": "cb154a413102a2d56fd7695cb0735c85b90551e8ddf8d4814eeeef12683ca5ef",
+  "tests": {
+    "clean_macos_total": 42,
+    "clean_macos_passed": 42,
+    "windows_total": 42,
+    "windows_passed": 37,
+    "windows_skipped": 5,
+    "windows_skip_reason": "C/cc65 compilers and symlink creation unavailable"
+  },
+  "cheats": {
+    "releases": 347,
+    "groups": 1177,
+    "hucard": 244,
+    "cd": 103,
+    "path_bound_cd": 53,
+    "source_revision": "969e31a324119a17add184e8b716315a74adb51b",
+    "data_license": "CC-BY-SA-4.0",
+    "source_files": 347,
+    "whole_group_writes_ids_and_flags_preserved": true
+  },
+  "own_license": "MIT",
+  "new_library_console_tested": false,
+  "windows": {
+    "architecture": "x64 AMD64",
+    "test_host": "Windows 11 ARM64 in Parallels through x64 emulation",
+    "frozen_startup_smoke": true,
+    "native_intel_windows_tested": false
+  },
+  "packaging": {
+    "macos_notarized": false,
+    "windows_authenticode_signed": false,
+    "github_workflow_executed": false,
+    "macos_strict_signature": true
+  },
+  "manual_packaged_gui_full_flow": false,
+  "screens_visually_reviewed": true,
+  "manager_worker_prepare_edit_reprepare_install": true,
+  "source_and_game_bytes_preserved_in_fixture": true,
+  "release_stage": "prerelease"
+}

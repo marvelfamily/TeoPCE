@@ -1,0 +1,2090 @@
+{
+  "revision": "969e31a324119a17add184e8b716315a74adb51b",
+  "license": "CC-BY-SA-4.0",
+  "files": [
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/1943 Kai (Japan).cht",
+      "git_blob": "8982dd7e57c797712496130812c07d71f431153b",
+      "sha256": "5c340ca00853c5124f8367d225df18efeb8ac0e781171acaf20fcb1bdf955280",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/1943%20Kai%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Adventure Island (Japan).cht",
+      "git_blob": "58af01ed18d594d3a462954411c95982277f349d",
+      "sha256": "14dec39ff473310959c173f419021c1a857ccf116867c6635c28ff85e1f4216f",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Adventure%20Island%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Aero Blasters (Japan) (En).cht",
+      "git_blob": "f089a2ef8b6b3f3f6eecceb406b82a2ba7a169c6",
+      "sha256": "fff4f12f4d81eae22b24010cfdf4e97fa90ff25592701d3ee466143b7944d8eb",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Aero%20Blasters%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Aero Blasters (USA).cht",
+      "git_blob": "415136fe4fb9d481e7aded9b24eec28786b14530",
+      "sha256": "759286754778896b126f8ecc079742e50b336b5a39263423a059b18b0e8f7bba",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Aero%20Blasters%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/After Burner II (Japan) (En).cht",
+      "git_blob": "d83b3adb3bd8531561863bde17ecbb5110c8ccec",
+      "sha256": "78eb804a147d586d67218541db88620a4b7d1c00fcb6f7c38d66c58b2c51ac10",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/After%20Burner%20II%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Air Zonk (USA).cht",
+      "git_blob": "b3d9bff185e562e03b950f3892fba261d3a0f5bd",
+      "sha256": "83b04387136eb9129b26560001da50a039e9d0a9ce0a75adb570169fc9444f0f",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Air%20Zonk%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Alien Crush (Japan) (En).cht",
+      "git_blob": "76b30c432797fa049125b27ba8433e3f4b3771e4",
+      "sha256": "899a311a409295fdb792b6826ab246d84ebb3dfff929c04e43307613d406e42f",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Alien%20Crush%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Alien Crush (USA).cht",
+      "git_blob": "76b30c432797fa049125b27ba8433e3f4b3771e4",
+      "sha256": "899a311a409295fdb792b6826ab246d84ebb3dfff929c04e43307613d406e42f",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Alien%20Crush%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Andre Panza Kick Boxing (USA).cht",
+      "git_blob": "80215cbbf6fbfa8cae205cd5c29124346378efc3",
+      "sha256": "6825faaf811d9a44332d3e202534e7c9d769331a4c8f62a074714403aebf357a",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Andre%20Panza%20Kick%20Boxing%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Aoi Blink (Japan).cht",
+      "git_blob": "70442963918463b91e1a5d7c45c5cc026f2dabf5",
+      "sha256": "d7aede021733af187d5890cd169c437d4788f493852867c57ceb2412a294a779",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Aoi%20Blink%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Appare! Gateball (Japan).cht",
+      "git_blob": "cb799978be8a653a22e191cfbc5917e5e5a5b2ed",
+      "sha256": "cc7965993d066331b79f5c7504219ffa651dbfde5ecb6351067a42d0c48bce31",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Appare%21%20Gateball%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Armed F (Japan) (En).cht",
+      "git_blob": "313f17887d8191e89303649fe175d599c2e73dce",
+      "sha256": "ab11c40f3fbf301e0dc645b8471a605631fb6139d6d1fd558b093a1a1b887fb7",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Armed%20F%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Atomic Robo-Kid Special (Japan) (En).cht",
+      "git_blob": "95465ebb50b5752dabd36ec10e79d70bfbc83202",
+      "sha256": "e5cd1f2dc0aea7a33802efa07968745a4bec6706c98e2e8017203b1e192e2750",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Atomic%20Robo-Kid%20Special%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Ballistix (USA).cht",
+      "git_blob": "c31b6e6e5c15fc7732be61da70ad3bfa72576851",
+      "sha256": "46c293c7ace4d7a2216561cb8c8e524ed24daa4e445c1842c73c374c76952536",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Ballistix%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Bari Bari Densetsu (Japan).cht",
+      "git_blob": "30b2983aa149a7fd70baabab3a5a116c92dd14ab",
+      "sha256": "7f538ceb6b06f6be81b9e5a194e5fe82e467a9efb15fd863321a1e75caf937e9",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Bari%20Bari%20Densetsu%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Barunba (Japan).cht",
+      "git_blob": "77575abd477709f90658ccff8f535cc676d2061b",
+      "sha256": "c1dc03f8082ccfe58c5fe00c607978c90608ebe9d57153bff7c2c260e7cf2caa",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Barunba%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Batman (Japan) (En).cht",
+      "git_blob": "6ab2d1645bdc21d9a87a54a029fd1d11877f440b",
+      "sha256": "45d30cf73b08609e5a47e773a4750dd9242fb68525b9006f30f0060833ecb6c0",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Batman%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Battle Lode Runner (Japan) (En).cht",
+      "git_blob": "41f7a8d5c447719af9bc035b529b7d86e989e4e5",
+      "sha256": "3ad3008ca47c6aa6986204ecdff58cef0881edf251f4c5063c00d252142ba4e1",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Battle%20Lode%20Runner%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Battle Royale (USA).cht",
+      "git_blob": "5a746b4c872bd8b2c256eb01ec5f32a880ed9c19",
+      "sha256": "2bcd37da054b80b2b24f8797cb4690d916129cfcafb3214de87a324b643379e9",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Battle%20Royale%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Benkei Gaiden (Japan).cht",
+      "git_blob": "5821e025865a1424425d660dd31a5cc3e23e20f6",
+      "sha256": "b36e12d86541d855ef4e5c632465368c9bf89c8edd4fe7658d4c0b1c313298d3",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Benkei%20Gaiden%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Bikkuriman World (Japan).cht",
+      "git_blob": "773f850a4f798e7e1e89ec93c64f14cc7bc62204",
+      "sha256": "cd209d4ab66874561b4aac3d0d3a13bb952b422821248966df98f9f480f6927d",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Bikkuriman%20World%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Blazing Lazers (USA).cht",
+      "git_blob": "d6de5c257de8d1aaf6b743368f300a1aba41e7bc",
+      "sha256": "cec9ec9fde903fefe7291468dec1321c54930eeeb20ef6c361ffbd8c1661837d",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Blazing%20Lazers%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Blodia (Japan) (En).cht",
+      "git_blob": "14fcf04230f31acf8fcc73740dc2afe65dd926e3",
+      "sha256": "b2b61fd4d2c6f0f8d58e7aca75617fdab49608dbc4f843d3c3d649aedd38a2ac",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Blodia%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Bodycon Quest II - Kyuseishu (Japan).cht",
+      "git_blob": "7ba5057f0509edb5109761ee99ce227682459c2c",
+      "sha256": "e47fd7ae1bd82caf586ddaf488cd0670f36a8883d1c77d52baacd1595d1cf739",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Bodycon%20Quest%20II%20-%20Kyuseishu%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Bomberman '93 (USA).cht",
+      "git_blob": "98b488fecc1f26aa2ad47d0c60e8a78d4ac6b28e",
+      "sha256": "d767e172ef1427f42c611ec0ffc0dc693a237b42d59a31932e56fef4b20599fe",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Bomberman%20%2793%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Bomberman '93 - Special Version (Japan).cht",
+      "git_blob": "0c9598021d27b525eea0f89d247f29aa3734ffcf",
+      "sha256": "8ec13bf7ebab53e5e3a9e0a8be983a435270d71cd04a4d70da24d1c26f4dabdc",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Bomberman%20%2793%20-%20Special%20Version%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Bomberman '94 (Japan).cht",
+      "git_blob": "b98222f51d863c9002457fac0e5dfab65a647eb1",
+      "sha256": "2c2e3afd9596e0fed6434baaa76c3fc71fd1fa9d26d4394f96db336ff67ad36d",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Bomberman%20%2794%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Bomberman (USA).cht",
+      "git_blob": "ff26a46e6a872ede7f7384aa409ba85cb7a8085f",
+      "sha256": "0c7d1bc6c65d6d5c974c69923f1a6ac6382c837b49f721775ed67067d9ce1768",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Bomberman%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Bomberman - Users Battle (Japan).cht",
+      "git_blob": "25dacbdba1f6069cd081ec6d2c08fb5e2e3414cb",
+      "sha256": "b349943c836293dbd9e09cb2ec36278638bb8f06763475afbc9d32cba1883208",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Bomberman%20-%20Users%20Battle%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Bonk 3 - Bonk's Big Adventure (USA).cht",
+      "git_blob": "370493e9a433c0fe6b0f4c429c2915a8d224523a",
+      "sha256": "767e09174d3d75fad018ec6d0d8dab590c84edd40cffc149d4c2ae264cf4b15b",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Bonk%203%20-%20Bonk%27s%20Big%20Adventure%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Bonk's Adventure (USA).cht",
+      "git_blob": "354fdb8ff5a733b8d2b33106b60c2b0ab1927ba9",
+      "sha256": "7ed4414f8a591081073ee4aa0149ade29e471a21f9391494553ecd797be3f62c",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Bonk%27s%20Adventure%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Bonk's Revenge (USA).cht",
+      "git_blob": "20fc4b1e356c32043fd8760f46314429d40bc8de",
+      "sha256": "917e7d6c44aa8c7d0c5b257a68d4399d7c0d9b56a87cc94a7a501715fca84357",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Bonk%27s%20Revenge%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Bouken Danshaku Don - The Lost Sunheart (Japan).cht",
+      "git_blob": "6c4f96bf3bd9e501c3a12ab19990a3b18ecf9995",
+      "sha256": "f66e737d9921c5d7b10a167f1ca3f7ebbb729c0cb007cc822aeae65e71a11611",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Bouken%20Danshaku%20Don%20-%20The%20Lost%20Sunheart%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Boxyboy (USA).cht",
+      "git_blob": "9caced96f7cbe7ff6e6068aae3a1301e789fe9e0",
+      "sha256": "89a186bf01643f1b41f2fd8f3f1792cb257d993e4e9cb8e8d6abf2b434057dd6",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Boxyboy%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Bravoman (USA).cht",
+      "git_blob": "168423f0e82448c49418e66eb8c132ca77f42af1",
+      "sha256": "2f128016282417ae0796f5e1b44c2b15ef9ea9694df6105a1192e9cea7c3c66d",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Bravoman%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Bull Fight - Ring no Hasha (Japan).cht",
+      "git_blob": "2074edd9fa70c479d62f3056cb8f00edd5154846",
+      "sha256": "15b2e02459983cda38556629d299ac325d3c9d955f54660335dc6dfb725dcff8",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Bull%20Fight%20-%20Ring%20no%20Hasha%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Burning Angels (Japan).cht",
+      "git_blob": "e5c5e100c334b903b15aa00122069bd19e3027a2",
+      "sha256": "0adf6b5a92fe9f90c51f818aba3ff80ee65c1fbd52b34bdfd46c31f88e97667c",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Burning%20Angels%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Cadash (USA).cht",
+      "git_blob": "90ddacdda76b536e54244a73fc4792fb270ac500",
+      "sha256": "16d0f145e1b626667f882457e061d75af7c6d88df88030c3f8d8fd17820f8900",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Cadash%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Champion Wrestler (Japan) (En).cht",
+      "git_blob": "96625528f0787eb27a8082f06db4ddb4f8e92aa1",
+      "sha256": "68be6a07b3ce6aecc6081a6266aad1d01fab1fe7cd99239851cbc57aa6cbc3f1",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Champion%20Wrestler%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Champions Forever Boxing (USA).cht",
+      "git_blob": "099c8f4903605c5a02cad0198b478fcfbc5c73c4",
+      "sha256": "c08ec652d0176e12df44a97c6cefa72f9180b1d61c20e8a7678e6bf18cb5e995",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Champions%20Forever%20Boxing%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Chase H.Q. (USA).cht",
+      "git_blob": "5ffb243566573c1f0770a3e57924266958e8b768",
+      "sha256": "2f9c1c88d371e27521682e8d702635d1e1b0422b5a972b2d9761ebca5723935a",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Chase%20H.Q.%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Chew-Man-Fu (USA).cht",
+      "git_blob": "ca6ca707e96ba9be6b654f6d83193b9522f15854",
+      "sha256": "ad4d7e659bce9cd5fc5e5e696e439017a258646245b087df921e6d7c4374355d",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Chew-Man-Fu%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/China Warrior (USA).cht",
+      "git_blob": "915c8300bc04859191059571f873d0ca2cab9809",
+      "sha256": "e34e476230e26986e26a990948c6c3f70fd467ba0cd3ee2bc67677cb69b1e2e0",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/China%20Warrior%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Chou Zetsurinjin Bravoman (Japan).cht",
+      "git_blob": "3b609bcda24e092f9f299164a2e4bcf3292fbf1e",
+      "sha256": "5c6fa201ddaf4023b4fe0e6ee34b051e532f5c44d2a569dfa371a610b8c996a1",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Chou%20Zetsurinjin%20Bravoman%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Circus Lido (Japan) (En).cht",
+      "git_blob": "21f445fa66ad72145149d2ea0551b5a94625404a",
+      "sha256": "b82c3ccad08cbcb60957209c91cee2d9691b856958b266379dd701253d7dae61",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Circus%20Lido%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/City Hunter (Japan).cht",
+      "git_blob": "82ac8c1c6b2d28f6666a0fd09e0be7b494249aaf",
+      "sha256": "74253ceed569a36081921223c786e5d00286007d571d700e2e46da1012ec1570",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/City%20Hunter%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Columns (Japan).cht",
+      "git_blob": "fd2131f263b481b6f62ddb5e8f69f5ece0787c69",
+      "sha256": "b5078f697398dd8d25e52a5f525d968ca424536ad6f5df40b12a91bb28918bad",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Columns%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Coryoon (Japan).cht",
+      "git_blob": "99fba180cdfdf231d4160935d5fdfc54a7e16fae",
+      "sha256": "19a0d56f099fe37e6e81c73accb894273d59c09086ce531b658e5a9137c709d2",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Coryoon%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Cratermaze (USA).cht",
+      "git_blob": "e1897e246eb0aab6650dbd3dfa422ae1b2712888",
+      "sha256": "6a6967e2e2e575da18986ff99a515c93f22bf7657061c3b19b95c5c4af50253e",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Cratermaze%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Cross Wiber - Cyber Combat Police (Japan) (En).cht",
+      "git_blob": "5c54a6e197db5d62fc54bb8497931ccdcb197704",
+      "sha256": "2a1b7f2d02776d2e2320270825884f44064e5e1a6849052a43ea634a60c7fd01",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Cross%20Wiber%20-%20Cyber%20Combat%20Police%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Cyber Cross (Japan).cht",
+      "git_blob": "2814cca91b9f93f98d626a3dd0680f193aec299b",
+      "sha256": "4ab101a959de376c2ec73daf11c3b3d06c1e3e2b2d9cd15dbe64696d62688d82",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Cyber%20Cross%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Cyber Dodge (Japan) (En).cht",
+      "git_blob": "20b88179a77ae3a0da674ecc70d357ba12b96ed0",
+      "sha256": "3ce92a1c502d69c8ab184dff30e09409095aa8abca86692fb97975f55f595f2f",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Cyber%20Dodge%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Cyber Knight (Japan).cht",
+      "git_blob": "ea1a2b5f1fb25273261c0bca9d3b9b122c547854",
+      "sha256": "69b6377dda8db636ec98cc7174ccf97eef4962b703364529113fc73e12124e94",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Cyber%20Knight%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Cyber-Core (USA).cht",
+      "git_blob": "946430f00595343908b0ba3bb022f4cab3221c78",
+      "sha256": "f493d3cd290a9bd27b5058e51e7341d9d83460fb1bff08c059e920fa395d1714",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Cyber-Core%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Daisenpuu (Japan) (En).cht",
+      "git_blob": "7bac48e4be635690f20615d4cbf86cd953a26b1f",
+      "sha256": "f7f8f02545c30e6427fbdbc164a9da54e7006d26839856f8a45347fe119ff21b",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Daisenpuu%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Darius Alpha (Japan) (En) (SG Enhanced).cht",
+      "git_blob": "5c106db177336861b7cc07fb7e6234e780a8c40b",
+      "sha256": "408592a721ecbd16cb2f7003c3223645d392c04fde8e76a4c2716ba5a16dcbc2",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Darius%20Alpha%20%28Japan%29%20%28En%29%20%28SG%20Enhanced%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Darius Plus (Japan) (En) (SG Enhanced).cht",
+      "git_blob": "319073b651f753b028df9ed9ad8fc77ea6762353",
+      "sha256": "01c37521e51d95b7d7fd8e8e160f7fc61c9ccbe3d15944d22ce42931fffb92ad",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Darius%20Plus%20%28Japan%29%20%28En%29%20%28SG%20Enhanced%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Darkwing Duck (USA).cht",
+      "git_blob": "3a570b08eae9a157ac0bb428b1634893ddd30998",
+      "sha256": "d5a57c2367eff546d0eaa068557c15de97cb6ab1eb102174e4ab8a2fe4ea1fc6",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Darkwing%20Duck%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Dead Moon (USA).cht",
+      "git_blob": "054e2a3f0a68f73d39057878e83d54d82585a20d",
+      "sha256": "7042e43d467370772c1fe53e83d177097977323bbbba11fb30a29231851cbf41",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Dead%20Moon%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Dead Moon - Getsu Sekai no Akumu (Japan) (En).cht",
+      "git_blob": "054e2a3f0a68f73d39057878e83d54d82585a20d",
+      "sha256": "7042e43d467370772c1fe53e83d177097977323bbbba11fb30a29231851cbf41",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Dead%20Moon%20-%20Getsu%20Sekai%20no%20Akumu%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Deep Blue (USA).cht",
+      "git_blob": "1ec8e781390eca9700231735269cd6086da8a2fd",
+      "sha256": "944399d1923ea9e57b97d5144463ec8f0abce54e88640c68b3ede54441edd5f7",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Deep%20Blue%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Detana!! TwinBee (Japan).cht",
+      "git_blob": "7e10c1d6b7eada1c3514388c6a742c7b503fe409",
+      "sha256": "6630f16c63c274501de4961600f88ae52900da93d3efcc37c2121ca24bb129c7",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Detana%21%21%20TwinBee%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Devil Crash - Naxat Pinball (Japan) (En).cht",
+      "git_blob": "294ba5a2f9a7bf1dcd7b68dff3290c2cf8038ee0",
+      "sha256": "5e597b7f82dba9c0902011f27daa9273482984426f0e91d9ffd03da5691861d5",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Devil%20Crash%20-%20Naxat%20Pinball%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Devil's Crush (USA).cht",
+      "git_blob": "92283f8c398c4a6bf500c8931de8d3317a44550e",
+      "sha256": "209592b377d4502aca27cd363116dfa604602daccdb32f6bd8b9da702c1516e0",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Devil%27s%20Crush%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Die Hard (Japan).cht",
+      "git_blob": "9abe4f050bc8f136e80cbf119d82103548c341d2",
+      "sha256": "bf7191fac33b361ef6e65824105e52cb020b8f4fa98e5f3eb9f3e45511fc84e8",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Die%20Hard%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Digital Champ - Battle Boxing (Japan).cht",
+      "git_blob": "c4cb5b4b346388cb9c19e9e853e96bb01c292bd5",
+      "sha256": "4dc7bdafc2711a37aedf24d70a2f6abdf340c6c6f25f9070933601d000e89fd4",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Digital%20Champ%20-%20Battle%20Boxing%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Don Doko Don! (Japan).cht",
+      "git_blob": "5db0b23f09c6098f72d55bf8321485dc3ad7a979",
+      "sha256": "a695fdc60d16aa54b0cadcc159bc1c08a017dd43bb736ef2dd65e8a0a105c76b",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Don%20Doko%20Don%21%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Doraemon - Meikyuu Daisakusen (Japan).cht",
+      "git_blob": "1c3c799530a5f913858217ed72b07ec88dcf3bf0",
+      "sha256": "3df8b885362c1d478dcc539e27221101809b7cc0e1f8a278c7f915375bd881a5",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Doraemon%20-%20Meikyuu%20Daisakusen%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Doraemon - Nobita no Dorabian Night (Japan).cht",
+      "git_blob": "4edb61ded3aab2f86ad6799925280eeecdd1899b",
+      "sha256": "319087262ae402b515a0c71a32163a8f2c8c0deca0beb6d4648879dc917735c4",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Doraemon%20-%20Nobita%20no%20Dorabian%20Night%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Double Dungeons (USA).cht",
+      "git_blob": "2cf40cea1196ad15665b869aebbe2c210516d26e",
+      "sha256": "6fc35a304d092ccad4b6d4210e58a0a38ea2fed48fd3be5b36273f578cc75e18",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Double%20Dungeons%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Down Load (Japan).cht",
+      "git_blob": "3f882e1f233589391efb2ba7bbbfbc60f7c6ef1d",
+      "sha256": "3e6ae90afbd5774ed255f85049bb39ce76b4a65ceb60e9cebfca6d11a4d0a642",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Down%20Load%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Dragon Egg! (Japan).cht",
+      "git_blob": "33011fff4f79e4939a4a3574fd85d241bc4b2ce6",
+      "sha256": "ea899d45ec9f9f2c6c53b5d43dbd0bed7ab39f32cd39ce31348e68faa4323e1d",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Dragon%20Egg%21%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Dragon Saber (Japan) (En).cht",
+      "git_blob": "26fe1faea108500b051d251c0946629209d2ee54",
+      "sha256": "03352a5e59736b6aebccb7e34d095d94e3ac6498a33f7ef9a7e58c2416c975ad",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Dragon%20Saber%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Dragon Spirit (USA).cht",
+      "git_blob": "b2170a1fef6b8500b072c2e2c52a6ae79585c451",
+      "sha256": "486bd279969b5efde092f26cc29461e9cefeb5a11703d434587d3c3e4d7156a8",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Dragon%20Spirit%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Dragon's Curse (USA).cht",
+      "git_blob": "58af01ed18d594d3a462954411c95982277f349d",
+      "sha256": "14dec39ff473310959c173f419021c1a857ccf116867c6635c28ff85e1f4216f",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Dragon%27s%20Curse%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Drop Off (USA).cht",
+      "git_blob": "3e009d32f8fab78e44d3d10e3b70658c867548b7",
+      "sha256": "3c652d159bbbd77ca626ad2538c4b15713ee7b64c79753a5d7a4cf1f2094317a",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Drop%20Off%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Drop Rock Hora Hora (Japan) (En).cht",
+      "git_blob": "5aa2d727c511dc0e3b7eb7cafb3f61a16ec3a1de",
+      "sha256": "1593217909546ad9e71cd6a5076624b81c31534218feec106799f5cc4b2bd85a",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Drop%20Rock%20Hora%20Hora%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Dungeon Explorer (USA).cht",
+      "git_blob": "ceeeb1c926fd2bba6136160b46835a5aad84006c",
+      "sha256": "c6bb4d812af688291ecfc8f9f64b77515e88fa67f46fff4752a65288a1b0f7cb",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Dungeon%20Explorer%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Dungeons & Dragons - Order of the Griffon (USA).cht",
+      "git_blob": "d7577f91f85bd3436506dabad017d83659ffd63f",
+      "sha256": "2e9dfc00004fd7aab14a5e8be4560567742c2c28c6578086f3b0c7e218123279",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Dungeons%20%26%20Dragons%20-%20Order%20of%20the%20Griffon%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Energy (Japan).cht",
+      "git_blob": "f9b2e1ec96c0620a5028d6cd4e8e62a857fcb273",
+      "sha256": "7e52996d88190c4f5151d60932659bf3e55f21361783342fb0d4649be86d73c1",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Energy%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Eternal City - Toshi Tensou Keikaku (Japan).cht",
+      "git_blob": "012db05c3b54f3546ebc7c705e3f3417236fe596",
+      "sha256": "d3e3d2d0b04e3a07027198cdba7066ce5f7c007342fc73546b84ac5d812aa34e",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Eternal%20City%20-%20Toshi%20Tensou%20Keikaku%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/F-1 Dream (Japan).cht",
+      "git_blob": "3c30ec930f569c5ce8e1ca0cbfa18bd9138d40ba",
+      "sha256": "06ff4088ebcff0d146262310ac3e955327b95f98f533ba83b57f9650fa9f4c45",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/F-1%20Dream%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/F1 Triple Battle (Japan) (En).cht",
+      "git_blob": "279ab292c64580a192cdcb3474fc459cea005526",
+      "sha256": "489a6aae567f77956a6d68915ca5c72b6440afe01094865d67c22cf83172f1eb",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/F1%20Triple%20Battle%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Fantasy Zone (USA).cht",
+      "git_blob": "8f95b49e8163e2dd6225c6726c8f678e769d886a",
+      "sha256": "8d91ae71648e336f2413eac30ea644c1cc91a5631200712c9f8462a32c41e724",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Fantasy%20Zone%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Fighting Run (Japan).cht",
+      "git_blob": "bb17c2d5fd5d05506122f5dd28ea5f9b29cef9dc",
+      "sha256": "a2bb73ed24b18283c6a4988343fc71cbb21114e30d0bcec21d08647477135f53",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Fighting%20Run%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Final Blaster (Japan) (En).cht",
+      "git_blob": "cd3a9068e67ecdac5dc78e1939e384f23385ba5c",
+      "sha256": "26991d34c33375df7f5307cf6afb936f09a5992eaaaa6a2dac2bb07af5dc500e",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Final%20Blaster%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Final Lap Twin (USA).cht",
+      "git_blob": "eae062262a75b26f47fea6ec94d510706299ed5a",
+      "sha256": "d204162883547232cc794ec64065a0dc0d979608d4c0bb468bd7f2661d6baa40",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Final%20Lap%20Twin%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Final Soldier (Japan) (En).cht",
+      "git_blob": "68c352ff271adebf500aeacaa2046c57c1ff4cf3",
+      "sha256": "2c34f8cd1df56e344817bb16ba93094fb1c543322412eae1ee00861d73cddfb4",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Final%20Soldier%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Final Soldier - Special Version (Japan) (En).cht",
+      "git_blob": "33a3c1ef58500259b86077927696a843f6be4084",
+      "sha256": "911bcc00280e8295370bad568f9e7ac2e19fad58fe1f5d515905b021c4800e2f",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Final%20Soldier%20-%20Special%20Version%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Fushigi no Yume no Alice (Japan).cht",
+      "git_blob": "f8897cfda01c49b10bf0dd04bf36480d1b9313bb",
+      "sha256": "2c2e921426c493c85ac2216086ffbfff1c662fc5481dc059ca92b112143e7b2e",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Fushigi%20no%20Yume%20no%20Alice%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Galaga '88 (Japan) (En).cht",
+      "git_blob": "38306e192e1c2eeb6ef34f59c7eb615149351ae9",
+      "sha256": "9ab1a575899043d6550ceec24da05d4bf8e7ba26aed8d7a374a71d07336dbc56",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Galaga%20%2788%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Gekisha Boy (Japan).cht",
+      "git_blob": "f75ea6b98af088db2c380c4b595c617d7d7abdce",
+      "sha256": "cbf9b6b1235a2e48bc63dc4c00637806ad63e23ac3bb90443fedf777a0c01540",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Gekisha%20Boy%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Genpei Toumaden - Kan no Ni (Japan).cht",
+      "git_blob": "f542a95a9ca6fad5201ef5799a26e3a1a277a9fa",
+      "sha256": "b3db472ffd6416e4a21c497d9118a54264ad8c7759ddbf1936e3387c499efe04",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Genpei%20Toumaden%20-%20Kan%20no%20Ni%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Ghost Manor (USA).cht",
+      "git_blob": "15aab85d0f9e488ec63f590301215a4d7a7cda0a",
+      "sha256": "ba6b815be8f84f6c11c8498fe39e0364b53b708a413b6d4da47c8e9f24b17efd",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Ghost%20Manor%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Gokuraku! Chuuka Taisen (Japan).cht",
+      "git_blob": "9328b27038d321d3a0899073640bebe2967eefb1",
+      "sha256": "f1de4bef765b3c0b7387961e54d12ba2b5d31d4d048489ffedbcc20ad30ed294",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Gokuraku%21%20Chuuka%20Taisen%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Gomola Speed (Japan) (En).cht",
+      "git_blob": "6bce235e482110dcf97f7baa1eee177431a73a45",
+      "sha256": "55e7891747ca50f813558ba7d765d93fc1e59538a7637db4f8322422bac470a4",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Gomola%20Speed%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Gradius (Japan) (En).cht",
+      "git_blob": "b6edd4c1e03b58ff23cd5d5f1af9fd9428e924dd",
+      "sha256": "e5500823cbf36a37b0946d3c5b95c205c124f4429f9d54e8fad478103818035b",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Gradius%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Gunhed (Japan) (En).cht",
+      "git_blob": "668f5e4df71d512aa1728b2b4f489b6de30e0fa3",
+      "sha256": "1304aeb9baacf561ffa775dcc6ed6f5216f6c6cba71aca1e8f3019642843b576",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Gunhed%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Gunhed - Special Version (Japan) (En).cht",
+      "git_blob": "ed9bdd7c5a0ae36e03e9f342925f78b675659cf4",
+      "sha256": "fbbf0deab6289e6a1de16218d9eed401aa0c5b4f1f32591ba1376817fc4d498e",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Gunhed%20-%20Special%20Version%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Hana Taaka Daka! (Japan).cht",
+      "git_blob": "6684fe729a57f6aeab4655e295a87477470e29dc",
+      "sha256": "62d986b567290d08291b94bb77f90ab7e50441068a6d4fade831412c2d13bed1",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Hana%20Taaka%20Daka%21%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Hanii in the Sky (Japan).cht",
+      "git_blob": "b8e1addf84d6c133db99c8de669030947584ce56",
+      "sha256": "dd63e2d5094b29fa5b9294b2bd78882260a82aa2681027a48a4338f1233eecad",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Hanii%20in%20the%20Sky%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Hanii on the Road (Japan).cht",
+      "git_blob": "f01a4018e99cfb028c7ebdfedd2ba9c90e5c939e",
+      "sha256": "4f12f570e5e2a642f40b735f45c7dd5cc5b5a21e60ad81c2e0f2287e62c43f8b",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Hanii%20on%20the%20Road%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Heavy Unit (Japan) (En).cht",
+      "git_blob": "4dd19428ab1c68a1232ebba3323cf27dee851c52",
+      "sha256": "eb2349db6ad81962a366f31f8735f7dba986b6aee24a6fd5082b80951ec96c3a",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Heavy%20Unit%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Hit the Ice - VHL - The Official Video Hockey League (USA).cht",
+      "git_blob": "74c5ed592d04c9601c9f498bf6d80107620de0f2",
+      "sha256": "337f03cbd4d4ac46f1c2c9f416266e2a5d0f57f09bdcbd8ad6d853e85f66f995",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Hit%20the%20Ice%20-%20VHL%20-%20The%20Official%20Video%20Hockey%20League%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Hyper Dyne - SideArms (Japan) (En).cht",
+      "git_blob": "ee91fdb7ba53775f0405fdd4134af91daa2657cb",
+      "sha256": "888fb83f9f8173e8405b909bdc0f0e2d1cd56020802c0bbf9bdd455257150d53",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Hyper%20Dyne%20-%20SideArms%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Idol Hanafuda Fan Club (Japan).cht",
+      "git_blob": "28d1e5aeb0daf79e8c30b8b7b6dc36b9bc5d1e15",
+      "sha256": "21acd2db0128cabb8c85b2fe75527c4bd53c308873eb55ca956cb52a468365c7",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Idol%20Hanafuda%20Fan%20Club%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/ImageFight (Japan) (En).cht",
+      "git_blob": "92f612efce342895399154588b0a0792351cd03e",
+      "sha256": "223487490b6d1e8dd16707507131cda0947110d91fdb1861a3c5d3e15e4c4a39",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/ImageFight%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Impossamole (USA).cht",
+      "git_blob": "8752ab789ca6cc1518ef8c853db6d97ad19acd6e",
+      "sha256": "2cba27c137b91d7b4b577d529cec940a7bc41120ab69507ee91e51119efc30a8",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Impossamole%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/J.J. & Jeff (USA).cht",
+      "git_blob": "caaa6db87b112dfc62c23addfee56b0819261e2f",
+      "sha256": "18b7a5e0e499b670d58fd16037f15b3ab121d60d7cd0c79e682772724e734ac1",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/J.J.%20%26%20Jeff%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/J.League Greatest Eleven (Japan).cht",
+      "git_blob": "55a89512fcb2dcd8cc2324d6efbd4621ecf6f4da",
+      "sha256": "fd92aa12ac4dd259f45d194d6d5a962178437659a443e9c331113ceecb191761",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/J.League%20Greatest%20Eleven%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Jack Nicklaus' Greatest 18 Holes of Major Championship Golf (Japan) (En).cht",
+      "git_blob": "a317b2f1f185eef588b68cdb03075e81e3ae6f02",
+      "sha256": "516aa4f2a27ee4a01e6e7199f0eb21864afc7ff4eb973ff485f4005395fcef34",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Jack%20Nicklaus%27%20Greatest%2018%20Holes%20of%20Major%20Championship%20Golf%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Jack Nicklaus' Turbo Golf (USA).cht",
+      "git_blob": "a317b2f1f185eef588b68cdb03075e81e3ae6f02",
+      "sha256": "516aa4f2a27ee4a01e6e7199f0eb21864afc7ff4eb973ff485f4005395fcef34",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Jack%20Nicklaus%27%20Turbo%20Golf%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Jackie Chan (Japan).cht",
+      "git_blob": "a0d8484ffb8e3e328c96e17c2f2ea138af90a014",
+      "sha256": "238ef0d0ff81fd2b5338a0491da2547c7a9aab212083813960da42fc8da2caa2",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Jackie%20Chan%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Jackie Chan's Action Kung Fu (USA).cht",
+      "git_blob": "9878b3902d1777c8edee5cb31574077201d621a0",
+      "sha256": "186ac8986dd682adf14e3ae21a0297ac8651c23031555771badfd5a84182b984",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Jackie%20Chan%27s%20Action%20Kung%20Fu%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Jaseiken Necromancer (Japan).cht",
+      "git_blob": "87793383100b83abc0a2a17bd85a09789899d11a",
+      "sha256": "3b42618e073ec4b5e33161971f374d8c1dfb77177512df62a6329ebca35e4684",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Jaseiken%20Necromancer%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Jigoku Meguri (Japan).cht",
+      "git_blob": "81c8dc07d2dc35713d8c2294d0ecc40ce1a47411",
+      "sha256": "b6e81b2015d0ba2c55e3c9ab45c32c3526fabf824e804a434dbcb0886e8723a0",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Jigoku%20Meguri%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Jinmu Denshou (Japan).cht",
+      "git_blob": "7c29febe64cdc64e1a68904da8f973cb7dd129af",
+      "sha256": "7231b2cad528d2f1b64188d6dea84f00655614ea65c1152e6413967c84eabfb9",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Jinmu%20Denshou%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Juuouki (Japan).cht",
+      "git_blob": "9481f9f30bf7b9ee4744021023e8a27a42ddf9b5",
+      "sha256": "6f929b5ca2c330a3b0ec433c6530461e8cee7d40ea8a6d92b0f8d088e09ffa8c",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Juuouki%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Kaizou Choujin Shubibinman (Japan).cht",
+      "git_blob": "71e815a37bdec935f948120af5ede22810097852",
+      "sha256": "fe44767dc2caabac85e59ea663bf6b75359e0539a86d32c2a202dd1d270c322b",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Kaizou%20Choujin%20Shubibinman%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Kaizou Choujin Shubibinman 2 - Aratanaru Teki (Japan).cht",
+      "git_blob": "7231527272aff792c60e62a0b16685338afa7c9b",
+      "sha256": "66e2a4fc993705b343ee6cf60eb3f71d384595d26cebe3022f27edd0607f1cdf",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Kaizou%20Choujin%20Shubibinman%202%20-%20Aratanaru%20Teki%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Kato-chan Ken-chan (Japan).cht",
+      "git_blob": "1f7b394188419acd497d88b3c6be0cfaef22238d",
+      "sha256": "086019ab679f4f2af6e0cb265a417b922cc90a4267047036e6d411f6f3be416c",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Kato-chan%20Ken-chan%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Kattobi! Takuhai-kun (Japan).cht",
+      "git_blob": "9476b67af5191a921b2b65272365d1201605ff3c",
+      "sha256": "48b8d273a1585d6c307bebe1b5e00000d558d894a1b8bad3f410d7fabc765788",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Kattobi%21%20Takuhai-kun%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Keith Courage in Alpha Zones (USA).cht",
+      "git_blob": "bc5443c9a77e1da5f693e655316a196707596374",
+      "sha256": "6a94fe190089082322a009376987c676d139fb3fc5536e68a80821d6ebe5c337",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Keith%20Courage%20in%20Alpha%20Zones%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/KickBall (Japan).cht",
+      "git_blob": "c34f1cfd81002429f4784363f544a1893351d540",
+      "sha256": "d08c862ce945ee1af7990dbdfd4ce51854fea3c9dfea7892f0876925e8aa6a51",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/KickBall%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Kiki Kaikai (Japan) (En).cht",
+      "git_blob": "f40084a705425aca50d66bd26a96fe39fa006d9c",
+      "sha256": "53a6d9a1f7e37f4623572e261561472335cbb19471e0b72eb7c127bacd6f3e31",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Kiki%20Kaikai%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Klax (USA).cht",
+      "git_blob": "1a88f39bc9f8b106d8aa07cdc32bd8b4dd6e4dd7",
+      "sha256": "8519c3029004ac4050bbf4d602d16bc00cd7f86fd2f0b373e6645f651cfbbf5d",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Klax%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Knight Rider Special (Japan).cht",
+      "git_blob": "c30ef4582e61dd65342a7d6e6410383b884900f3",
+      "sha256": "ac5649225030cbe976a9fea1422d809b0d339215cbfac7632f5493c12549d2b0",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Knight%20Rider%20Special%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Kung Fu, The (Japan).cht",
+      "git_blob": "2a9dc29b475b5d0b3b96b8e685db2e531e2c69d4",
+      "sha256": "f419d57203094ecda00a983b05d1ecd6adf5ef93a134304b2d5e72b39b82f29b",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Kung%20Fu%2C%20The%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Kyuukyoku Tiger (Japan) (En).cht",
+      "git_blob": "1969fc6689746d241708e14cad1c80523fb14476",
+      "sha256": "35a994324b5eccb244ecf9646de3fc3d9225e565a17623446409a0b5f377ca62",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Kyuukyoku%20Tiger%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Lady Sword - Ryakudatsu Sareta 10-nin no Otome (Japan).cht",
+      "git_blob": "57473cd675546fe44333c664e95b48e986e78b6e",
+      "sha256": "b4cf076d5b6ecbb6a7116d556bc57eba3f7cd1fd6b1213ab06bb62ebaf5bff06",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Lady%20Sword%20-%20Ryakudatsu%20Sareta%2010-nin%20no%20Otome%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Legend of Hero Tonma (USA).cht",
+      "git_blob": "adf211eb3b252beb692107d2500d9e3630ce9152",
+      "sha256": "8937cc0128c74e2a519a1e583000f91d01fdf4d6a3dfa6497d57f2b14a20acf1",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Legend%20of%20Hero%20Tonma%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Legendary Axe II (USA).cht",
+      "git_blob": "3bb2abdbf247962cbff677a464408bb956f71e20",
+      "sha256": "febfdee5b249722e4c40ba93529f5a3ce2d7cf36372c2aae4766acbe91ba9674",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Legendary%20Axe%20II%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Legendary Axe, The (USA).cht",
+      "git_blob": "904fced5778437cd478dca0f22503ea2f93304fa",
+      "sha256": "99eca88665e626b5abc86e62a5d276d530a11fb6d97e66ccceae7944c27b8db9",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Legendary%20Axe%2C%20The%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Lode Runner - Lost Labyrinth (Japan).cht",
+      "git_blob": "90d9771172c818e80085ec7f5b12413a91ff1420",
+      "sha256": "cecb02b2b47d1278bcf77cd144c67110a70de1df709341014d1e3a862edae555",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Lode%20Runner%20-%20Lost%20Labyrinth%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Maerchen Maze (Japan).cht",
+      "git_blob": "9d700f98cbf3692ecbf032c4fc1a99e5d4304e48",
+      "sha256": "529ab9f1f92dfd5f9223372303e3bf8735a51b0115b0deb9c0239c8aa05279ff",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Maerchen%20Maze%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Magical Chase (Japan).cht",
+      "git_blob": "748ef1b76eb9284fe9c0d9eecda9514ceddca266",
+      "sha256": "6f4daef02f4960e3810e4a3fea54e9dd1f58ac204b8dd8cd36b0f27cfb9cf7aa",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Magical%20Chase%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Magical Chase (USA).cht",
+      "git_blob": "748ef1b76eb9284fe9c0d9eecda9514ceddca266",
+      "sha256": "6f4daef02f4960e3810e4a3fea54e9dd1f58ac204b8dd8cd36b0f27cfb9cf7aa",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Magical%20Chase%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Makai Prince Dorabocchan (Japan).cht",
+      "git_blob": "06997eb50641a870b2f44a9a371cb4bae352d203",
+      "sha256": "b119c59c9f523fce1dcd4bdc1025e84a95f0c0cf307546d9649a8300be8e3f84",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Makai%20Prince%20Dorabocchan%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Maniac Pro Wres - Asu e no Tatakai (Japan).cht",
+      "git_blob": "88957c852c1bcba85bcead118e44f38066d71373",
+      "sha256": "62f4e74670f824322804824d76ae01f6dfe07820a061d117412a5eab697cf5c9",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Maniac%20Pro%20Wres%20-%20Asu%20e%20no%20Tatakai%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Mesopotamia (Japan).cht",
+      "git_blob": "49ee61b6d36fba895bf0391bafab5f8e3c9ba06a",
+      "sha256": "b7bb0c3ae6384467736500a511a1b4cc2aba520aa0516698e0d12c36c965014b",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Mesopotamia%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Metal Stoker (Japan) (En).cht",
+      "git_blob": "1b3739c0b5b2a236ee7b4425363994e83baf5d8c",
+      "sha256": "95749446acf313ad97cd0d8db5abf062e40202e1e99fa4aeef98574153a72fe7",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Metal%20Stoker%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Mizubaku Daibouken (Japan).cht",
+      "git_blob": "41973434b32ea076830d7df5c8228dc6c1190cb3",
+      "sha256": "9d8abe430a3c9d4c8c4891251ea66c59740970f8625e0145da7169d733940535",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Mizubaku%20Daibouken%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Momotarou Densetsu Turbo (Japan).cht",
+      "git_blob": "6fab34ea126fa58d03607094789916d2e182c004",
+      "sha256": "357633212e9453cc377c5d083c4b308342047f1a66091fa8d2b1169cc77dee8a",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Momotarou%20Densetsu%20Turbo%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Momotarou Katsugeki (Japan).cht",
+      "git_blob": "f8a06a94c4f47de0c210d442d66c4ed17bec8eee",
+      "sha256": "577e7641914f51ecf07bba45cded5e03f26efabae11947185794f40748e9d8b2",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Momotarou%20Katsugeki%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Monster Pro Wres (Japan).cht",
+      "git_blob": "8f65ed22cb452473345a2057771242d651c1cb24",
+      "sha256": "5e844391c07aecff6240de5d0f3ff2e65cadcfe61bd288807bbe3d1a59456cf1",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Monster%20Pro%20Wres%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Moto Roader (USA).cht",
+      "git_blob": "17c3b0040625801a13b695108c33084b6f62c44d",
+      "sha256": "616fd28b30ac1c1e1465e1a04db6c655c01e9cf9a1309436f174d2436eb2a969",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Moto%20Roader%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Moto Roader II (Japan) (En).cht",
+      "git_blob": "f1f1cdc71deca9e106ddc5733791fb2c7c587fde",
+      "sha256": "30d364efad4816c1f1d12e3b5ffcab951fc7fe46932db74189ef8e24341c8eec",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Moto%20Roader%20II%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Mr. Heli no Daibouken (Japan).cht",
+      "git_blob": "1357d6b84b33bdefeca89c4b0a696223c78a135a",
+      "sha256": "465821fc1386d329574dee6f31dc1c8c5f35fb0b2a52ee5142df972cfc48932f",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Mr.%20Heli%20no%20Daibouken%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Naxat Open (Japan).cht",
+      "git_blob": "686636309001a563bfc0c8fa4f810fbad65a4218",
+      "sha256": "da8a5e8f31c4b6e46e051388d6140cb64257b8120d81a40aadc8990ac7a9f63f",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Naxat%20Open%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Naxat Stadium (Japan).cht",
+      "git_blob": "273527b15d7cbb37f93079342e8dabdeb9586d3d",
+      "sha256": "cdf0641e76f87ff0a228d7e0cfcf589dab88c41cdead0c24db6c6a2a38f6b335",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Naxat%20Stadium%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Necros no Yousai (Japan).cht",
+      "git_blob": "1a43ee1f7b6bb3e8e8da32c239beb31a25f2d18f",
+      "sha256": "7d8a7e10e02ffbe17760b157251cc00aa1f6c6758f6ccc27892c204a5723bc59",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Necros%20no%20Yousai%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Nekketsu Koukou Dodgeball-bu - PC Soccer Hen (Japan).cht",
+      "git_blob": "3da5c800f476231446ac35f121f6516b9988b344",
+      "sha256": "8837f45d255d33d412c0f5b0b16458cd569dac9124cbe5599a0838cac25eddd2",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Nekketsu%20Koukou%20Dodgeball-bu%20-%20PC%20Soccer%20Hen%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Neutopia (USA).cht",
+      "git_blob": "abb64ed9de4be8bcaa49711815ac22b19bc3f436",
+      "sha256": "631a2be6356211d8cf2b86abf2ba829aa325648605f8bc7ab2f23ee9edd95237",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Neutopia%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Neutopia II (USA).cht",
+      "git_blob": "1fab577f691be939fe847ea3ffb33fdd13543ae8",
+      "sha256": "59827e722110fe540c1831fc68fd6290793fc6ed17be372cbbe722f970e529f6",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Neutopia%20II%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/New Adventure Island (USA).cht",
+      "git_blob": "a867134b80a3ccfab2bb7e3333dc7a79ed9b12aa",
+      "sha256": "d13a66469bc423d62861d235bdbd137d4d04ecf168ff8dc23a190fad53a4ad81",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/New%20Adventure%20Island%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/NewZealand Story, The (Japan) (En).cht",
+      "git_blob": "37be73b8ee784c5995f0820ab8b95abe04b0ae47",
+      "sha256": "87f3894d3393f18b0b8277080167cd0a33b9c1701dd5c1284dab28e574a29c17",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/NewZealand%20Story%2C%20The%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Night Creatures (USA).cht",
+      "git_blob": "ca7c9f59d3a53c2512c567ea621e4bd64c0c6f59",
+      "sha256": "1583c4e22f3586d5c985273045f4041777d580c4a9f7568a87d5fc7fcbd77a05",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Night%20Creatures%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Ninja Ryuuken Den (Japan) (En,Ja,Zh).cht",
+      "git_blob": "84e9860540238f37898babf143e26d393ac3cb86",
+      "sha256": "cb1aa5b51fc6f57e2fafabba6eacc8e0b5c823f41caf8c707cd09f3982fa6730",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Ninja%20Ryuuken%20Den%20%28Japan%29%20%28En%2CJa%2CZh%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Ninja Spirit (USA).cht",
+      "git_blob": "3f2b6e761544fe713466342ed3eeb2a444d389c3",
+      "sha256": "6e0baba0988f55d80660de55d3ad429f280ea66ee1f382f45f3359258158b2ca",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Ninja%20Spirit%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Ninjawarriors, The (Japan).cht",
+      "git_blob": "dabed8d5a8de713cd615439d9603a7c7041239b3",
+      "sha256": "71b15019cb317c8c4f2a06c4177dbb181ecaa9bcd1e672f858ec89353ffc9dd2",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Ninjawarriors%2C%20The%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Obocchama-kun (Japan).cht",
+      "git_blob": "fda0f7d3cff1735f3ae6f6bc26f15027a1bb7686",
+      "sha256": "261dcdf5c224536e49ee7ff52e48d9d6550b86f2f97b941a057b90d366e98503",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Obocchama-kun%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Okaasan to Issho - Niko Niko Pun (Japan).cht",
+      "git_blob": "824f60d9e33783332330350b63bde04ac467639f",
+      "sha256": "80d217e2dc26ed22a5f2a08cacf5d8ae36ab0fbf86b4aee790a2f15b11acb905",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Okaasan%20to%20Issho%20-%20Niko%20Niko%20Pun%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Ordyne (Japan).cht",
+      "git_blob": "aa43924553c795755be2e7809133de43294b2008",
+      "sha256": "ad3af9bf224f09b2044f7bcba7d2b1a7eaeda610275e5b42455924da946e7f2a",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Ordyne%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Ordyne (USA).cht",
+      "git_blob": "22ba881b242e4d3b606e50b4e216c3cea0bd1e88",
+      "sha256": "f281e099009a58f125399c64417b365cdf56707b2b21ec66fc118f8b8f9285b4",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Ordyne%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Out Live (Japan).cht",
+      "git_blob": "c9b95fd89480c8c414216d6353855a7a793e5cd4",
+      "sha256": "b9876627c7908d950dd588186af2510e4be7951ab9fa27470e9dc5c368533608",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Out%20Live%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/OutRun (Japan) (En).cht",
+      "git_blob": "39e971c35356378fc0eacce5884d90ae8b273dc3",
+      "sha256": "566ddc04a538bade75f71b69abd2ade30a1d90c67525eb55bbbfe01dd811400c",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/OutRun%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Override (Japan) (En).cht",
+      "git_blob": "341bec1c964b4da37ddc485f8ea4d91f61f26882",
+      "sha256": "2f4fabbfadd8c527ea07fcb7f145911bb63bd4289a8f8a6b6cc3ff81e38a50f4",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Override%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/P-47 - The Freedom Fighter (Japan) (En).cht",
+      "git_blob": "4cd96bd486e2c54835c1a1c803f4cb5e91f0240e",
+      "sha256": "01babac82c71d464605023e073cc11121663be827053c3f63dd6c75cbea2c5f0",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/P-47%20-%20The%20Freedom%20Fighter%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/PC Denjin - Punkic Cyborgs (Japan).cht",
+      "git_blob": "bdf144d6289fccddb610faf218a215c3cca00d9a",
+      "sha256": "eb26c3f89824854adeba69694f4167fcf15be29376aea11b0fca881bf9630ef3",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/PC%20Denjin%20-%20Punkic%20Cyborgs%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/PC Genjin - Pithecanthropus Computerurus (Japan).cht",
+      "git_blob": "e6c1856014d64b833ea9a6c509acad196eb56e55",
+      "sha256": "246872206e483ac2b28c01209847cee48fd77cbb8db7d3cb1ee0250d8680d0d3",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/PC%20Genjin%20-%20Pithecanthropus%20Computerurus%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/PC Genjin 2 - Pithecanthropus Computerurus (Japan).cht",
+      "git_blob": "ae91ed1c02c947ed891a0f6b99b33f9ef98a5bdc",
+      "sha256": "862bfeb99d3b4b9384d1bd3450e08f2a4cbb132ca844c2221460e3c8a6748281",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/PC%20Genjin%202%20-%20Pithecanthropus%20Computerurus%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/PC Genjin 3 - Pithecanthropus Computerurus (Japan).cht",
+      "git_blob": "6ad2564e24ce2c85664faa02a1a2a3b6ce6f5c4f",
+      "sha256": "4ed27aee9c28deb908da354bda2a2d9a225cfb3359624f7cebd10ecb7ca19b9f",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/PC%20Genjin%203%20-%20Pithecanthropus%20Computerurus%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Pac-Land (Japan) (En).cht",
+      "git_blob": "047c51e775fb174534ae32ee5653fa9329021516",
+      "sha256": "419358fa1f79a51af53816e56bcd1ee26a13f470c3ef1e5ab81ee3eb24c2bc82",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Pac-Land%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Pac-Land (USA).cht",
+      "git_blob": "4eb703702e30b868074245405dafca4bd64eb2c0",
+      "sha256": "9314c96a6649628671f5c6251e1d6ae347da8f707d01025007da35bcf50e0f4a",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Pac-Land%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Paranoia (Japan) (En).cht",
+      "git_blob": "3e804af3f61e2b6ed2b9cc2968885eae829128b5",
+      "sha256": "dee0b9f3408a42f03418d30c1e817f50c80f9bf657bbc7ea48e150ed7c1af80c",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Paranoia%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Parasol Stars - The Story of Bubble Bobble III (USA).cht",
+      "git_blob": "1c43fa11b2f0d71f42f0cafafc61f2556ffbdb39",
+      "sha256": "bf4750fd57eb70a6b1e683e234a6dfc947512e07ffcaeff2be1c3109fe973f9a",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Parasol%20Stars%20-%20The%20Story%20of%20Bubble%20Bobble%20III%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Parodius Da! - Shinwa kara Owarai e (Japan) (En).cht",
+      "git_blob": "4d23aa7e028711037f035fe16ea77bb198a1615e",
+      "sha256": "fbea7e972340cce832379c276a9f2a2cbe5ab06db1ec5d4e0e02a2489d6e97e7",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Parodius%20Da%21%20-%20Shinwa%20kara%20Owarai%20e%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Power Eleven (Japan).cht",
+      "git_blob": "a7c90826d9a3264b34eef278286bdf56d0c91ab5",
+      "sha256": "21a5af4835df725e57084027b4edfdb719763c725ac22b3a432d18fc41c6c5cc",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Power%20Eleven%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Power Gate (Japan).cht",
+      "git_blob": "00c98f2b67c224b1401af9cb332fb2a1057fb5cd",
+      "sha256": "d2c8c16827c33a848d971c32b70ae81391f01cd0300ac0c8591429ac1081b370",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Power%20Gate%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Power League (Japan).cht",
+      "git_blob": "65e6b8578b352f9cd2dd2547be3e90a3840809df",
+      "sha256": "9b4a981c2a261016a6140f2bd85964df46d66dd19f867100fb22666ba7964f0d",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Power%20League%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Pro Yakyuu World Stadium '91 (Japan).cht",
+      "git_blob": "b85a1120e34d90eecf1793375cc43da8f5f90a21",
+      "sha256": "9225129f4c89d4295b47de8dba7aa3429513940b8f9729d043124fcca8f10f9e",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Pro%20Yakyuu%20World%20Stadium%20%2791%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Pro Yakyuu World Stadium (Japan).cht",
+      "git_blob": "b85a1120e34d90eecf1793375cc43da8f5f90a21",
+      "sha256": "9225129f4c89d4295b47de8dba7aa3429513940b8f9729d043124fcca8f10f9e",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Pro%20Yakyuu%20World%20Stadium%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Psycho Chaser (Japan) (En).cht",
+      "git_blob": "191becb45ef21f7ec4c5a44ee554a007e6d044f0",
+      "sha256": "3325c3b476353c4734ee2d528080f79aaa4faacf97533a59cea1d98aac88730e",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Psycho%20Chaser%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Psychosis (USA).cht",
+      "git_blob": "13ae10e46f46d436a67dc0e4d9162fb553571105",
+      "sha256": "0b9244df55bd434d7f727eec90690b7f2000b48d1b641b67d2598a4003ae32d4",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Psychosis%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Puzznic (Japan) (En).cht",
+      "git_blob": "9b57cff81ea227709b296772bd2a14ea1ef71f8a",
+      "sha256": "8e1c49cf3b8a5e304ee2db3a9b79164e04a70a6118791c1b9624d92bfccce8d9",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Puzznic%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/R-Type I (Japan) (En).cht",
+      "git_blob": "f96c3c23757b78a6fba3580cd1b1b9bbc0dd4138",
+      "sha256": "c0618569f92eeb76792ad1bfb26f2bad99e3a66f54d2cda7122c16d20843613f",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/R-Type%20I%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/R-Type II (Japan) (En).cht",
+      "git_blob": "fe17bc08ce1816e38bb05eaf6272b560a7728a06",
+      "sha256": "e01de40d43410f1526cb41e26f28679a3a64a1f7892912824ff53c9891857ff0",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/R-Type%20II%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Rabio Lepus Special (Japan).cht",
+      "git_blob": "6e5bda033c8bebb1a1342b84d93cb0801c2e8fc7",
+      "sha256": "350838c2a02ef5674bca61b56954153bb49fc73e164d5d40a425fad36faee977",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Rabio%20Lepus%20Special%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Racing Damashii (Japan).cht",
+      "git_blob": "4f8caed232ebf9ebc7abe6b2594cbfe59549cbd6",
+      "sha256": "89c8d3e12db5f475c3f07de3807fb2ff62ca31cd4590972e5e2dac9773e7b49d",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Racing%20Damashii%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Raiden (USA).cht",
+      "git_blob": "756af12d28593ee8ab3bb7a09a36c441b53f8e8f",
+      "sha256": "d6ee83ff84adab05440dafcf0abb1c877a74854d4a5010e8ea997837ae8fd70c",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Raiden%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Rastan Saga II (Japan) (En).cht",
+      "git_blob": "ca364db210f3137b24b957748b9583a80b4612c6",
+      "sha256": "4a1b89431eaaf4c5fb7a6d1258f92af315e2e28084f72cf3024c98224f890fe1",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Rastan%20Saga%20II%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Rock-On (Japan).cht",
+      "git_blob": "5e6ff45639d56f11ef4b5530fb4be9007ff49b18",
+      "sha256": "f3c0a3d5ab7d42f9ab8e6ac2be1219bff72793b840353e41af008070fcac543e",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Rock-On%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Salamander (Japan) (En).cht",
+      "git_blob": "894a7bb4c7a5cfc3a2c542342034355f518a491b",
+      "sha256": "ad54b64700dab04851120be25ceb3f6c4f51dcc321f33e919f69abf39a49c1ab",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Salamander%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Samurai-Ghost (USA).cht",
+      "git_blob": "9b65c289bddd4dc8a38b62e2e767686e37b1c221",
+      "sha256": "4c0d007467b6dbaf7c0a057d209386096d52d1cea0e290714077f6bce4c8a4ff",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Samurai-Ghost%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Shinobi (Japan).cht",
+      "git_blob": "ccd5c0ab9fc68e00ab46cda76d184f3dfc8e1578",
+      "sha256": "34c589ba884ee76af6a7ab2feca58cd4f4c41dc7fd0838cc76636132ed1413a1",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Shinobi%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Shiryou Sensen - War of the Dead (Japan).cht",
+      "git_blob": "80d840bf8d366904ca4af4a49a506bc904d2b568",
+      "sha256": "2d56fa51bf3c9c5a27da339fd4e47c3046385a1bb50d2d21f8ce24a1aa4a8a30",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Shiryou%20Sensen%20-%20War%20of%20the%20Dead%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Shockman (USA).cht",
+      "git_blob": "f6a04c506ee9e86751bba66e25a0909e43772db4",
+      "sha256": "b10ea5d16ae151a153fd8d2c194835ed93953a56269c7c9efd9d3fa1cf0cb320",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Shockman%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/SideArms (USA).cht",
+      "git_blob": "ee91fdb7ba53775f0405fdd4134af91daa2657cb",
+      "sha256": "888fb83f9f8173e8405b909bdc0f0e2d1cd56020802c0bbf9bdd455257150d53",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/SideArms%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Silent Debuggers (USA).cht",
+      "git_blob": "e4d80664d1367c2af40cd1fca50eebee7b8f1cfa",
+      "sha256": "cde9133242df8ce2b435e56c666053391a0eac21aab4969165ae1c6af78bb2df",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Silent%20Debuggers%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Sinistron (USA).cht",
+      "git_blob": "644203a4d01110aebeda28f07e7598691f145c47",
+      "sha256": "d9cf44558397992b0b9226c0d2920259b0e06b577413d23265e1777c87de4ef8",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Sinistron%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Skweek (Japan) (En).cht",
+      "git_blob": "a62cf35eb5a806dd1aff626d5e6077532a032a3d",
+      "sha256": "58767b820a4514807a80ed7f70af20cd47ba9f3b8892983fa928af41e3a85230",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Skweek%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Soldier Blade (USA).cht",
+      "git_blob": "f417badfa3944706f218a8d1b263d586e92b4806",
+      "sha256": "2c5b865a7533cfd10d4ccd0edd9075e8f5a9583d23c482a36f501c893d768a65",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Soldier%20Blade%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Somer Assault (USA).cht",
+      "git_blob": "5eacc97b33b5a6f63404eb216236ac735d8d1cb0",
+      "sha256": "14c681a5e0261cab0f855753e98cdfab36d95ca02f799432f62c55f0b684c685",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Somer%20Assault%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Son Son II (Japan).cht",
+      "git_blob": "caedba7236f174f7d36ee4e194a9896da870dcd2",
+      "sha256": "90483e93fbeeb4473aba8b90c12faee99bc97fc18606ce415b900d61ea1714c6",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Son%20Son%20II%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Space Harrier (Japan) (En).cht",
+      "git_blob": "1ef36b8a8f661c7f1e772be969a715b4bfaa3cde",
+      "sha256": "bdd249fe0d259f5abe0a8652f4b7313415fd7ebb2d14737dade148ef5f99ab97",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Space%20Harrier%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Space Harrier (USA).cht",
+      "git_blob": "08e2bfcd4229fe0bd3a7b7105c57c349a4265907",
+      "sha256": "caece44795d795b2d38810d0f8e010edb9cc71ae7b803cf134bf426038720231",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Space%20Harrier%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Splatterhouse (USA).cht",
+      "git_blob": "7e1b88c455fbec54eaff8ef1ab79211ba0a9c5ab",
+      "sha256": "2ccb13a3d3741cc6afd80aa61250fc7d4e194eba7f1b6470be643c40a50dfcd4",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Splatterhouse%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Street Fighter II' - Champion Edition (Japan).cht",
+      "git_blob": "c4e212409c9f8c9364d723db940e3a1c29c616c8",
+      "sha256": "dd10e34dea79c745aee51e0a6f2fbf3f7ba4ba14ec26b94d4a173603e3ebc3d8",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Street%20Fighter%20II%27%20-%20Champion%20Edition%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Strip Fighter II (Japan).cht",
+      "git_blob": "126e2028dc22dd8364d5b1d3821571a75ce6eb1f",
+      "sha256": "4329aa6078e25ebd3dbc21272ae1ca0c0b84b823abde9942579b59e20709720d",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Strip%20Fighter%20II%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Super Metal Crusher (Japan) (En).cht",
+      "git_blob": "50e0b9126b8ee43c069d0899b8e9bb1bb7cec4f0",
+      "sha256": "6ffbefa3c0ec4a1b31c4c39d4c1dd774e410020fb6f20ca4e7f407311963de92",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Super%20Metal%20Crusher%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Super Star Soldier (Japan).cht",
+      "git_blob": "79c441b8658cb82a81c92e3226caa514368c5764",
+      "sha256": "1116f4478d93ef1bb618be2206a93b8ebf534c77d58c40d640cc6db6306c2096",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Super%20Star%20Soldier%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Super Star Soldier (USA).cht",
+      "git_blob": "dcdd7d63daca3343864da9f8873ccd1fe930302c",
+      "sha256": "996a10978454f45f45356e7134340183678f73304199c0ff0aa711fa77dd2ae2",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Super%20Star%20Soldier%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Super Volleyball (USA).cht",
+      "git_blob": "c095f0c1eac6240352b0e31767bc2087708f389b",
+      "sha256": "68dbd176f8d55694070a06525f65fcc3a022015e4ef1498f7a547bc8a73270c6",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Super%20Volleyball%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Susanoou Densetsu (Japan).cht",
+      "git_blob": "515a47128fcda01e88fdcc75d309a70bff23e6da",
+      "sha256": "76acc2f851bc9e58e0733032424b87c4a38ec9c6f9f9a9f99cd5220a5327c39c",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Susanoou%20Densetsu%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Takahashi Meijin no Shin Bouken-jima (Japan) (En).cht",
+      "git_blob": "ee1ebefd03b5af1d3759366089620a73b18442d8",
+      "sha256": "402eff04d40b2402fe2295e8bdf61a3692cfb7bc2d7695162537d10ed1e42a32",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Takahashi%20Meijin%20no%20Shin%20Bouken-jima%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Takeda Shingen (Japan).cht",
+      "git_blob": "e7cecdc45092d40d3202da2653ba3b0551a72869",
+      "sha256": "5bb7b9ff9c0a864873dbc6c4dea9418e667a4667960660aca35286165931985f",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Takeda%20Shingen%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Takin' It to the Hoop (USA).cht",
+      "git_blob": "b943ba31ac67b445a893cf87432dd41c8c52575f",
+      "sha256": "0b329f8878f56706e65c58c12e4316627c221bf4581df6995d60333bb80b6f36",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Takin%27%20It%20to%20the%20Hoop%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/TaleSpin (USA).cht",
+      "git_blob": "0f15bf0fe226245d5fbb74a0bacbbad2bbfdb11d",
+      "sha256": "a410ab31c66e5ab7ec9fcc6860b0597cf76ba986fbe0a14e9f8b316b36dc1bae",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/TaleSpin%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Tatsujin (Japan) (En).cht",
+      "git_blob": "756256d8d6a32f2d35e1c0a1298dc86578330c92",
+      "sha256": "c08c5b7105fb533e853e27dfd889f728a1188b3a9142fdafb5621a563fd1eaf2",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Tatsujin%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Tatsunoko Fighter (Japan).cht",
+      "git_blob": "3cce348e74621b2450bd60f21ed079e574ca7f99",
+      "sha256": "452405a02c3e54afea0666c13ca7ce0e7a1993df802a6463a343177719004de5",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Tatsunoko%20Fighter%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Tenseiryuu - Saint Dragon (Japan) (En).cht",
+      "git_blob": "4f4f1e0d2eaf4dcf164ad89583ca176cba904d40",
+      "sha256": "dbd4f202850c00b430066634afce309eb2b16aa0093d9dd3df6a58626137e66d",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Tenseiryuu%20-%20Saint%20Dragon%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Terra Cresta II - Mandoler no Gyakushuu (Japan) (En).cht",
+      "git_blob": "158241d67d68aa068a029c0a20e9701134baf185",
+      "sha256": "82a168167605a4b334b782b5d6eb9591f3adba72118a3097d420eed19a7f0c0b",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Terra%20Cresta%20II%20-%20Mandoler%20no%20Gyakushuu%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Thunder Blade (Japan) (En).cht",
+      "git_blob": "ed7a0dbbd6da3b19bd42d9e21ba4f03690f744e5",
+      "sha256": "dcc3a0df796041b889db412b83243e148e8d95415081ede063d8804fd6c60eb0",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Thunder%20Blade%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Tiger Road (USA).cht",
+      "git_blob": "df7966b30c88a8864f4701f7f6479254bab03942",
+      "sha256": "369fb451d0b52968799eb91ddfc77a483f4510c728d8e563de9e9f9d9b1036d3",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Tiger%20Road%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Time Cruise (USA).cht",
+      "git_blob": "74113f1e2f7f1897765fd2d9c9b6887eb7e3e88f",
+      "sha256": "2ee1c20efc9504ea10b6447b63a3d70b7281b56b5999d8d93189fcb90fbb5709",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Time%20Cruise%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Time Cruise II (Japan) (En).cht",
+      "git_blob": "a0a020c74138340817880d983077bc4c406544d9",
+      "sha256": "bce0091c37fbce25af8d33b258e82bb32d32ecd199e324d271f7d4bcd962770c",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Time%20Cruise%20II%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Titan (Japan) (En).cht",
+      "git_blob": "a7f45487434fc67043a6212a0f7d4a2cc15bda32",
+      "sha256": "5ccd51f04bab7bf7cd532c603660bd30a824a19007c591e197b4ae3f4da01640",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Titan%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Toilet Kids (Japan).cht",
+      "git_blob": "dcc7a21137462df957fe2b07e8946bcbb1700b1e",
+      "sha256": "a7ec158f632ebb170fc767ef71e467007db65aaa55ef12bbc887f0abab117477",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Toilet%20Kids%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Tora e no Michi (Japan).cht",
+      "git_blob": "c212540339f78b595e32922744ff6dc2ef605e11",
+      "sha256": "47a1b84c30362c8efd292a6d3c04ca7e45813f1c536131ea29b65d67aa863cf9",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Tora%20e%20no%20Michi%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Tower of Druaga, The (Japan).cht",
+      "git_blob": "d2bb2480d20f3b25c67c45db3a47bd386e3d00bd",
+      "sha256": "b41c44abe976e563f98ecd964cd071cc938aefca035876a14e3085a69040fffa",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Tower%20of%20Druaga%2C%20The%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Toy Shop Boys (Japan) (En).cht",
+      "git_blob": "9a98a706632628f8da4da89c4c4cc8b1935de99b",
+      "sha256": "a42ce1a52ca83289c937a6b572cfde14ce9823c16688b8271da098cdb738c513",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Toy%20Shop%20Boys%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Tricky (Japan).cht",
+      "git_blob": "38c1042f69e2601243fb4feddbe6626380eef52e",
+      "sha256": "2ec8130f2cf71248e8343ef31b46c23d2ef190b7ddaa5dab2657b2032e41847d",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Tricky%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Tricky Kick (USA).cht",
+      "git_blob": "38c1042f69e2601243fb4feddbe6626380eef52e",
+      "sha256": "2ec8130f2cf71248e8343ef31b46c23d2ef190b7ddaa5dab2657b2032e41847d",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Tricky%20Kick%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Turrican (USA).cht",
+      "git_blob": "ff21dd7d15128591874d4d6b9baa46d7fc3dfcc6",
+      "sha256": "7047ce9ca76f649819c271e27b27bb476c87a63124e804d992ff810962369cdc",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Turrican%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/USA Pro Basketball (Japan).cht",
+      "git_blob": "b943ba31ac67b445a893cf87432dd41c8c52575f",
+      "sha256": "0b329f8878f56706e65c58c12e4316627c221bf4581df6995d60333bb80b6f36",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/USA%20Pro%20Basketball%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Valkyrie no Densetsu (Japan).cht",
+      "git_blob": "b52ba97f10e4e24415cbe1b5b02119d609d6e90e",
+      "sha256": "c2f4932236b87df01712ffbc91f63cee80fc900b00a0e4cda392495304b77fa4",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Valkyrie%20no%20Densetsu%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Veigues - Tactical Gladiator (USA).cht",
+      "git_blob": "7e3c2d6fc7805c7342cf6823be76e45cf4721aba",
+      "sha256": "ee49f8ccde2a4fecbfc43d1eb6807644adafd958adb44e06d2d6a2ef559a2aad",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Veigues%20-%20Tactical%20Gladiator%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Vigilante (USA).cht",
+      "git_blob": "625e7229123998f1cf79b0bf6e743fdbae9f4d98",
+      "sha256": "a30109d0182fa58b4ad3ebe0ef7a3ff86381c135e53e3eff6227a5c57a10b458",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Vigilante%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Violent Soldier (Japan) (En).cht",
+      "git_blob": "2a3f51fb0f6deba75310c9a4fe90384fe887cf75",
+      "sha256": "656d851becc44ae1fdae98ca577187fdd27c01eaf92acdf6abf6b3ea7d7c1742",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Violent%20Soldier%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Volfied (Japan) (En).cht",
+      "git_blob": "39d7f7b58b213d89082a8650df65114778e1fac5",
+      "sha256": "4151f53a9372c4bf29cc04de51d809f7bad5623e8cdf8b613c33b57371c40848",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Volfied%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/W Ring - The Double Rings (Japan) (En).cht",
+      "git_blob": "fabe1f310d772c30f84fa348a18ea57e7cc0f9e1",
+      "sha256": "0d7576b335d2a1eb02c432070be6dc2b212dc896e42a0fd0b08060132ff4913f",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/W%20Ring%20-%20The%20Double%20Rings%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Youkai Douchuuki (Japan).cht",
+      "git_blob": "e5fc721305e408f4d9ee1a9ea8322a6a0548db34",
+      "sha256": "ddd1ab2945d6b821626088d1c8c0785d1bef34fb485850ee0ff2bac69545795e",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Youkai%20Douchuuki%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Zero4 Champ (Japan) (V1.5).cht",
+      "git_blob": "63e7da8966094542481cd975c77a52ed771e8b5f",
+      "sha256": "efc2a95d14ea15f247e659e17a6aca94298a799d7710b02956bf4c15ca5e651b",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Zero4%20Champ%20%28Japan%29%20%28V1.5%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine - TurboGrafx 16/Zipang (Japan) (En).cht",
+      "git_blob": "283c2fdaf8d6123cc59564e01091ab70914cb919",
+      "sha256": "c4fdac5930d6bbe96d9f3791eed86feba50484e977110e5db1e74e75fe622d9d",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016/Zipang%20%28Japan%29%20%28En%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Addams Family, The (USA).cht",
+      "git_blob": "1fb1ba599104c641e385d0ab3d0d7ea201db5450",
+      "sha256": "5c1bf56e1547e5e83605affccc9a33b4e8dcbd2321948284e487dd9aa707185b",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Addams%20Family%2C%20The%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Ai Chou Aniki (Japan) (SADS, SAES).cht",
+      "git_blob": "126e11bfcb1ef2da5488ad795ea03e4541659e29",
+      "sha256": "0b6afa932dad8995b2c652e0ef1543cc315a932e193f8e28bd3e1ac4aecebf8c",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Ai%20Chou%20Aniki%20%28Japan%29%20%28SADS%2C%20SAES%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Akumajou Dracula X - Chi no Rondo (Japan).cht",
+      "git_blob": "919ad0b50f3f38e8ed67ec1c936cad9151d70b6e",
+      "sha256": "42d895dfbbf38ce0d6e750f2e9bc53f1c603c2a77c5bbecf4ccf5e55950681bf",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Akumajou%20Dracula%20X%20-%20Chi%20no%20Rondo%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Ane-san (Japan).cht",
+      "git_blob": "e293d539a887e66d359abcff1fa83f47c2fee0ac",
+      "sha256": "bbcb6db13c2517c95da7b84ed5909fb34f0f9cb3090c51e1fa21c08c06b05f92",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Ane-san%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Avenger (Japan).cht",
+      "git_blob": "f417f614290631493925a32a137baabaa45b0957",
+      "sha256": "4b5b376b77d51205aa0b26da22145bf6c8de7ec2c0acc61f4be35537494a5c35",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Avenger%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Baby Jo - The Super Hero (Japan).cht",
+      "git_blob": "161bc6222b5916baa190788822843e1c3f360fc1",
+      "sha256": "65ac00d1dedfa3c7e5ea968e016d1a824437af404eb4592e7aae37f0090f6093",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Baby%20Jo%20-%20The%20Super%20Hero%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Bakushou Yoshimoto Shinkigeki (Japan) (FABT).cht",
+      "git_blob": "4fc1470a4628780f2c95c203d43ad3c1bc2952bd",
+      "sha256": "60a7d94501a41dcca4b0ee4751a6059fbc50cfb2cda0a865af6d56ff2f72cc99",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Bakushou%20Yoshimoto%20Shinkigeki%20%28Japan%29%20%28FABT%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Black Hole Assault (Japan).cht",
+      "git_blob": "8de3174efe7032b299558a112d7b15197007e50b",
+      "sha256": "ea68763db455ad093e978d3ea92d527a8d9eed4a5cfcefaf495609e6878e4dad",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Black%20Hole%20Assault%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Blood Gear (Japan).cht",
+      "git_blob": "1339b9241ea91ce228227abd1a9d788243871be3",
+      "sha256": "c6d3d360c6b37538b4597135c53934d2a3c0bda9c78cbfcb0b32dd3b905331b5",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Blood%20Gear%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Bomberman - Panic Bomber (Japan) (FABT).cht",
+      "git_blob": "1728c8c6d914bd1764407e424ee5730efabd6669",
+      "sha256": "fa3112999ac9f6dbf9931fedf8e9a2470b072108d69467f8147433ff650566b7",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Bomberman%20-%20Panic%20Bomber%20%28Japan%29%20%28FABT%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Bonk III - Bonk's Big Adventure (USA).cht",
+      "git_blob": "c397ae4b9650cc50105582d614302ae09c23bdbc",
+      "sha256": "51965070931a1606ce4a7d6dc55608682e9a1277bf9833e926439c879e60f965",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Bonk%20III%20-%20Bonk%27s%20Big%20Adventure%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Browning (Japan).cht",
+      "git_blob": "a3865f0a0dc6be6ccd481ce74274dac84848f390",
+      "sha256": "5d1b37450a3f957ad3b6dfd2bbb004c11aa7daf728f4a109ebb207388da9f545",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Browning%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Buster Bros. (USA).cht",
+      "git_blob": "60585b5c72f1adeb459322a50f7a060e278a5a77",
+      "sha256": "16391b6fe31fb5b7882f2103fbec42e4ae5f94a02e066348a35af0caea7c5548",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Buster%20Bros.%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/CD Denjin - Rockabilly Tengoku (Japan).cht",
+      "git_blob": "e3b1b3c2f8a64e5d4a9d299b880bf00384ccdcd3",
+      "sha256": "a86a7b89fd98cb1e071504604f0f778c8a5257e690f19297e424e956d0427ed1",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/CD%20Denjin%20-%20Rockabilly%20Tengoku%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Chiki Chiki Boys (Japan).cht",
+      "git_blob": "1dddb9741913320483a45b9a56084e4f5c24b542",
+      "sha256": "9080994eeacb60d955cd46487197839a9b01ab3946c1ccbdc79f9fa9a9c00488",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Chiki%20Chiki%20Boys%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Chou Aniki (Japan) (FAAT, FACT).cht",
+      "git_blob": "d6924f0dc339adbc828c314fbf0c3a866fa6db0c",
+      "sha256": "80ec7aaf0603b5d22ad4c97f10f1af3bd50a53fdb27a1628532ddf31ffd2cd93",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Chou%20Aniki%20%28Japan%29%20%28FAAT%2C%20FACT%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Chou Jikuu Yousai Macross 2036 (Japan).cht",
+      "git_blob": "b1450672facf9628cb46607aedab9115fe348809",
+      "sha256": "6858ca5e048b67aae943280f0c1b4c1a08cd4c7a745411798337a6e0e226c015",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Chou%20Jikuu%20Yousai%20Macross%202036%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Daisenpuu Custom (Japan).cht",
+      "git_blob": "aa2683390030f4d1e979e3d33a329f1ad3ff650c",
+      "sha256": "f1f2fe912d4a9b83bd577f23b87e967462b9b9445bb3d0a5ab91bb4ef994cc3a",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Daisenpuu%20Custom%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Doraemon - Nobita no Dorabian Night (Japan).cht",
+      "git_blob": "d7da207ba490f378fc740665287acd22a671eee6",
+      "sha256": "449909d6924bc282504c3377079dd6d049d3f1945e94259ac6bd212582c5c33f",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Doraemon%20-%20Nobita%20no%20Dorabian%20Night%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Double Dragon II - The Revenge (Japan).cht",
+      "git_blob": "c76b1226f9f28d1af38daaad90ed3003b3cac502",
+      "sha256": "3d93605dd664e2e967977201e57aa00d1327854421e39f02204f9dfe6529a391",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Double%20Dragon%20II%20-%20The%20Revenge%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Down Load 2 (Japan).cht",
+      "git_blob": "0f0843b720df0963570c31780ae0c0520a89e328",
+      "sha256": "8a14e42a85e3879a2bd4d8a74316ed9c1c61056e5ea5385ffcaf1c11923f62b1",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Down%20Load%202%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Downtown Nekketsu Koushinkyoku - Soreyuke Daiundoukai (Japan).cht",
+      "git_blob": "a2bcb27bc6591373b982e96051b6dbb45bc50a09",
+      "sha256": "c57c38d41078a6fd39874a6c0224716ae02f236a2cdedff37370466c554623f4",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Downtown%20Nekketsu%20Koushinkyoku%20-%20Soreyuke%20Daiundoukai%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Dungeon Explorer II (Japan).cht",
+      "git_blob": "2249d418e80f7e494ea3db207310973355fc211c",
+      "sha256": "4b8b915b1625a3c6c722effac29fcac500fa23fcd9d1707b1a28d589f4806377",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Dungeon%20Explorer%20II%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Dungeon Explorer II (USA).cht",
+      "git_blob": "2249d418e80f7e494ea3db207310973355fc211c",
+      "sha256": "4b8b915b1625a3c6c722effac29fcac500fa23fcd9d1707b1a28d589f4806377",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Dungeon%20Explorer%20II%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Dynastic Hero, The (USA).cht",
+      "git_blob": "dc3100aebc6c386a2c17720126cfd8a13f1f16ad",
+      "sha256": "6b55aa1c3615e34df04e03c0e61052a7caeb2a1ee63f0ba40c970496cfbf2a69",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Dynastic%20Hero%2C%20The%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Efera & Jiliora - The Emblem from Darkness (Japan).cht",
+      "git_blob": "fbf2abaf47af013ad3399bff8d2d078817c051c4",
+      "sha256": "a0028c8ec11c5a715e986837f7e2732f8bb10c0b0a27c3f3601db775b3ae86bb",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Efera%20%26%20Jiliora%20-%20The%20Emblem%20from%20Darkness%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Exile (USA).cht",
+      "git_blob": "98e87c88f75a973256de7c656134330486715b9b",
+      "sha256": "b75afe66d6cda78f32bf399b2acb470201c1100e6063b85f5ac09b54b5c0ac0c",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Exile%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Exile - Wicked Phenomenon (USA).cht",
+      "git_blob": "9ea6005711dcb57500b6a827724f7fc2caa5a87c",
+      "sha256": "cd37224c5044141c9db8959b4ace720dcaae0192b146ed6f1cd201bfdd6161b1",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Exile%20-%20Wicked%20Phenomenon%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Exile II - Janen no Jishou (Japan).cht",
+      "git_blob": "1334ce12024ca62028f611d1a868c8bf9f528259",
+      "sha256": "cac330ca0c2be89c985e6df0d090c2c8f46a509ca414a851fb4108274f2c8a5e",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Exile%20II%20-%20Janen%20no%20Jishou%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Fantastic Night Dreams - Cotton (USA).cht",
+      "git_blob": "f1d0db13de2974bffcbd26728354890c0cf2afe7",
+      "sha256": "1592f7573f47e3c57ea5f822a60db3530b6b2c79054bda881854993ee9b1871b",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Fantastic%20Night%20Dreams%20-%20Cotton%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Farjius no Jakoutei - Neo Metal Fantasy (Japan).cht",
+      "git_blob": "e5a00c294b8cfdb2936993260827bd628f7c1fa0",
+      "sha256": "57c6e6d4620dd7c5a50c60bdbd463a063bd672aa7704c17b3df77383c86f54a5",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Farjius%20no%20Jakoutei%20-%20Neo%20Metal%20Fantasy%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Faussete Amour (Japan).cht",
+      "git_blob": "f5507e28c227f3977d92e01f25f6bb01346eb63d",
+      "sha256": "70a6811393caa6906806d241ffb61926d81dfa1177789c40c3f352a96f29ca5e",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Faussete%20Amour%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Fiend Hunter (Japan).cht",
+      "git_blob": "13e05c394ad167485ceb103dc7bc47143aa7f24b",
+      "sha256": "34263dd00964d11b6cdb24f611d3ce3165ac863b99407262d417b766409e1776",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Fiend%20Hunter%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Fighting Street (Japan) (Rev 4).cht",
+      "git_blob": "d392d5b6ab868fd2efc2cfd8e8ebbeb7b6546ced",
+      "sha256": "9e82a807a3045b0599c14db5f5ec7a422708497383312c22738ca99b852fbd4d",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Fighting%20Street%20%28Japan%29%20%28Rev%204%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Fighting Street (USA).cht",
+      "git_blob": "d392d5b6ab868fd2efc2cfd8e8ebbeb7b6546ced",
+      "sha256": "9e82a807a3045b0599c14db5f5ec7a422708497383312c22738ca99b852fbd4d",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Fighting%20Street%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Final Zone II (Japan).cht",
+      "git_blob": "2ca2f505286ef8aaa11383829abea84b6941ed24",
+      "sha256": "ac8b142eab12e38eff8ee56db4d1c3c5622c5889f88e742fd9d3429a017d41b4",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Final%20Zone%20II%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Final Zone II (USA).cht",
+      "git_blob": "2ca2f505286ef8aaa11383829abea84b6941ed24",
+      "sha256": "ac8b142eab12e38eff8ee56db4d1c3c5622c5889f88e742fd9d3429a017d41b4",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Final%20Zone%20II%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Flash Hiders (Japan).cht",
+      "git_blob": "750b7a883ef52db474cbd72c3ea1be7469a57aaa",
+      "sha256": "70b8909ca8f2218d342be98e110dd37ecf66ebf23fdbe9c498037bfb4e1e91d7",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Flash%20Hiders%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Forgotten Worlds (Japan).cht",
+      "git_blob": "b472afc0baf9552680009cc5b6ffe13c30fe405b",
+      "sha256": "e00df37895fc05b99d86bf77a5d45c9a9b2af89fa27e96dc299217f1cb847ca1",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Forgotten%20Worlds%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Forgotten Worlds (USA) (En,Ja).cht",
+      "git_blob": "3f11fc658df66672cd408aea04f08e9b18f5a8fd",
+      "sha256": "bec758fb6a61d4701e71cab50abbd99b467d0f8e376b38dddabc4477597f655f",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Forgotten%20Worlds%20%28USA%29%20%28En%2CJa%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Gain Ground SX (Japan).cht",
+      "git_blob": "17a6db797ca564e299495f608af2673dbe95ea43",
+      "sha256": "133def1c46e0cd51842794962f4f7608629a8323681515dc02c27e3b5c1ddb03",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Gain%20Ground%20SX%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Galaxy Deka Gayvan (Japan).cht",
+      "git_blob": "f78918ba042c14406ac1e6661329448ee1338980",
+      "sha256": "c457f627e0b1f07af1bdf78c48a13f2bd213d3cf4adf897e196b6624cf795b32",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Galaxy%20Deka%20Gayvan%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Garou Densetsu Special (Japan) (FABT).cht",
+      "git_blob": "4e986d970a6e2938ab4656f453367141397cdc94",
+      "sha256": "04b90ef598d5833b6f33f9cac7d8ed07c673eb4cc6501622f14fef61fa727dd2",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Garou%20Densetsu%20Special%20%28Japan%29%20%28FABT%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Gate of Thunder (Japan) (FACT, FADT).cht",
+      "git_blob": "0434a7eb42a49599a46b36ce390da4ef97e31b75",
+      "sha256": "a4d8bd6fb89efc80b273bc876e87c36fc45b21c3c34e218bcf66a0fc78d900a2",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Gate%20of%20Thunder%20%28Japan%29%20%28FACT%2C%20FADT%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Ginga Fukei Densetsu Sapphire (Japan).cht",
+      "git_blob": "5ac3c22f41e8e87435e98d68e6712c43cf2eb908",
+      "sha256": "56dc3c47f09edd89b19bffef8bd35a1acd0c98f13211c9d1308259c1c82bdfb0",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Ginga%20Fukei%20Densetsu%20Sapphire%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/God Panic - Shijou Saikyou no Gundan (Japan).cht",
+      "git_blob": "a9f71c3425cb2b04ef74bdf2fab872ef8dea38f0",
+      "sha256": "61cac123aaf4190c3313dbd4d5f84f4a21da2a81d4579008287403efa9b373cb",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/God%20Panic%20-%20Shijou%20Saikyou%20no%20Gundan%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Godzilla (USA).cht",
+      "git_blob": "fc2bb2afb5470536b1cc69f882f3475f7d26c51f",
+      "sha256": "657659f70dd4ffb02ba3f0a652b8ed92bb87f9fe1034ac27c96c0e36243b3a40",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Godzilla%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Goetzendiener (Japan).cht",
+      "git_blob": "0cd3e6863fdb3405c0d3806b4119f9b6e91349a9",
+      "sha256": "4f1fdda2b7ee39ef75fe807b08cf1f4f3cbc0eb7c7024bd08cee35d0b9c681d0",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Goetzendiener%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Gradius II - Gofer no Yabou (Japan).cht",
+      "git_blob": "e23f5758c2854279bfc82c1af2e4f028dcb69377",
+      "sha256": "a108896a7a3146ccf2196786323f95c71369013f38876f283f83de39027fea11",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Gradius%20II%20-%20Gofer%20no%20Yabou%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Hawk F-123 (Japan).cht",
+      "git_blob": "9bda53f9771ea10f8a5d6ef7ff2301f7831440f3",
+      "sha256": "50b3ebc98275c6b33813b56f5130d3fb9c889241101913242572524c6dd5d015",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Hawk%20F-123%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Hellfire S - The Another Story (Japan).cht",
+      "git_blob": "d328b1ac79610f0881c7f9f2fccc699664744fac",
+      "sha256": "21d3f82cf1536907ed296bbb5a9d596a7b454652bb874ceac6e9ef0ac811d6fd",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Hellfire%20S%20-%20The%20Another%20Story%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/In Magical Adventure - Fray CD - Xak Gaiden (Japan).cht",
+      "git_blob": "4dc7cf1cd67be342fa582574db20ce0e2cb6a794",
+      "sha256": "9db05a5a86760757a26a768366d594f96301c503dd27340308f2cf8fd5e60162",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/In%20Magical%20Adventure%20-%20Fray%20CD%20-%20Xak%20Gaiden%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Jack Nicklaus Turbo Golf (USA).cht",
+      "git_blob": "f408af3c0c5c6226b16710c148bee7e2223ced7b",
+      "sha256": "a09c51f43feddd1fb5633f783a56b890030bdc12eef0b44727cc23fcee8cce02",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Jack%20Nicklaus%20Turbo%20Golf%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Jim Power in Mutant Planet (Japan).cht",
+      "git_blob": "69c34388f648ba5ac1dc184e1a9903482766a32d",
+      "sha256": "c6f3ec26fe7d097050bdb128230bd13455d13d6c2c9d58acb50ba3d4ec76d46e",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Jim%20Power%20in%20Mutant%20Planet%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Kaizou Choujin Shubibinman 3 - Ikai no Princess (Japan).cht",
+      "git_blob": "44ccb9ca489b947a0d8aa123b0ad4253f0af5847",
+      "sha256": "71ea0f6eca9750f1f094587eb50c0fe0299fbecb77ab89bebf8902b38f4bf8f5",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Kaizou%20Choujin%20Shubibinman%203%20-%20Ikai%20no%20Princess%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Kakutou Haou Densetsu - Algunos (Japan).cht",
+      "git_blob": "cb0904998d517f0aef1903d288ddc991a588fe46",
+      "sha256": "9c5c081270af2f2017010dd82927b08adc12242b637cc4f6440574786f54ffe2",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Kakutou%20Haou%20Densetsu%20-%20Algunos%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Kaze Kiri - Ninja Action (Japan).cht",
+      "git_blob": "05d553d87cc9c8e85dd6e7d09c48224637f72922",
+      "sha256": "4de17b3de2ac68629c18d2f2658b9629778c197dfa57ad1ae0579a0967acf288",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Kaze%20Kiri%20-%20Ninja%20Action%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Kiaidan 00 (Japan).cht",
+      "git_blob": "4dc758e6ae9348b04f6b55148d064547c2517f50",
+      "sha256": "b0fce8f3d6e7b79ede69324cc5ddd6bd39cac4cca3b95d51b1b0f90ebe97d2ce",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Kiaidan%2000%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/L-Dis (Japan).cht",
+      "git_blob": "a9f004bcfb2d3ade219079fe1c8b7739a5834ec0",
+      "sha256": "77766245e03f0b3b77a46f4f78f3a6dec7eb99697a9f768e085bd690b21d44f6",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/L-Dis%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Last Alert (USA).cht",
+      "git_blob": "0c4fa5aa7fa891c7f25814cf8b174591190f8cde",
+      "sha256": "4bceb32d201d54ff8f9f90db2443169aefa69f7ecc3ea28edcc7253978d5dbdf",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Last%20Alert%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Legend of Xanadu - Kaze no Densetsu Xanadu (Japan).cht",
+      "git_blob": "49c1a173a0d07c8aae7cc4be7fdc7a1370c5f113",
+      "sha256": "4f12d097f71f7d2827f12cf1db5fa8ac874f58b5cdb8af4a7e32f03c76c6630d",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Legend%20of%20Xanadu%20-%20Kaze%20no%20Densetsu%20Xanadu%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Legend of Xanadu - Kaze no Densetsu Xanadu II (Japan).cht",
+      "git_blob": "abdc2879f350e28e408f6dc05af8bfd066f53fe6",
+      "sha256": "c7bc584257723f5e23eedbfd65422c4efe788276693c8ff29fcdd3f2426b508d",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Legend%20of%20Xanadu%20-%20Kaze%20no%20Densetsu%20Xanadu%20II%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Martial Champion (Japan).cht",
+      "git_blob": "ce7d193a708eacc8a94c9439504c09c568412254",
+      "sha256": "4166fe5390a66d145175ba915858df933005b7718aa6ed2f77164f7d8a059a55",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Martial%20Champion%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Monster Lair (USA).cht",
+      "git_blob": "cb1cf7d534c4ece2ef14787679713e579d7765b1",
+      "sha256": "68f2020c416387029ed2c66601598c1f34987c7291e284a8385d7b89e37fb89b",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Monster%20Lair%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Mugen Senshi Valis - The Legend of a Fantasm Soldier (Japan).cht",
+      "git_blob": "b23267522690231faa7629adac9fcde199423581",
+      "sha256": "6700e0647b106e88208b44dbd42809d4d72fb461e113cc59ba3462555a841242",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Mugen%20Senshi%20Valis%20-%20The%20Legend%20of%20a%20Fantasm%20Soldier%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Mystic Formula (Japan).cht",
+      "git_blob": "296285f59854677d2b74e4b1cc907abe1da424c5",
+      "sha256": "c163ab2fc56773205b58c91f9ccab8f92ac4bddd7538e9c9d519c3dd8bafca2c",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Mystic%20Formula%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Neo Nectaris (Japan).cht",
+      "git_blob": "976c81fd5e031de3c4f608dd08a636cf1723bf3c",
+      "sha256": "bfe97607b66613009cae8cf677623b3de1b0eef1cfe76f187ab354a9b2817a95",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Neo%20Nectaris%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Pachio-kun - Warau Uchuu (Japan).cht",
+      "git_blob": "69b93ae4910631bd0618da368ab48aecee718513",
+      "sha256": "9cc506dd0232a08759ed1b300e061e58c798eb8842d36f2c9f3abf4e584b84a2",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Pachio-kun%20-%20Warau%20Uchuu%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/PopfulMail (Japan).cht",
+      "git_blob": "d864d94bd0d2343e11f3874caebc84c434c9c6b4",
+      "sha256": "9dea29ca4d5010a027edcc3dbac1e40b03ac3717ec5a42e0750a68289d155592",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/PopfulMail%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Prince of Persia (USA).cht",
+      "git_blob": "0e4c564243b8c1d4d30750755232235c37293ec2",
+      "sha256": "65e021914821fa347e6528484a8a15059becb6bf69ba4e9d3bbe315f58c8b364",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Prince%20of%20Persia%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Princess Minerva (Japan).cht",
+      "git_blob": "c437cf6a21951e06adb7b4b0947ea99a8681ab4c",
+      "sha256": "74b0e85767d7674eb20e06e04caabded99b4de6551f624ddf9eed9d2783df27b",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Princess%20Minerva%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Psychic Storm (Japan).cht",
+      "git_blob": "4bf097243fec06d25caba9c12a1d23291c034608",
+      "sha256": "a05b6970d5ef4416d75cbae0ee37b2c4c2eaf87294f29ed924a4443e59cb32bb",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Psychic%20Storm%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/R-Type Complete CD (Japan).cht",
+      "git_blob": "eaa91067c2f27317b023d256f827a6766912bcbd",
+      "sha256": "72414643d194a68c9c6c7597342c797f146af569ed79ccccc980c7f634be418c",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/R-Type%20Complete%20CD%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Rally Championship (Japan) (FABT).cht",
+      "git_blob": "f0311e2e76b83d6a5b2c24e5ed72d068c47460a6",
+      "sha256": "71c485e21d797c9ce7f15f476b7da60447236e15809256c8ba0cad504ce6a626",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Rally%20Championship%20%28Japan%29%20%28FABT%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Ranma 1-2 (Japan).cht",
+      "git_blob": "35820c63e98b7533cca6620561c7a1867e7fa7df",
+      "sha256": "afffee04ac137542388b1968140448e9c1e9c1f9e1767d32549246241c7f10b9",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Ranma%201-2%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Rayxanber II (Japan).cht",
+      "git_blob": "00d06bdb52375edc5b253f7513f14af74a1d3eca",
+      "sha256": "ecc787fadd16eff9aa477bb54e98e3cfe642ed3422eb097484a7845a26cd845f",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Rayxanber%20II%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Red Alert (Japan).cht",
+      "git_blob": "b1a9f4d39e4e89f9c9c4626632554a540156a268",
+      "sha256": "3547136d41019721b2d1b1431081699e31fd4bd736c0f305e9297651edb64632",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Red%20Alert%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Riot Zone (USA).cht",
+      "git_blob": "1ca8d0ccd4a5e1ba6dd2f2ace589fad762962ea0",
+      "sha256": "4ac36678629ef371bc3b0b81b8fe66d114d6f3844fc91938cf1ff3b69787f544",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Riot%20Zone%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Seirei Senshi Spriggan (Japan).cht",
+      "git_blob": "c65cf749e99b51f7a9e992d74e9eaa02b4079c3d",
+      "sha256": "bd9473bf0581dd73f0f19e7b083c25ad5d8808dabf5f7c103b3683762ce2c817",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Seirei%20Senshi%20Spriggan%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Shadow of the Beast (USA).cht",
+      "git_blob": "b24f68653beb5322e27f823d5f1dc9fcf0f92bea",
+      "sha256": "5606152ce8ab802be53cb4b3832bec2867d78b9a1dc7c9c62de0c010205f077a",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Shadow%20of%20the%20Beast%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Shape Shifter (USA).cht",
+      "git_blob": "57f64fd3c4285a38d78b8cceb736227a39f47484",
+      "sha256": "bc44f6d73244a9f6fd14395ee1e54358c4f72c9a6aec419f9f0afa32c2fe1a39",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Shape%20Shifter%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Shin Megami Tensei (Japan) (Rev 1).cht",
+      "git_blob": "1d0f1d32b8345679c09ee9bb6f7e97dc7a23b06a",
+      "sha256": "a4dd3b3775bdfa9aa8bbd172519aebe508e580acb9a9de9798fa326d40c2c1ea",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Shin%20Megami%20Tensei%20%28Japan%29%20%28Rev%201%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Splash Lake (USA).cht",
+      "git_blob": "81e626667da6ba6120ba5dcee38c3fae7c9feaa7",
+      "sha256": "9b9dd0e514561ce89cf6d451077fa4d27fb81dcc92a0ce190b0d22302ee7fc25",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Splash%20Lake%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Star Parodier (Japan).cht",
+      "git_blob": "dcebbd6309a7019e978cd5aa299908834bf0af02",
+      "sha256": "f78934fc095efc9140fb9d3d9cf2c8195cfc809c6dead6d49dfd6a1f9655b22e",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Star%20Parodier%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Strider Hiryuu (Japan).cht",
+      "git_blob": "810f0a070282203f65e47a4fb45abd20a3fb6a77",
+      "sha256": "edce2f5272a31437eaa65eaf6c8a022bcc80a2f0553e3c9295034b7e02c581e8",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Strider%20Hiryuu%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Summer Carnival '92 - Alzadick (Japan).cht",
+      "git_blob": "c0a3e6857be2fa50cbf3026d9a2e3f2d365bb440",
+      "sha256": "b2eb559708a8cb109bc10b78feb82e4d6d20c5250a27d12cc86230a7883da0f4",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Summer%20Carnival%20%2792%20-%20Alzadick%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Summer Carnival '93 - NEXZR Special (Japan).cht",
+      "git_blob": "0bbce58eb87b2a890ed08cf265d91313d2e70780",
+      "sha256": "bdcae37898fd2750d8a0c86be0ac15129dcbe27c04c9fdfe588114fcdd08ba79",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Summer%20Carnival%20%2793%20-%20NEXZR%20Special%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Super Darius II (Japan).cht",
+      "git_blob": "065d1b96e37fe40b44e4de54a792201a72e53504",
+      "sha256": "b9d9110aa9282b944245eb064524505c3a3cd405f3ed3af7542ca8089181ce82",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Super%20Darius%20II%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Super Raiden (Japan).cht",
+      "git_blob": "1eaeb757886c0a92f86b1945d76a8d5c1f0cf689",
+      "sha256": "edab5c84dd6be8e621027a87c7ad9a6a6dc1b85943edbb8c08feb511b7a75168",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Super%20Raiden%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/SydMead's TerraForming (USA).cht",
+      "git_blob": "f65661e2989e495f59b5a9ee896b1338c8ede986",
+      "sha256": "c4df0caabce4b5956fd568874770f531b14625711d61ca71407bfac35214a2a1",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/SydMead%27s%20TerraForming%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Sylphia (Japan).cht",
+      "git_blob": "aeb30d812dc1f545da81fd9a845be8f962393e5b",
+      "sha256": "1f41e55b648c6b5de513c43b4c6970affabed51d4eae71f335b848d09ef74280",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Sylphia%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Tenchi o Kurau (Japan).cht",
+      "git_blob": "3b8ae56c4efcbe048ccd2e28110e8b424ae2078e",
+      "sha256": "c88f438ce56514e1ee7bab38993c1ed26a538a99f315dff74b119e32bef03d74",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Tenchi%20o%20Kurau%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Tengai Makyou - Deden no Den (Japan).cht",
+      "git_blob": "858a5ea16cbf9bbf43244122ed5ee766ea987732",
+      "sha256": "2e7589b93039d6d41dc4138aca0e70b873f91e19990f203ad737bf88f01ee306",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Tengai%20Makyou%20-%20Deden%20no%20Den%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Travel Eple (Japan).cht",
+      "git_blob": "d314a1ac240de4158bca2bee330216ebb5d808f1",
+      "sha256": "597a85c487158c206a995a317c80398a386e3f2bb76afd220109c910aca0a5da",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Travel%20Eple%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Valis II (USA).cht",
+      "git_blob": "94c37b64bc30e2952e4b2aef5ff56529bf454360",
+      "sha256": "8f0359cfa59a38e526c79cb86ef888e46cb9e11f59660804b2b686cd2eec357e",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Valis%20II%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Valis III (USA).cht",
+      "git_blob": "8ad0b6759c175b97c9fc5e3a3f9437d74cb6367e",
+      "sha256": "001d7bb7ee907e75c7c44b5bcdce9c747e5419942afa6aa87d9df919566bad31",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Valis%20III%20%28USA%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Valis IV (Japan).cht",
+      "git_blob": "367b9289051aba310f1e7b58cc0a9dcae1545f7d",
+      "sha256": "68d9ac99ae902afbbd7cf59e4967b4df04570963ae5d78cf221516931ee86d74",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Valis%20IV%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Winds of Thunder (Japan).cht",
+      "git_blob": "cd8031a247552ec3dc46e71bb0740cbb7fc2824e",
+      "sha256": "110ecea4c560a8c811458dd48f8e89b88a1fc616cc4c7289c513c4ac8568fdfd",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Winds%20of%20Thunder%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/World Heroes 2 (Japan).cht",
+      "git_blob": "507f28923a9ca9c706ce55f2859411156e881848",
+      "sha256": "480c3a57e72909eb29f813273e1f56b0f40bdf663f1476bb57c49fe41de0e14e",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/World%20Heroes%202%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Xak (Japan).cht",
+      "git_blob": "83906002ed7954c76af7f4272c7aeb2026e0b848",
+      "sha256": "4e2787b2002a82b892dcac60198b972533fae0eb2ee6fcd99ed0c4ade013b70a",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Xak%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Xak III - The Eternal Recurrence (Japan).cht",
+      "git_blob": "4d18a6bb03cc5b82a3f788f1d545da751bfdd26e",
+      "sha256": "63ce6dea489c366a430a35b085b53b0a46a8f9eaf9b67f01272f13aedbfa08bd",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Xak%20III%20-%20The%20Eternal%20Recurrence%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Yuu Yuu Hakusho - Yami Shoubu!! Ankoku Bujutsu-kai (Japan).cht",
+      "git_blob": "50711ade2eec6f0f144e8ff9748d3fd16259daf2",
+      "sha256": "95a0ce70be20329169c9e87f807b256d48390b5b6ed80f6e9d6eecca3a044917",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Yuu%20Yuu%20Hakusho%20-%20Yami%20Shoubu%21%21%20Ankoku%20Bujutsu-kai%20%28Japan%29.cht"
+    },
+    {
+      "path": "cht/NEC - PC Engine CD - TurboGrafx-CD/Zero Wing (Japan).cht",
+      "git_blob": "ddb3fb0e7a66d9b7e66d35a026203cfb508a8597",
+      "sha256": "2f8ededebcbdf65e56161c82d6a4585d2f544644b30adea7b4f13f830d1085df",
+      "url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/cht/NEC%20-%20PC%20Engine%20CD%20-%20TurboGrafx-CD/Zero%20Wing%20%28Japan%29.cht"
+    }
+  ],
+  "license_url": "https://raw.githubusercontent.com/libretro/libretro-database/969e31a324119a17add184e8b716315a74adb51b/LICENSE",
+  "license_sha256": "23ee78c8bae49cf08ea2f0c84945c66b987ebe4520881fb51b3dad4fb43d07c2"
+}
