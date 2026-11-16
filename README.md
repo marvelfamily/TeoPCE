@@ -2,15 +2,26 @@
 
 **Your PC Engine collection, with a visual menu of its own.**
 
-Browse covers, read game details, find a favourite and choose compatible cheats on a real **PC Engine / CoreGrafx with Turbo EverDrive Pro**. The companion **Catalog Manager for Mac and Windows** builds a catalog from the games already on your SD card.
+Pick a cover. Read about the game. Find an old favourite — or something you have never played. TeoPCE brings artwork, game cards, search and per-game cheats to a real **PC Engine / CoreGrafx with Turbo EverDrive Pro**.
 
-[Download RC4](https://github.com/marvelfamily/TeoPCE/releases/tag/v0.2.0-rc4) · [English guide](docs/USER-GUIDE.md) · [Инструкция на русском](docs/QUICKSTART-RU.md) · [Report an issue](https://github.com/marvelfamily/TeoPCE/issues/new/choose)
+The companion **Catalog Manager for Mac and Windows** prepares your own collection. No AI subscription, account or API key is needed.
 
-![TeoPCE Catalog Manager: card selection, included details and cheats, online artwork and separate preparation and installation](docs/images/catalog-manager.png)
+[**Download RC4**](https://github.com/marvelfamily/TeoPCE/releases/tag/v0.2.0-rc4) · [**Explore the visual tour**](docs/TOUR.md) · [Report an issue](https://github.com/marvelfamily/TeoPCE/issues/new/choose)
 
-*The packaged macOS manager, on its initial setup screen. Original TeoPCE interface and artwork.*
+[![Portable checks](https://github.com/marvelfamily/TeoPCE/actions/workflows/checks.yml/badge.svg)](https://github.com/marvelfamily/TeoPCE/actions/workflows/checks.yml)
+[![Build Catalog Manager](https://github.com/marvelfamily/TeoPCE/actions/workflows/release.yml/badge.svg)](https://github.com/marvelfamily/TeoPCE/actions/workflows/release.yml)
+[![License: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
 
-> **Public preview:** Catalog Manager **0.2.0-rc4**, console ROM **0.9.13**. The console ROM has been used on real hardware; the portable manager is a release candidate. [Verification and remaining checks](RELEASE-STATUS.md).
+| Browse by cover | Keep the titles in view |
+| --- | --- |
+| [![Six-cover grid in the Neon theme](docs/images/console-grid.png)](docs/images/console-grid.png) | [![Game list with artwork, year and Classic theme](docs/images/console-list.png)](docs/images/console-list.png) |
+| Six covers, a highlighted selection and the selected title above. | A readable list, artwork and release facts alongside it. |
+
+*Real TeoPCE 0.9.13 interface, captured from the emulator UI preview with a sample catalog. Lossless PNGs enlarged exactly 3×; click any image for the full file. [Capture details](docs/SCREENSHOTS.md).*
+
+**Read the guide:** [English](docs/USER-GUIDE.md) · [Deutsch](docs/USER-GUIDE-DE.md) · [Français](docs/USER-GUIDE-FR.md) · [Español](docs/USER-GUIDE-ES.md) · [Italiano](docs/USER-GUIDE-IT.md) · [Українська](docs/USER-GUIDE-UK.md)
+
+> **Public preview:** Catalog Manager **0.2.0-rc4**, console ROM **0.9.13**. The console ROM has been used on real hardware; the portable manager is a release candidate. [Verification and remaining checks](RELEASE-STATUS.md). The application interface is currently English; the guides are available in six languages.
 
 ## Download and start
 
@@ -30,21 +41,46 @@ Browse covers, read game details, find a favourite and choose compatible cheats 
 
 The manager installs the ROM **with its matching catalog**. A ROM alone is not a complete setup. First-launch help, editing, updates and recovery are in the [complete guide](docs/USER-GUIDE.md).
 
-## On your console
+## Made for the two-button controller
 
-- List and cover views, game cards and screenshots where available.
-- Search, letter navigation, genre/region/media/category filters.
-- Favourites, recent games and themes, including Classic.
-- Per-game cheat selection, saved choices and an active-code indication.
-- Native EverDrive game launch and save handling.
+**I** opens the game card. **SELECT** brings up search and filters. **RUN** starts the selected game. The footer changes with each screen, so the controls stay close at hand.
+
+| Read before you play | A closer look |
+| --- | --- |
+| [![Air Zonk game card: cover, 1992, developer, publisher and description](docs/images/console-detail.png)](docs/images/console-detail.png) | [![Air Zonk card displaying its game screenshot](docs/images/console-screenshot.png)](docs/images/console-screenshot.png) |
+| Covers, year, genre, region, developer/publisher and your descriptions. | Press I to switch between available cover and game screenshot. |
+
+- **Choose your view:** list with artwork or a six-cover grid; longer selected titles wrap above the collection.
+- **Find a game:** A–Z order, title-prefix keyboard, first-letter and genre pickers.
+- **Combine filters:** media, region/English patch, category, favourites/recent and available cheats.
+- **Keep your place:** up to 64 favourites, eight recently opened games, saved view/theme and selection of the latest available history entry on restart.
+- **Choose a mood:** Neon, Ember, Ice or the black, yellow and grey Classic theme.
+- **Manage codes per game:** read instructions, save selections, see active-code status or turn all codes off at once.
+
+| Narrow the collection | Type the start of a title |
+| --- | --- |
+| [![Original releases, HuCard and Action combined in filters](docs/images/console-filters.png)](docs/images/console-filters.png) | [![Controller-operated title search with BO entered](docs/images/console-search.png)](docs/images/console-search.png) |
+
+Original releases, translations, homebrew, museum entries, tools/tests and unlicensed releases each have a category. Filters change what you see, without moving the files. [See every option, the results, themes and controls →](docs/TOUR.md)
 
 The target is **PC Engine / CoreGrafx + Turbo EverDrive Pro**. SuperGrafx games are hidden on CoreGrafx. Other EverDrive models and SuperGrafx launching are not supported by this release.
 
-## On your computer
+## Prepare on your computer, play on your console
 
-**Your card** explains sources and online/offline preparation. **Collection** shows actual games, cover/year coverage, compatible code counts and a missing-cover filter. **Activity** reports file checks, downloads, cache use and warnings.
+[![Catalog Manager with five prepared games, their covers, years and matched cheat counts](docs/images/manager-collection.png)](docs/images/manager-collection.png)
 
-Edit titles, years, categories and descriptions; choose your own cover. Installation verifies a backup of the existing TeoPCE files before replacing the application and catalog. Games and native `edturbo` files stay in place.
+*Actual macOS manager with a five-game sample collection prepared by the real scanning/matching worker. The 5/5 coverage belongs to this sample; availability varies with your games.*
+
+| Page | What it does |
+| --- | --- |
+| **Your card** | Select the SD, see what is included or downloaded, choose offline mode and import an additional TeoPCE cheat library |
+| **Collection** | Search games, review cover/year/cheat coverage, find missing covers and inspect each game |
+| **Game card** | Preview the original artwork and inspect facts and their source |
+| **Edit** | Set title, year, category and description; choose a local cover |
+| **Cheats** | Inspect the complete groups matched to this release; activate them later on the console |
+| **Activity** | Follow actual file checks, matching, downloads, cache use and warnings |
+
+Preparation takes place on your computer. Installation verifies a backup of the existing TeoPCE files, checks for changed state and verifies the installed set. Games and native `edturbo` files stay in place. [Tour all manager pages →](docs/TOUR.md#the-desktop-manager)
 
 ## Where the content comes from
 
@@ -88,5 +124,7 @@ TeoPCE is an independent community project, not an official Krikzz product.
 - Krikzz Turbo EverDrive SDK and cc65: notices in [licenses](licenses).
 - Adapted Libretro metadata and cheats: [CC BY-SA 4.0](licenses/LIBRETRO-DATABASE-LICENSE.txt), with retained source files and attribution.
 - Downloaded artwork: rights remain with its respective holders; thumbnail availability is not a blanket redistribution license.
+
+Game artwork shown inside documentation screenshots remains the property of its respective rights holders; the screenshots illustrate the interface, not an included artwork pack.
 
 Full provenance, adaptations and runtime notices: [THIRD-PARTY.md](THIRD-PARTY.md).

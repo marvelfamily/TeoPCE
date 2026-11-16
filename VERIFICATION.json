@@ -48,6 +48,27 @@
     },
     "windows_source_build_and_startup": "passed",
     "macos": "queued; test-harness correction passed locally, hosted result pending",
-    "build_url": "https://github.com/marvelfamily/TeoPCE/actions/runs/43903912540"
+    "build_url": "https://github.com/marvelfamily/TeoPCE/actions/runs/43903912540",
+    "note": "Historical packaging-time snapshot, superseded by github_current for hosted CI results."
+  },
+  "github_current": {
+    "verified_date": "2026-11-16",
+    "tested_commit": "8f1b35a5f6de3b63b19259c711e55db54ba4d70a",
+    "platforms": [
+      "macos-latest",
+      "windows-latest"
+    ],
+    "tests_per_platform": {
+      "passed": 41,
+      "skipped": 1,
+      "reason": "Optional cc65 toolchain unavailable"
+    },
+    "build_startup_archive_upload": "passed on both platforms",
+    "macos_adhoc_signing_and_strict_verification": "passed",
+    "checks_url": "https://github.com/marvelfamily/TeoPCE/actions/runs/43906527916",
+    "build_url": "https://github.com/marvelfamily/TeoPCE/actions/runs/43907155647",
+    "workflow_warning_annotations": 0,
+    "node20_deprecation_lines": 0,
+    "release_archives_replaced": false
   }
 }

@@ -1,8 +1,16 @@
 # TeoPCE user guide
 
-[Project home](../README.md) · [Русская инструкция](QUICKSTART-RU.md)
+[Project home](../README.md) · [Visual tour](TOUR.md)
+
+**Guides:** English · [Deutsch](USER-GUIDE-DE.md) · [Français](USER-GUIDE-FR.md) · [Español](USER-GUIDE-ES.md) · [Italiano](USER-GUIDE-IT.md) · [Українська](USER-GUIDE-UK.md)
+
+The application interface is currently in English. These are translations of the instructions; button names match the application.
 
 For **Catalog Manager 0.2.0-rc4** and **TeoPCE 0.9.13**. Build your own catalog from your own games: no author's collection, AI subscription or API key is required.
+
+![Console library in the cover grid view](images/console-grid.png)
+
+*Console UI preview in an emulator; desktop sample collection. [Screenshot provenance](SCREENSHOTS.md).*
 
 ## Before you begin
 
@@ -18,7 +26,7 @@ Get your platform ZIP from the [RC4 release](https://github.com/marvelfamily/Teo
 
 **Mac:** open `TeoPCE Catalog Manager.app`. This download is for Apple Silicon, ad-hoc signed and not notarized. If first launch is blocked, check the download/checksum, then use Apple's **System Settings → Privacy & Security → Open Anyway** if offered. Do not disable Gatekeeper globally. There is no packaged Intel Mac build.
 
-**Windows:** run the extracted `TeoPCE Catalog Manager.exe`, not the copy inside the ZIP view. It is unsigned, so Windows may display an unrecognized-app warning. Review the source/checksum before deciding to run it. RC4 was tested through x64 emulation on Windows 11 ARM64; native Intel/AMD Windows remains unverified.
+**Windows:** run the extracted `TeoPCE Catalog Manager.exe`, not the copy inside the ZIP view. It is unsigned, so Windows may display an unrecognized-app warning. Review the source/checksum before deciding to run it. RC4 was tested through x64 emulation on Windows 11 ARM64; a later GitHub-hosted Windows build also passed its startup check. A full manual test of the distributed binary on native Intel/AMD Windows remains pending.
 
 Packaged apps need no separate Python. To verify a ZIP, compare its full digest with `SHA256SUMS.txt` from the same release:
 
@@ -69,6 +77,8 @@ SD root/
 
 ## Review and edit
 
+![Catalog Manager reviewing a prepared sample collection](images/manager-collection.png)
+
 **Collection** has search, coverage counts and **Missing covers**. `Cmd+F` / `Ctrl+F` focuses search; `Esc` clears it. Select a game to inspect **Game card**, **Edit** or **Cheats**.
 
 In Edit, change title/year/category/description, or **Choose cover…** (PNG/JPG/JPEG). Keep the chosen image available for preparation. Leave an unknown year empty. Use concise English text: the console's limited character set normalizes non-ASCII characters and may drop them.
@@ -104,7 +114,32 @@ The footer shows the controls for the current screen.
 | Game menu | Start, favourite, cheats, file information, return to EverDrive |
 | Cheats | **I** toggle/instructions; **SELECT** options; **II** cancel; left/right page; **RUN** save and return |
 
-Filters only change the displayed list. Clear them if a game appears missing.
+### Browsing, search and filters
+
+Use **SELECT** from the library to open **FIND AND FILTERS**. Up/down selects an option; left/right changes it. **I** applies settings, or opens the title/genre/letter picker for those rows. **II** cancels. **RUN** clears the filter choices; apply to return to all games.
+
+| Option | What you can choose |
+| --- | --- |
+| Title prefix | Type the beginning of a title with the on-screen keyboard, up to 12 characters; RUN searches |
+| Library | All games, Favorites, Recently opened |
+| Category | Original releases, Translations, Homebrew, Museum, Tools / Tests, Unlicensed, or all categories |
+| Media | HuCard, CD-ROM, or both |
+| Genre | Select from a paged list, such as Action, Adventure, Platform, Puzzle, RPG or Shoot'em Up |
+| Letter | A–Z, numerical/symbol-leading titles through `#`, or all letters |
+| Region/lang | Japan, USA, English patch, Other, or all |
+| Cheats | Any game, or games with selectable cheats |
+| View | List with artwork, or six-cover grid |
+| Theme | Neon, Ember, Ice, Classic |
+
+Filters combine. For example, choose **Original releases + HuCard + Action**. The ordinary library is ordered A–Z; Recently opened uses history order. There is no year or publisher sort in this version. Filters only change the displayed list; they do not move files. **II** in a filtered library clears the filters.
+
+The selected title is shown above the list/grid, with wrapping for longer names. Details show media, region, genre, year when known, and the available description/developer/publisher information. **I** switches between cover and game screenshot where available; up/down scrolls text and left/right moves between games.
+
+Add or remove a favorite through **Details → SELECT → Add/Remove favorite**. Up to 64 favorites and eight recently opened games are retained. History records opened game cards, not measured playtime. On restart, TeoPCE selects the latest available history entry in the unfiltered library. View and theme preferences are saved too.
+
+Short tags describe the current filter: `FAV` favorites, `OPEN` recent, `B*` titles beginning with B, `R:JP` Japan, `R:US` USA, `L:EN` English patch, and `CH` selectable cheats. The title area also identifies the selected game's medium/region; `*` marks a favorite.
+
+**Details → SELECT** also opens game actions: start, favorites, cheats, file information and return to EverDrive. File information helps identify the selected catalog entry/path when reporting a problem.
 
 ## Cheats
 

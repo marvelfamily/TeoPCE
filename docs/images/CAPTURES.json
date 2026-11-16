@@ -1,0 +1,792 @@
+{
+  "version": "0.9.13",
+  "capture": "unaltered libretro video frames, 3x integer pixels, from the read-only preview",
+  "rom_sha256": "7b8e42133e1d36c5cc6ae37dc1ef61831c54e7f93846bb3e0ffd1b1cc5df8991",
+  "core_sha256": "a0548cf37730350a7403872cc2b0d59c8ad78b2c33395c0eeae7cfb745b14dff",
+  "hardware_tested": false,
+  "frames": [
+    {
+      "file": "console-grid.png",
+      "events": [
+        [
+          2,
+          80
+        ],
+        [
+          4,
+          110
+        ],
+        [
+          4,
+          140
+        ],
+        [
+          7,
+          170
+        ],
+        [
+          8,
+          200
+        ]
+      ],
+      "frames": 250,
+      "sha256": "79a643a32f726ad3c2fe52d69b61dd7fffcd912f5c89b9f59c1f4ceecc9edf97"
+    },
+    {
+      "file": "console-list.png",
+      "events": [
+        [
+          2,
+          80
+        ],
+        [
+          4,
+          110
+        ],
+        [
+          6,
+          140
+        ],
+        [
+          8,
+          170
+        ],
+        [
+          5,
+          200
+        ],
+        [
+          8,
+          230
+        ],
+        [
+          2,
+          260
+        ],
+        [
+          5,
+          290
+        ],
+        [
+          8,
+          320
+        ],
+        [
+          0,
+          350
+        ]
+      ],
+      "frames": 400,
+      "sha256": "414893a3aa131d74b93c3126dbbc2a219cf1277ce4707f6a18bbf9e2294a5c41"
+    },
+    {
+      "file": "console-detail.png",
+      "events": [
+        [
+          2,
+          80
+        ],
+        [
+          4,
+          110
+        ],
+        [
+          6,
+          140
+        ],
+        [
+          8,
+          170
+        ],
+        [
+          5,
+          200
+        ],
+        [
+          8,
+          230
+        ],
+        [
+          2,
+          260
+        ],
+        [
+          5,
+          290
+        ],
+        [
+          8,
+          320
+        ]
+      ],
+      "frames": 370,
+      "sha256": "b80b46a45238de6344d3f2bfe5268e631d1f44ddbff5b3aa7d1d7b8a7fb59625"
+    },
+    {
+      "file": "console-screenshot.png",
+      "events": [
+        [
+          2,
+          80
+        ],
+        [
+          4,
+          110
+        ],
+        [
+          6,
+          140
+        ],
+        [
+          8,
+          170
+        ],
+        [
+          5,
+          200
+        ],
+        [
+          8,
+          230
+        ],
+        [
+          2,
+          260
+        ],
+        [
+          5,
+          290
+        ],
+        [
+          8,
+          320
+        ],
+        [
+          8,
+          350
+        ]
+      ],
+      "frames": 400,
+      "sha256": "a5c962665243e7165fd6630db0f51004b3a9d7906b9360bb10c7310164b6d370"
+    },
+    {
+      "file": "console-search.png",
+      "events": [
+        [
+          2,
+          80
+        ],
+        [
+          8,
+          110
+        ],
+        [
+          7,
+          140
+        ],
+        [
+          8,
+          170
+        ],
+        [
+          5,
+          200
+        ],
+        [
+          5,
+          230
+        ],
+        [
+          7,
+          260
+        ],
+        [
+          8,
+          290
+        ]
+      ],
+      "frames": 340,
+      "sha256": "61e1ee40ab059f9bc10ff006b2bc0881d01c0a9eb74b8d8925064c6c7b27bd57"
+    },
+    {
+      "file": "console-letter.png",
+      "events": [
+        [
+          2,
+          80
+        ],
+        [
+          5,
+          110
+        ],
+        [
+          5,
+          140
+        ],
+        [
+          5,
+          170
+        ],
+        [
+          5,
+          200
+        ],
+        [
+          5,
+          230
+        ],
+        [
+          8,
+          260
+        ],
+        [
+          7,
+          290
+        ],
+        [
+          7,
+          320
+        ],
+        [
+          7,
+          350
+        ]
+      ],
+      "frames": 400,
+      "sha256": "46285c44231490784d4da5d24637f2c96b6a62ddc55e866c43bd405b1a1804af"
+    },
+    {
+      "file": "console-genres.png",
+      "events": [
+        [
+          2,
+          80
+        ],
+        [
+          5,
+          110
+        ],
+        [
+          5,
+          140
+        ],
+        [
+          5,
+          170
+        ],
+        [
+          5,
+          200
+        ],
+        [
+          8,
+          230
+        ],
+        [
+          5,
+          260
+        ],
+        [
+          5,
+          290
+        ],
+        [
+          5,
+          320
+        ],
+        [
+          5,
+          350
+        ],
+        [
+          5,
+          380
+        ],
+        [
+          5,
+          410
+        ],
+        [
+          5,
+          440
+        ],
+        [
+          5,
+          470
+        ],
+        [
+          5,
+          500
+        ]
+      ],
+      "frames": 550,
+      "sha256": "c55c4e55d0825e3f6d653d47bfe3df3a1db2ff0b90b28aa09dec5a223b085ed8"
+    },
+    {
+      "file": "console-filters.png",
+      "events": [
+        [
+          2,
+          80
+        ],
+        [
+          5,
+          110
+        ],
+        [
+          5,
+          140
+        ],
+        [
+          7,
+          170
+        ],
+        [
+          5,
+          200
+        ],
+        [
+          7,
+          230
+        ],
+        [
+          5,
+          260
+        ],
+        [
+          7,
+          290
+        ]
+      ],
+      "frames": 340,
+      "sha256": "0e5d79f84a26b88e0d9c23baca007960edbcee2f0d188ee3bf0a8b1ff1042f4e"
+    },
+    {
+      "file": "console-categories.png",
+      "events": [
+        [
+          2,
+          80
+        ],
+        [
+          5,
+          110
+        ],
+        [
+          5,
+          140
+        ],
+        [
+          7,
+          170
+        ],
+        [
+          7,
+          200
+        ],
+        [
+          7,
+          230
+        ]
+      ],
+      "frames": 280,
+      "sha256": "813473d93924578eb83f20688bfe723722bf24f88f52002f7314ca96c5c466ed"
+    },
+    {
+      "file": "console-themes.png",
+      "events": [
+        [
+          2,
+          80
+        ],
+        [
+          4,
+          110
+        ],
+        [
+          6,
+          140
+        ]
+      ],
+      "frames": 190,
+      "sha256": "4257ceac4e633dfe2823bda693c01d0d35dbddba9ba1ebcdd1664945bf75ce74"
+    },
+    {
+      "file": "console-favorites.png",
+      "events": [
+        [
+          2,
+          80
+        ],
+        [
+          4,
+          110
+        ],
+        [
+          4,
+          140
+        ],
+        [
+          7,
+          170
+        ],
+        [
+          8,
+          200
+        ],
+        [
+          5,
+          230
+        ],
+        [
+          8,
+          260
+        ],
+        [
+          2,
+          290
+        ],
+        [
+          5,
+          320
+        ],
+        [
+          8,
+          350
+        ],
+        [
+          0,
+          380
+        ],
+        [
+          2,
+          410
+        ],
+        [
+          5,
+          440
+        ],
+        [
+          7,
+          470
+        ],
+        [
+          8,
+          500
+        ]
+      ],
+      "frames": 550,
+      "sha256": "9e9790b08a5e916f91334462842178ced25e267951ae64a603bd094400d7d921"
+    },
+    {
+      "file": "console-results.png",
+      "events": [
+        [
+          2,
+          80
+        ],
+        [
+          4,
+          110
+        ],
+        [
+          4,
+          140
+        ],
+        [
+          7,
+          170
+        ],
+        [
+          8,
+          200
+        ],
+        [
+          2,
+          230
+        ],
+        [
+          8,
+          260
+        ],
+        [
+          7,
+          290
+        ],
+        [
+          8,
+          320
+        ],
+        [
+          5,
+          350
+        ],
+        [
+          5,
+          380
+        ],
+        [
+          7,
+          410
+        ],
+        [
+          8,
+          440
+        ],
+        [
+          3,
+          470
+        ]
+      ],
+      "frames": 520,
+      "sha256": "0339b4f981cb68f7ebd4126a124e1d49130110c889392f1d66b111efd44c34c6"
+    },
+    {
+      "file": "console-ember.png",
+      "events": [
+        [
+          2,
+          80
+        ],
+        [
+          4,
+          110
+        ],
+        [
+          7,
+          140
+        ],
+        [
+          8,
+          170
+        ],
+        [
+          5,
+          200
+        ],
+        [
+          8,
+          230
+        ],
+        [
+          2,
+          260
+        ],
+        [
+          5,
+          290
+        ],
+        [
+          8,
+          320
+        ],
+        [
+          0,
+          350
+        ]
+      ],
+      "frames": 400,
+      "sha256": "274cb3a35157ea03a9c675e64c540785f17c2cdfc4f0bf3b2ed74aeaa03a4438"
+    },
+    {
+      "file": "console-ice.png",
+      "events": [
+        [
+          2,
+          80
+        ],
+        [
+          4,
+          110
+        ],
+        [
+          7,
+          140
+        ],
+        [
+          7,
+          170
+        ],
+        [
+          8,
+          200
+        ],
+        [
+          5,
+          230
+        ],
+        [
+          8,
+          260
+        ],
+        [
+          2,
+          290
+        ],
+        [
+          5,
+          320
+        ],
+        [
+          8,
+          350
+        ],
+        [
+          0,
+          380
+        ]
+      ],
+      "frames": 430,
+      "sha256": "13f4994373cc9df2979593559b160d1ba5f80f14ab23316cfcdc549952f78c67"
+    },
+    {
+      "file": "console-recent.png",
+      "events": [
+        [
+          2,
+          80
+        ],
+        [
+          4,
+          110
+        ],
+        [
+          4,
+          140
+        ],
+        [
+          7,
+          170
+        ],
+        [
+          8,
+          200
+        ],
+        [
+          8,
+          230
+        ],
+        [
+          0,
+          260
+        ],
+        [
+          5,
+          290
+        ],
+        [
+          8,
+          320
+        ],
+        [
+          0,
+          350
+        ],
+        [
+          2,
+          380
+        ],
+        [
+          5,
+          410
+        ],
+        [
+          7,
+          440
+        ],
+        [
+          7,
+          470
+        ],
+        [
+          8,
+          500
+        ]
+      ],
+      "frames": 550,
+      "sha256": "ab803490af57eadd7c8d74be69265375f97c142a9633cc7d5fe151c56dbb6fff"
+    }
+  ],
+  "description": "Console captures: TeoPCE 0.9.13 UI preview with a six-game personal sample catalog. These are emulator UI captures, not hardware launch or cheat-application proof.",
+  "desktop": {
+    "version": "0.2.0-rc4",
+    "capture": "Native macOS JPEG screenshots; only the top 64-pixel system title bar was cropped off. Content exported as PNG without resizing or retouching.",
+    "files": [
+      {
+        "file": "catalog-manager.png",
+        "source_size": [
+          2480,
+          1744
+        ],
+        "crop": [
+          0,
+          64,
+          2480,
+          1680
+        ],
+        "source_sha256": "15b592886f7b984da5e2a2a64ff55dccf1b5dea9b6d8a7d6b8c449b7c45930f8",
+        "sha256": "6241fd3a2b513cae85e867c18b87cdc7d61fb46a7c393b29bc2bf335a2c0de2a"
+      },
+      {
+        "file": "manager-activity.png",
+        "source_size": [
+          2240,
+          1584
+        ],
+        "crop": [
+          0,
+          64,
+          2240,
+          1520
+        ],
+        "source_sha256": "2fdaef20e905b82e4bc6105c746619283618f68f5a82b1b413d23bd0ca4489cd",
+        "sha256": "cb7ed7b0e8c950815324e21c8e223b1ddb1e06d7e8f55ca9e2ceeca559eca7da"
+      },
+      {
+        "file": "manager-collection.png",
+        "source_size": [
+          2240,
+          1584
+        ],
+        "crop": [
+          0,
+          64,
+          2240,
+          1520
+        ],
+        "source_sha256": "0893fd32aa4704a42c7274c2c5919538e642f574caf30b4adf3860040e061125",
+        "sha256": "97a6bb4930b39d4a878373a785bfa8bc15fe6b1c6347ee00c142b27abaab15de"
+      },
+      {
+        "file": "manager-cheats.png",
+        "source_size": [
+          2240,
+          1584
+        ],
+        "crop": [
+          0,
+          64,
+          2240,
+          1520
+        ],
+        "source_sha256": "d55404842b00f3df469acb9ea27c724e2b7d7daf79369892c0d272357d77fc12",
+        "sha256": "d8c1a9d55e6052f7d67002d4952eeb4e35d7c0f298c65295d78bb6a5a35bfcac"
+      },
+      {
+        "file": "manager-edit.png",
+        "source_size": [
+          2240,
+          1584
+        ],
+        "crop": [
+          0,
+          64,
+          2240,
+          1520
+        ],
+        "source_sha256": "885ff36c3c64c5043fcf544ac6d78820e59d1798c8aaa285b00772c8751fbf5c",
+        "sha256": "66dda5a004a6935be78e6157f5f0f1531113c88347caaeaa4037f2277143d9ce"
+      }
+    ]
+  }
+}

@@ -14,7 +14,7 @@ Factual metadata files are included from libretro/libretro-database at revision 
 
 ## Artwork
 
-Images are fetched by the user at preparation time from libretro-thumbnails repositories. The pinned family repository revisions are defined in tools/artwork.py. Artwork provenance records the source URL and original/converted digests in the prepared card's ART-PROVENANCE.json. Rights belong to their respective holders. Thumbnail availability does not grant permission to redistribute every image. No downloaded game artwork is included in this kit.
+Images are fetched by the user at preparation time from libretro-thumbnails repositories. The pinned family repository revisions are defined in tools/artwork.py. Artwork provenance records the source URL and original/converted digests in the prepared card's ART-PROVENANCE.json. Rights belong to their respective holders. Thumbnail availability does not grant permission to redistribute every image. No raw game-artwork pack is included in the application kit. Documentation includes illustrative screenshots of TeoPCE displaying selected game artwork; those images remain the property of their respective rights holders and are not covered by the code's MIT license. See docs/SCREENSHOTS.md for capture provenance and limitations.
 
 ## Python and Pillow
 

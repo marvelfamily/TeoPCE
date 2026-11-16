@@ -20,10 +20,17 @@ A full manual preparation/install pass through the packaged interfaces remains p
 
 TeoPCE code is MIT. The bundled Libretro-derived cheat library is CC BY-SA 4.0: 347 exact releases and 1,177 complete groups. Existing installed packs and selections keep priority. Full prose descriptions are supplied by the user or an owned reference, not downloaded automatically. Attribution and license files are included. No games or BIOS files are distributed.
 
-## GitHub CI at packaging time
+## GitHub CI — completed 16 November 2026
 
-The public source at commit `0c30335` passed **41 tests with one cc65-prerequisite skip** on the GitHub Windows runner. Building, executable startup and archive upload also succeeded. This is additional source-build evidence, separate from the locally packaged Windows binary tested under ARM64 emulation.
+Current published source at commit `8f1b35a5f6de3b63b19259c711e55db54ba4d70a` passed **41 tests with one optional cc65-prerequisite skip on each hosted platform**, macOS and Windows. Both platform packaging jobs passed: build, executable startup, archive creation and upload; macOS ad-hoc signing and strict verification also succeeded.
 
-An earlier macOS CI run exposed a GUI-test harness hang. Timer cleanup and worker waiting were corrected in the tests; the final local macOS suite still passes all 42 checks. The corresponding hosted macOS checks/build are queued at packaging time and are not claimed as passed. [Live build run](https://github.com/marvelfamily/TeoPCE/actions/runs/43903912540) · [Live source checks](https://github.com/marvelfamily/TeoPCE/actions/runs/43903593299).
+- [Passed portable checks](https://github.com/marvelfamily/TeoPCE/actions/runs/43906527916)
+- [Passed Mac and Windows builds](https://github.com/marvelfamily/TeoPCE/actions/runs/43907155647)
 
-Application code and the bundled ROM were not changed by these test-harness corrections.
+The workflows pin current official Node 24 actions. Their completed logs contain no Node 20 deprecation or workflow-warning annotations. The earlier macOS test-harness hang is resolved in these runs.
+
+These are source-build checks. The existing RC4 tag and downloadable application archives have not been replaced; their original checksums still identify the locally built release artifacts. Hosted startup checks do not replace the pending full manual packaged-GUI and fresh-collection console checks above.
+
+## Documentation and images
+
+The current documentation includes a [visual tour](docs/TOUR.md), [capture provenance](docs/SCREENSHOTS.md), and complete user guides in English, German, French, Spanish, Italian and Ukrainian. The application remains in English. Documentation screenshots demonstrate UI rendering and real sample preparation; they are not additional hardware-validation claims.
