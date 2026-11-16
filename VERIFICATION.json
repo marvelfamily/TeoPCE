@@ -32,12 +32,22 @@
   "packaging": {
     "macos_notarized": false,
     "windows_authenticode_signed": false,
-    "github_workflow_executed": false,
     "macos_strict_signature": true
   },
   "manual_packaged_gui_full_flow": false,
   "screens_visually_reviewed": true,
   "manager_worker_prepare_edit_reprepare_install": true,
   "source_and_game_bytes_preserved_in_fixture": true,
-  "release_stage": "prerelease"
+  "release_stage": "prerelease",
+  "github_at_packaging": {
+    "tested_commit": "0c30335",
+    "windows_source_tests": {
+      "passed": 41,
+      "skipped": 1,
+      "reason": "Optional cc65 toolchain unavailable"
+    },
+    "windows_source_build_and_startup": "passed",
+    "macos": "queued; test-harness correction passed locally, hosted result pending",
+    "build_url": "https://github.com/marvelfamily/TeoPCE/actions/runs/43903912540"
+  }
 }
