@@ -147,9 +147,15 @@ class ManagerStateTests(unittest.TestCase):
             errors = []
             def finish():
                 deadline = time.monotonic() + 20
-                while self.manager.busy and time.monotonic() < deadline:
-                    self.root.update()
-                    time.sleep(.01)
+                # Exercise the application's normal event loop. Nested update()
+                # can stall in Aqua while a withdrawn window is being redrawn.
+                def check_finished():
+                    if not self.manager.busy or time.monotonic() >= deadline:
+                        self.root.quit()
+                    else:
+                        self.root.after(10, check_finished)
+                self.root.after(10, check_finished)
+                self.root.mainloop()
                 self.assertFalse(self.manager.busy)
                 self.assertEqual(errors, [])
             with patch.object(ui, "HOME", base / "manager-data"), \
