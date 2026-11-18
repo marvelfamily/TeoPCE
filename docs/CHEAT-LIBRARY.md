@@ -16,7 +16,7 @@ python tools/export_cheat_library.py --reference /path/to/reference-card --libra
 
 The optional verified-manifest input is an explicit authority for a previously verified reference snapshot. It exports that recorded full-track identity and checks the exact CUE against the snapshot. Default export reads and compares the complete reference games. Its report describes hash provenance. Prepare_library also accepts --cheat-database for command-line use.
 
-53 bundled CD bindings require their recorded path because the 0.9.13 runtime owns compiled notes and guarded startup. The manager displays the required path when a content match cannot be attached there. Using an alternative path requires a separately validated runtime-policy migration.
+53 bundled CD bindings require their recorded path because the 0.9.15 runtime owns compiled notes and guarded startup. The manager displays the required path when a content match cannot be attached there. Using an alternative path requires a separately validated runtime-policy migration.
 
 The bundled library is adapted from pinned Libretro data under CC BY-SA 4.0. Source attribution and adaptation details are recorded in THIRD-PARTY.md. The MIT code license applies to TeoPCE-owned code. Explicit user imports retain their own terms.
 

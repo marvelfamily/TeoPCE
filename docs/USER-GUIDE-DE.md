@@ -6,7 +6,7 @@
 
 Die Programmoberfläche ist derzeit auf Englisch. Dieses Handbuch übersetzt die Anleitung; die Schaltflächen heißen wie im Programm.
 
-Für **Catalog Manager 0.2.0-rc4** und **TeoPCE 0.9.13**. Erstelle deinen eigenen Katalog aus deinen eigenen Spielen: Weder die Sammlung des Autors noch ein KI-Abonnement oder ein API-Schlüssel sind erforderlich.
+Für **Catalog Manager 0.2.0-rc6** und **TeoPCE 0.9.15**. Erstelle deinen eigenen Katalog aus deinen eigenen Spielen: Weder die Sammlung des Autors noch ein KI-Abonnement oder ein API-Schlüssel sind erforderlich.
 
 ![Die Spielebibliothek auf der Konsole in der Cover-Rasteransicht](images/console-grid.png)
 
@@ -22,7 +22,9 @@ Schalte die Konsole aus, bevor du die Karte entnimmst. Verwende ein Kartenlesege
 
 ## Herunterladen und öffnen
 
-Lade die ZIP-Datei für deine Plattform aus dem [RC4-Release](https://github.com/marvelfamily/TeoPCE/releases/tag/v0.2.0-rc4) herunter und entpacke sie vollständig. Das automatisch erzeugte Quellcode-Archiv von GitHub ist für die Entwicklung gedacht und keine eigenständig lauffähige Anwendung.
+Lade die ZIP-Datei für deine Plattform aus dem [RC6-Release](https://github.com/marvelfamily/TeoPCE/releases/tag/v0.2.0-rc6) herunter und entpacke sie vollständig. Das automatisch erzeugte Quellcode-Archiv von GitHub ist für die Entwicklung gedacht und keine eigenständig lauffähige Anwendung.
+
+RC4 ist bereits installiert? Sichere die Karte und ersetze die Datei `TeoPCE.pce` im Stammverzeichnis durch [die neue Version](https://github.com/marvelfamily/TeoPCE/releases/download/v0.2.0-rc6/TeoPCE.pce). Behalte `00TEOPCE`, deine Spiele und ein eventuell vorhandenes Wiederherstellungsprotokoll. Fehlt der Ordner `edturbo/gamedata`, lege ihn leer an. Wirf die Karte sicher aus und starte TeoPCE. Verwende für die nächste Katalogaktualisierung den RC6-Manager.
 
 **Mac:** Öffne `TeoPCE Catalog Manager.app`. Dieser Download ist für Apple Silicon, ad hoc signiert und nicht von Apple notarisiert. Wird der erste Start blockiert, prüfe Download und Prüfsumme und verwende anschließend, falls angeboten, Apples **Systemeinstellungen → Datenschutz & Sicherheit → Dennoch öffnen**. Deaktiviere Gatekeeper nicht global. Es gibt keinen gepackten Build für Intel-Macs.
 
@@ -32,12 +34,12 @@ Die gepackten Apps benötigen keine separate Python-Installation. Vergleiche zur
 
 ```sh
 # macOS Terminal
-shasum -a 256 TeoPCE-Manager-0.2.0-rc4-macOS-arm64.zip
+shasum -a 256 TeoPCE-Manager-0.2.0-rc6-macOS-arm64.zip
 ```
 
 ```powershell
 # Windows PowerShell
-Get-FileHash .\TeoPCE-Manager-0.2.0-rc4-Windows-x64.zip -Algorithm SHA256
+Get-FileHash .\TeoPCE-Manager-0.2.0-rc6-Windows-x64.zip -Algorithm SHA256
 ```
 
 ## Auswählen und vorbereiten
@@ -205,4 +207,4 @@ Zur Wiederherstellung: Schließe den Manager, kopiere die aktuelle `TeoPCE.pce` 
 
 Nutze das [Issue-Formular](https://github.com/marvelfamily/TeoPCE/issues/new/choose) mit Versionen, Schritten, Fehlertext und Vergleich zum nativen Start. Schwärze persönliche absolute Pfade. Hänge keine Spiele, BIOS-Dateien, Spielstände oder Karten-Dumps an.
 
-Die noch ausstehenden manuellen, Plattform- und Hardwareprüfungen für RC4 stehen in [RELEASE-STATUS.md](../RELEASE-STATUS.md). Quellenangaben und Weiterverteilungsbedingungen stehen in [THIRD-PARTY.md](../THIRD-PARTY.md); vorbereitete Karten behalten Metadaten- und Cheat-Quellenangaben unter `00TEOPCE/data`.
+Die noch ausstehenden manuellen, Plattform- und Hardwareprüfungen für RC6 stehen in [RELEASE-STATUS.md](../RELEASE-STATUS.md). Quellenangaben und Weiterverteilungsbedingungen stehen in [THIRD-PARTY.md](../THIRD-PARTY.md); vorbereitete Karten behalten Metadaten- und Cheat-Quellenangaben unter `00TEOPCE/data`.

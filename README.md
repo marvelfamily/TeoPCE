@@ -6,7 +6,7 @@ Pick a cover. Read about the game. Find an old favourite — or something you ha
 
 The companion **Catalog Manager for Mac and Windows** prepares your own collection. No AI subscription, account or API key is needed.
 
-[**Download RC4**](https://github.com/marvelfamily/TeoPCE/releases/tag/v0.2.0-rc4) · [**Explore the visual tour**](docs/TOUR.md) · [Report an issue](https://github.com/marvelfamily/TeoPCE/issues/new/choose)
+[**Download RC6**](https://github.com/marvelfamily/TeoPCE/releases/tag/v0.2.0-rc6) · [**Explore the visual tour**](docs/TOUR.md) · [Report an issue](https://github.com/marvelfamily/TeoPCE/issues/new/choose)
 
 [![Portable checks](https://github.com/marvelfamily/TeoPCE/actions/workflows/checks.yml/badge.svg)](https://github.com/marvelfamily/TeoPCE/actions/workflows/checks.yml)
 [![Build Catalog Manager](https://github.com/marvelfamily/TeoPCE/actions/workflows/release.yml/badge.svg)](https://github.com/marvelfamily/TeoPCE/actions/workflows/release.yml)
@@ -21,17 +21,17 @@ The companion **Catalog Manager for Mac and Windows** prepares your own collecti
 
 **Read the guide:** [English](docs/USER-GUIDE.md) · [Deutsch](docs/USER-GUIDE-DE.md) · [Français](docs/USER-GUIDE-FR.md) · [Español](docs/USER-GUIDE-ES.md) · [Italiano](docs/USER-GUIDE-IT.md) · [Українська](docs/USER-GUIDE-UK.md)
 
-> **Public preview:** Catalog Manager **0.2.0-rc4**, console ROM **0.9.13**. The console ROM has been used on real hardware; the portable manager is a release candidate. [Verification and remaining checks](RELEASE-STATUS.md). The application interface is currently English; the guides are available in six languages.
+**Current release candidate:** Catalog Manager **0.2.0-rc6** for Mac and Windows, with console ROM **0.9.15**. This update fixes first launches on freshly prepared cards. Black Hole Assault (Japan) reached combat on a CoreGrafx with all cheats off. [Release checks](RELEASE-STATUS.md)
 
 ## Download and start
 
 | Computer | Download | Notes |
 | --- | --- | --- |
-| Mac with Apple Silicon | [macOS arm64 ZIP](https://github.com/marvelfamily/TeoPCE/releases/download/v0.2.0-rc4/TeoPCE-Manager-0.2.0-rc4-macOS-arm64.zip) | Standalone app; ad-hoc signed, not notarized |
-| Windows with x64 application support | [Windows x64 ZIP](https://github.com/marvelfamily/TeoPCE/releases/download/v0.2.0-rc4/TeoPCE-Manager-0.2.0-rc4-Windows-x64.zip) | Tested through x64 emulation on Windows 11 ARM64; unsigned |
-| Developers | [Source ZIP](https://github.com/marvelfamily/TeoPCE/releases/download/v0.2.0-rc4/TeoPCE-Manager-0.2.0-rc4-source.zip) | Python tools, C ROM sources, tests and licensed resources |
+| Mac with Apple Silicon | [macOS arm64 ZIP](https://github.com/marvelfamily/TeoPCE/releases/download/v0.2.0-rc6/TeoPCE-Manager-0.2.0-rc6-macOS-arm64.zip) | Standalone app; ad-hoc signed, not notarized |
+| Windows with x64 application support | [Windows x64 ZIP](https://github.com/marvelfamily/TeoPCE/releases/download/v0.2.0-rc6/TeoPCE-Manager-0.2.0-rc6-Windows-x64.zip) | Windows x64 application, unsigned |
+| Developers | [Source ZIP](https://github.com/marvelfamily/TeoPCE/releases/download/v0.2.0-rc6/TeoPCE-Manager-0.2.0-rc6-source.zip) | Python tools, C ROM sources, tests and licensed resources |
 
-[SHA-256 checksums](https://github.com/marvelfamily/TeoPCE/releases/download/v0.2.0-rc4/SHA256SUMS.txt) accompany all archives. Packaged apps need no separate Python. Intel Mac has no packaged build in RC4.
+[SHA-256 checksums](https://github.com/marvelfamily/TeoPCE/releases/download/v0.2.0-rc6/SHA256SUMS.txt) accompany all archives. Packaged apps need no separate Python. Intel Mac users can run the Python source version.
 
 1. Start with a backed-up SD that already boots your games through the native EverDrive menu. Supply your own games, CD BIOS and firmware.
 2. Extract and open the manager. **Choose card…** selects the root containing `edturbo`.
@@ -40,6 +40,10 @@ The companion **Catalog Manager for Mac and Windows** prepares your own collecti
 5. Start **TeoPCE.pce** from the EverDrive menu on the console.
 
 The manager installs the ROM **with its matching catalog**. A ROM alone is not a complete setup. First-launch help, editing, updates and recovery are in the [complete guide](docs/USER-GUIDE.md).
+
+### Already using RC4?
+
+Back up your card. Download [the replacement TeoPCE.pce](https://github.com/marvelfamily/TeoPCE/releases/download/v0.2.0-rc6/TeoPCE.pce) and replace the file of the same name at the SD root. Keep your games, `00TEOPCE` and any pending recovery journal. If `edturbo/gamedata` is missing, create that empty directory. Safely eject and open TeoPCE from the EverDrive menu. This update uses your existing catalog. For future library changes use the RC6 manager.
 
 ## Made for the two-button controller
 
@@ -102,7 +106,7 @@ Some CD combinations are intentionally blocked. HELD entries have known issues o
 - HuCard IGM and quick save/load were exercised on the owner's hardware. In the tested configuration CD games have no native IGM or quick save states.
 - Games failing in the native menu need image/BIOS/card diagnosis first. TeoPCE does not repair disc images.
 - After adding games, **Prepare / Refresh collection → Install on card**. Renaming, deleting or replacing installed entries may require a separate state migration.
-- Fresh arbitrary collections still need console validation. See [RELEASE-STATUS.md](RELEASE-STATUS.md) and [VERIFICATION.json](VERIFICATION.json).
+- The native bridge recognizes two Krikzz menu builds. Their CRC32 identifiers are listed in the release checks. See [RELEASE-STATUS.md](RELEASE-STATUS.md) and [VERIFICATION.json](VERIFICATION.json).
 
 ## Development
 

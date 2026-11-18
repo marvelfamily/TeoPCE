@@ -6,6 +6,8 @@ u8 cs_io_binding(u16 index,const CatalogRecord *record,const NativeBridgeTarget 
 u8 cs_io_package(const CheatStoreIdentity *identity);
 void cs_io_bind(u8 *work,u8 *flags,u8 restart);
 u8 cs_io_meta(const char *path,u32 *size,u8 *present,u8 directory);
+/* path is the writable RAM buffer filled by cs_stock_path. */
+u8 cs_io_stock_meta(char *path,u32 *size,u8 *present);
 u8 cs_io_read(const char *path,u32 size,u32 offset,u8 *out,u16 count);
 u8 cs_io_crc(const char *path,u32 size,u32 *crc);
 u8 cs_io_equal(const char *a,const char *b,u32 size);

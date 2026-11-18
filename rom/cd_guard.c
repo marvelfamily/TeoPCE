@@ -1,6 +1,7 @@
 /* Exact-revision launch preflight. No image/profile/save writes or persistent game RAM. */
 #include "cd_guard.h"
 #include "cheat_store_codec.h"
+#include "cheat_store_io.h"
 #include "card_io.h"
 #include <string.h>
 static CdGuardPacket packet;
@@ -39,7 +40,7 @@ static u8 selection(const char *path,u8 *candidate,const u8 *cache,u8 cached_cou
     u32 left,address;
     if(cache)left=cached_count;
     else {
-        e=ed_cmd_file_open((u8*)path,FA_READ);if(e)return e==4?0:CD_GUARD_ERR_SELECTION;
+        e=ed_cmd_file_open((u8*)path,FA_READ);if(e)return e;
         left=ed_cmd_file_available();if(left>1024)return finish(CD_GUARD_ERR_SELECTION);
     }
     while(left--) {
@@ -74,7 +75,7 @@ static u8 profile_selection(const char *path,const GuardProfile *profile,u8 *can
     cd_packet_init(&packet,profile->signature_start,profile->signature,guard_vectors,profile->key==0x4f214820UL?2:0);
     if(cache)left=cached_count;
     else {
-        e=ed_cmd_file_open((u8*)path,FA_READ);if(e)return e==4?0:CD_GUARD_ERR_SELECTION;
+        e=ed_cmd_file_open((u8*)path,FA_READ);if(e)return e;
         left=ed_cmd_file_available();if(left>1024)return finish(CD_GUARD_ERR_SELECTION);
     }
     while(left--) {
@@ -103,9 +104,9 @@ static u8 profile_selection(const char *path,const GuardProfile *profile,u8 *can
     *candidate=4;return 0;
 }
 static u8 prepare(const CatalogRecord *record,const NativeBridgeTarget *target,u8 *mode) {
-    char path[160];u8 e,candidate=0,i;
+    char path[160];u8 e,candidate=0,i,present;
     const GuardProfile *profile=0;
-    u32 key;
+    u32 key,size;
     *mode=0;packet_ready=0;
     if(card_io_fault())return CARD_IO_BLOCKED;
     if(!record||!target)return CD_GUARD_ERR_IMAGE;
@@ -116,6 +117,8 @@ static u8 prepare(const CatalogRecord *record,const NativeBridgeTarget *target,u
         if(!profile)return 0;
     }
     if(!cs_stock_path(record->path,path))return CD_GUARD_ERR_SELECTION;
+    e=cs_io_stock_meta(path,&size,&present);
+    if(e||!present)return e;
     e=profile?profile_selection(path,profile,&candidate,0,0):selection(path,&candidate,0,0);if(e)return e;
     /* Fixed P1 modes keep their exact path. Only when none matched may the
      * separately pinned P2 profile select the generic, bounded packet. */

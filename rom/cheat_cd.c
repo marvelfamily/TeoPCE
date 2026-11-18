@@ -17,7 +17,6 @@ static const char pending[]=TEO_USER_ROOT "/cdtxn.bin";
 static const u8 blank[]={32,13,10};
 /* IO helpers remap their code bank: pass resident strings or RAM only. */
 static const char user_root[]=TEO_USER_ROOT;
-static const char stock_root[]="edturbo/gamedata";
 static const char cd_root[]=CD_ROOT;
 typedef char cd_blob_path_fits[(sizeof(CD_ROOT "/B")+20<=80)?1:-1];
 #ifdef __CC65__
@@ -100,7 +99,7 @@ static u8 recover(void){u8 e,p,state;u32 n,crc;
  e=usable();if(e)return e;e=cs_io_meta(user_root,&n,&p,1);if(e)return e;if(!p)return 0;e=cs_io_meta(pending,&n,&p,0);if(e)return e;if(!p){*status&=(u8)~CHEAT_STORE_PENDING;return 0;}
  *status|=CHEAT_STORE_PENDING;if(n!=256)return CHEAT_STORE_ERR_DATA;e=cs_io_read(pending,256,0,work,256);if(e)return e;e=identity_valid();if(e)return e;
  e=blob_guard(pack_key(work+32),pack_key(work+36));if(e)return e;if(work[5]){e=blob_guard(pack_key(work+24),pack_key(work+28));if(e)return e;}
- e=cs_io_meta(NATIVE,&n,&p,0);if(e)return e;if(n>0x1000000UL)return CHEAT_STORE_ERR_FOREIGN;state=2;
+ e=cs_io_stock_meta(NATIVE,&n,&p);if(e)return e;if(n>0x1000000UL)return CHEAT_STORE_ERR_FOREIGN;state=2;
  if(p&&n==pack_key(work+32)){blob_path(n,pack_key(work+36));e=cs_io_equal(NATIVE,B,n);if(!e)state=1;else if(e!=CHEAT_STORE_ERR_VERIFY)return e;}
  if(state==2){if(!p&&!work[5])state=0;else if(p&&work[5]&&n==pack_key(work+24)){blob_path(n,pack_key(work+28));e=cs_io_equal(NATIVE,B,n);if(!e)state=0;else if(e!=CHEAT_STORE_ERR_VERIFY)return e;}}
  if(state!=2)return clear();
@@ -114,16 +113,17 @@ static u8 recover(void){u8 e,p,state;u32 n,crc;
 static u8 prepare(u16 index,const CatalogRecord*r){NativeBridgeTarget t;NativeBridgeReport report;u8 e,p;u32 n,crc,nn,nc;u16 cut;
  e=usable();if(e)return e;if(*status&CHEAT_STORE_PENDING)return CHEAT_STORE_ERR_PENDING;if(!r||r->kind!=2||index>=1200)return CHEAT_STORE_ERR_INPUT;
  e=recover();if(e)return e;e=launch_metadata(index,r,&t,&report);if(e){if(report.stage==LAUNCH_STAGE_CLOSE)*status|=CHEAT_STORE_UNCERTAIN;return e;}e=cue_guard(r,&t);if(e)return e;e=next(r,&t,index,&nn,&nc);if(e)return e;
- memset(work,0,256);if(!cs_stock_path(r->path,NATIVE))return CHEAT_STORE_ERR_INPUT;e=cs_io_meta(stock_root,&n,&p,1);if(e||!p)return e?e:CHEAT_STORE_ERR_DATA;
- cut=(u16)strlen(NATIVE)-11;NATIVE[cut]=0;e=cs_io_meta(NATIVE,&n,&p,1);NATIVE[cut]='/';if(e)return e;
- if(p){e=cs_io_meta(NATIVE,&n,&p,0);if(e)return e;}else n=0;if(n>0x1000000UL)return CHEAT_STORE_ERR_FOREIGN;
+ memset(work,0,256);if(!cs_stock_path(r->path,NATIVE))return CHEAT_STORE_ERR_INPUT;e=cs_io_stock_meta(NATIVE,&n,&p);if(e)return e;
+ if(!p&&!A[0])return 0; /* Already off: no journal and no carrier needed. */
+ if(n>0x1000000UL)return CHEAT_STORE_ERR_FOREIGN;
  if(p&&n==nn){e=A[0]?cs_io_equal(NATIVE,A,n):cs_io_mem(NATIVE,blank,3);if(!e)return 0;if(e!=CHEAT_STORE_ERR_VERIFY)return e;}
  e=dir(user_root);if(e)return e;e=dir(cd_root);if(e)return e;e=blob(A[0]?A:0,nn,nc);if(e)return e;
  crc=0;if(p){e=cs_io_crc(NATIVE,n,&crc);if(e)return e;e=blob(NATIVE,n,crc);if(e)return e;}
+ cut=(u16)strlen(NATIVE)-11;NATIVE[cut]=0;e=dir(NATIVE);NATIVE[cut]='/';if(e)return e;
  memcpy(work,"TCD1",4);work[4]=1;work[5]=p;put16(work+8,index);put32(work+12,pack_key(r->reserved));put32(work+16,t.size);put32(work+20,t.crc32);put32(work+24,n);put32(work+28,crc);put32(work+32,nn);put32(work+36,nc);put16(work+40,(u16)strlen(NATIVE));put32(work+252,cs_crc32(work,252));
  *status|=CHEAT_STORE_PENDING;e=cs_io_write(pending,work,256);if(e)return e;
  if(p){blob_path(n,crc);e=cs_io_equal(NATIVE,B,n);}else{u8 found;u32 size;e=cs_io_meta(NATIVE,&size,&found,0);if(!e&&found)e=CHEAT_STORE_ERR_VERIFY;}if(e)return e;
- cut=(u16)strlen(NATIVE)-11;NATIVE[cut]=0;e=dir(NATIVE);NATIVE[cut]='/';if(e)return e;blob_path(nn,nc);e=cs_io_copy(B,NATIVE,nn,FA_WRITE|(p?FA_CREATE_ALWAYS:FA_CREATE_NEW));if(e)return e;return clear();
+ blob_path(nn,nc);e=cs_io_copy(B,NATIVE,nn,FA_WRITE|(p?FA_CREATE_ALWAYS:FA_CREATE_NEW));if(e)return e;return clear();
 }
 #ifdef __CC65__
 #pragma code-name(pop)

@@ -17,7 +17,7 @@ def build_view(m):
     root = m.root
     font = "Helvetica Neue" if sys.platform == "darwin" else "Segoe UI"
     m.font = font
-    root.title("TeoPCE Catalog Manager 0.2.0-rc4")
+    root.title("TeoPCE Catalog Manager 0.2.0-rc6")
     root.geometry("1240x840")
     root.minsize(1120, 760)
     root.configure(bg=PAPER)
@@ -83,7 +83,7 @@ def build_view(m):
         button.pack(fill="x", padx=12, pady=3)
         m.nav[key] = button
     label(rail, "PC Engine\nTurbo EverDrive Pro", color="#c4cfd3", size=11, bg=RAIL).pack(side="bottom", anchor="w", padx=24, pady=(0, 16))
-    label(rail, "DESKTOP  0.2 · RC4", color="#8ea2aa", size=9, bg=RAIL).pack(side="bottom", anchor="w", padx=24, pady=(0, 12))
+    label(rail, "DESKTOP  0.2 · RC6", color="#8ea2aa", size=9, bg=RAIL).pack(side="bottom", anchor="w", padx=24, pady=(0, 12))
 
     shell = ttk.Frame(root, padding=(28, 24, 28, 0))
     shell.pack(side="left", fill="both", expand=True)

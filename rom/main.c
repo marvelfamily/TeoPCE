@@ -145,7 +145,7 @@ static const char card_restart_footer[] = "Restart console to continue";
 static const char device_key_mismatch[] = "STATUS KEY MISMATCH";
 static const char device_protocol_mismatch[] = "PROTOCOL MISMATCH";
 static const char device_id_mismatch[] = "DEVICE ID MISMATCH";
-static const char device_heading[] = "TEOPCE 0.9.13 / DEVICE STATUS";
+static const char device_heading[] = "TEOPCE 0.9.15 / DEVICE STATUS";
 static const char device_error_label[] = "Error code:";
 static const char device_got_label[] = "GOT:";
 static const char device_expect[] = "EXPECT: 5A 02 20 --";
@@ -153,7 +153,7 @@ static const char device_last_byte[] = "LAST BYTE = COMMAND STATUS";
 static const char device_no_library[] = "No library files were opened.";
 static const char device_retry[] = "I Retry";
 static const char device_reset[] = "Reset to return to the stock menu";
-static const char return_heading[] = "TEOPCE 0.9.13 / RETURN TO EVERDRIVE";
+static const char return_heading[] = "TEOPCE 0.9.15 / RETURN TO EVERDRIVE";
 static const char return_question[] = "Return to the EverDrive menu?";
 static const char return_note[] = "Choose games in the EverDrive menu.";
 static const char return_footer[] = "I Return  II Cancel";
@@ -280,7 +280,7 @@ static void stop_for_card_fault(void) {
 }
 static void error_screen(const char *message, u8 code) {
     stop_for_card_fault();
-    gCleanScreen(); heading("TEOPCE 0.9.13 / CARD ERROR");
+    gCleanScreen(); heading("TEOPCE 0.9.15 / CARD ERROR");
     gSetPal(PAL_ER); say(2, 6, message, 35);
     gSetPal(PAL_01); say(2, 9, "Error code:", 20);
     gSetXY(15, 9); gAppendHex8(code);
@@ -640,7 +640,7 @@ static void draw_description(void){
 
 static void draw_detail(void) {
     u8 loaded;
-    gCleanScreen(); heading("TEOPCE 0.9.13 / GAME DETAILS");
+    gCleanScreen(); heading("TEOPCE 0.9.15 / GAME DETAILS");
     gSetPal(PAL_01); say_wrapped(1, 3, current.title, 38, 3);
     blank_picture(2, 6, "LOADING");
     gSetPal(PAL_00); say(16, 6, "MEDIA", 22);
@@ -704,7 +704,7 @@ static const char action_labels[9][32]={
 static void draw_actions_impl(void) {
     u8 row;
     const char *label;
-    gCleanScreen(); heading("TEOPCE 0.9.13 / GAME ACTIONS");
+    gCleanScreen(); heading("TEOPCE 0.9.15 / GAME ACTIONS");
     gSetPal(PAL_01); say_wrapped(1, 3, current.title, 38, 3);
     for (row = 0; row < 5; ++row) {
         label = action_labels[row == 0 ? (native_blocked ? 0 :
@@ -746,7 +746,7 @@ static void draw_start_confirm(void){game_start_draw(&current,0);}
 static void draw_start_loading(void){game_start_draw(&current,1);}
 static void draw_start_error(void) {
     const char *message;
-    gCleanScreen(); heading(native_blocked ? "TEOPCE 0.9.13 / RESTART REQUIRED" : "TEOPCE 0.9.13 / START ERROR");
+    gCleanScreen(); heading(native_blocked ? "TEOPCE 0.9.15 / RESTART REQUIRED" : "TEOPCE 0.9.15 / START ERROR");
     gSetPal(PAL_01); say_wrapped(1, 2, current.title, 38, 3);
     if (native_blocked) {
         gSetPal(PAL_ER); say(1, 8, launch_report.stage==LAUNCH_STAGE_CLOSE ? "SD FILE CLOSE WAS NOT VERIFIED" : "NATIVE RECOVERY WAS NOT VERIFIED", 38);

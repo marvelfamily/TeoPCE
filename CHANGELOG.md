@@ -1,5 +1,17 @@
 # Changelog
 
+## Catalog Manager 0.2.0-rc6 · TeoPCE 0.9.15
+
+- Start HuCards and CDs on fresh cards without a previous save or per-game cheat folder. A valid pending CD transaction from RC4 can recover on the console.
+- Prepare and install collections on FAT/exFAT, including cards with Mac metadata sidecars. The installer creates the stock game-data directory if needed.
+- Includes the first-install and refresh fixes tested in the local RC5 candidate. Existing RC4 users can replace the root ROM without rebuilding their catalog.
+
+## Catalog Manager 0.2.0-rc5 — local release candidate
+
+- A package prepared for a first installation can no longer replace an existing collection. If another install or a play session happened in between, prepare the card again to keep its settings and cheat selections. Incomplete installations are left untouched. A card with only the matching console ROM can still finish setup normally.
+- Refreshing a collection in the desktop manager no longer copies the EverDrive's firmware and native saves to each prepared folder. The full-card command-line workflow still carries them forward from the previous card.
+- The console program remains **TeoPCE 0.9.13**. There is no firmware update or change to how games launch.
+
 ## Catalog Manager 0.2.0-rc4 — first public preview
 
 Bundled console program: **TeoPCE 0.9.13**.

@@ -4,7 +4,7 @@
 
 TeoPCE runs on PC Engine / CoreGrafx with Turbo EverDrive Pro. Catalog Manager prepares the artwork, details and matching cheat packs on Mac or Windows. This tour follows both halves: choosing a game on the console, then making the collection your own on the computer.
 
-[Project home](../README.md) · [Download RC4](https://github.com/marvelfamily/TeoPCE/releases/tag/v0.2.0-rc4)
+[Project home](../README.md) · [Download RC6](https://github.com/marvelfamily/TeoPCE/releases/tag/v0.2.0-rc6)
 
 **Setup and reference:** [English](USER-GUIDE.md) · [Deutsch](USER-GUIDE-DE.md) · [Français](USER-GUIDE-FR.md) · [Español](USER-GUIDE-ES.md) · [Italiano](USER-GUIDE-IT.md) · [Українська](USER-GUIDE-UK.md)
 
@@ -245,4 +245,4 @@ After adding games, **Refresh collection → review → Install on card**. Exist
 
 RC4 remains a public preview. The [verification page](../RELEASE-STATUS.md) separates automated checks, packaged startup checks, owner's hardware results and remaining manual tests. For a report, include versions, exact steps, title/revision, error text and whether the same game starts through Krikzz's menu. Please do not upload games, BIOS or saves.
 
-[Download TeoPCE](https://github.com/marvelfamily/TeoPCE/releases/tag/v0.2.0-rc4) · [Read the guide](USER-GUIDE.md) · [Help improve it](../CONTRIBUTING.md)
+[Download TeoPCE](https://github.com/marvelfamily/TeoPCE/releases/tag/v0.2.0-rc6) · [Read the guide](USER-GUIDE.md) · [Help improve it](../CONTRIBUTING.md)

@@ -10,7 +10,7 @@
 #pragma code-name(push,"BNK04")
 #pragma rodata-name(push,"BNK04")
 #endif
-static const char title[]="TEOPCE 0.9.13 / CHEAT CODES";
+static const char title[]="TEOPCE 0.9.15 / CHEAT CODES";
 static const char view_only[]="REFERENCE CODES / READ ONLY";
 static const char cd_view_only[]="CD CODES / READ ONLY";
 static const char back[]="II Back";

@@ -1,15 +1,36 @@
 {
-  "manager_version": "0.2.0-rc4",
-  "rom_version": "0.9.13",
-  "rom_sha256": "cb154a413102a2d56fd7695cb0735c85b90551e8ddf8d4814eeeef12683ca5ef",
-  "tests": {
-    "clean_macos_total": 42,
-    "clean_macos_passed": 42,
-    "windows_total": 42,
-    "windows_passed": 37,
-    "windows_skipped": 5,
-    "windows_skip_reason": "C/cc65 compilers and symlink creation unavailable"
+  "manager_version": "0.2.0-rc6",
+  "rom_version": "0.9.15",
+  "rom_sha256": "241629e74972eaad845a07d4629d2db18157084c48c7e16171303b563c147b04",
+  "hardware": {
+    "device": "CoreGrafx with Turbo EverDrive Pro",
+    "black_hole_assault_japan": {
+      "rom_version": "0.9.15",
+      "cheats": "off",
+      "outcome": "reached combat",
+      "source": "owner test, 2026-11-18"
+    },
+    "batman_japan": {
+      "rom_version": "0.9.14",
+      "outcome": "launched"
+    }
   },
+  "local_public_suite": {
+    "platform": "macOS arm64",
+    "passed": 62,
+    "skipped": 0
+  },
+  "host_card_replay": [
+    "Fresh HuCard-only collection with a different basename",
+    "Fresh CD-only collection with a different directory and CUE basename",
+    "Refresh of an RC4 installation preserving state and game files"
+  ],
+  "host_replay_boundary": "Production C file handling up to ed_app_start with simulated device status and RAM. No console execution in the host replay.",
+  "supported_menu_crc32": [
+    "3d7d8293",
+    "3a8c8ed7"
+  ],
+  "manual_packaged_gui_full_flow": false,
   "cheats": {
     "releases": 347,
     "groups": 1177,
@@ -22,53 +43,8 @@
     "whole_group_writes_ids_and_flags_preserved": true
   },
   "own_license": "MIT",
-  "new_library_console_tested": false,
-  "windows": {
-    "architecture": "x64 AMD64",
-    "test_host": "Windows 11 ARM64 in Parallels through x64 emulation",
-    "frozen_startup_smoke": true,
-    "native_intel_windows_tested": false
-  },
-  "packaging": {
-    "macos_notarized": false,
-    "windows_authenticode_signed": false,
-    "macos_strict_signature": true
-  },
-  "manual_packaged_gui_full_flow": false,
-  "screens_visually_reviewed": true,
-  "manager_worker_prepare_edit_reprepare_install": true,
-  "source_and_game_bytes_preserved_in_fixture": true,
-  "release_stage": "prerelease",
-  "github_at_packaging": {
-    "tested_commit": "0c30335",
-    "windows_source_tests": {
-      "passed": 41,
-      "skipped": 1,
-      "reason": "Optional cc65 toolchain unavailable"
-    },
-    "windows_source_build_and_startup": "passed",
-    "macos": "queued; test-harness correction passed locally, hosted result pending",
-    "build_url": "https://github.com/marvelfamily/TeoPCE/actions/runs/43903912540",
-    "note": "Historical packaging-time snapshot, superseded by github_current for hosted CI results."
-  },
-  "github_current": {
-    "verified_date": "2026-11-16",
-    "tested_commit": "8f1b35a5f6de3b63b19259c711e55db54ba4d70a",
-    "platforms": [
-      "macos-latest",
-      "windows-latest"
-    ],
-    "tests_per_platform": {
-      "passed": 41,
-      "skipped": 1,
-      "reason": "Optional cc65 toolchain unavailable"
-    },
-    "build_startup_archive_upload": "passed on both platforms",
-    "macos_adhoc_signing_and_strict_verification": "passed",
-    "checks_url": "https://github.com/marvelfamily/TeoPCE/actions/runs/43906527916",
-    "build_url": "https://github.com/marvelfamily/TeoPCE/actions/runs/43907155647",
-    "workflow_warning_annotations": 0,
-    "node20_deprecation_lines": 0,
-    "release_archives_replaced": false
+  "distribution": {
+    "macOS": "Apple Silicon, ad hoc signed",
+    "Windows": "x64, unsigned"
   }
 }

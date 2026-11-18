@@ -42,15 +42,15 @@ jobs:
       - name: Archive macOS application
         if: runner.os == 'macOS'
         run: |
-          cp LICENSE THIRD-PARTY.md README.md RELEASE-STATUS.md VERIFICATION.json dist/
-          cp -R licenses dist/
-          cp -R docs dist/
-          ditto -c -k --sequesterRsrc --keepParent --norsrc dist TeoPCE-Manager-${{ runner.os }}-${{ runner.arch }}.zip
+          mkdir -p package/TeoPCE
+          mv "dist/TeoPCE Catalog Manager.app" package/TeoPCE/
+          cp -R LICENSE THIRD-PARTY.md README.md CHANGELOG.md CONTRIBUTING.md RELEASE-STATUS.md VERIFICATION.json licenses docs package/TeoPCE/
+          ditto -c -k --keepParent --norsrc package/TeoPCE TeoPCE-Manager-${{ runner.os }}-${{ runner.arch }}.zip
       - name: Archive Windows application
         if: runner.os == 'Windows'
         shell: pwsh
         run: |
-          Copy-Item LICENSE,THIRD-PARTY.md,README.md,RELEASE-STATUS.md,VERIFICATION.json dist/
+          Copy-Item LICENSE,THIRD-PARTY.md,README.md,CHANGELOG.md,CONTRIBUTING.md,RELEASE-STATUS.md,VERIFICATION.json dist/
           Copy-Item -Recurse licenses dist/
           Copy-Item -Recurse docs dist/
           Compress-Archive -Path dist/* -DestinationPath TeoPCE-Manager-${{ runner.os }}-${{ runner.arch }}.zip

@@ -38,6 +38,21 @@ static u8 package_impl(const CheatStoreIdentity*id){char path[sizeof(TEO_CHEAT_R
 u8 cs_io_binding(u16 i,const CatalogRecord*r,const NativeBridgeTarget*t,u32 c,CheatStoreIdentity*id,char*native){u8 e;ENTER;e=binding_impl(i,r,t,c,id,native);LEAVE;return e;}
 u8 cs_io_package(const CheatStoreIdentity*id){u8 e;ENTER;e=package_impl(id);LEAVE;return e;}
 u8 cs_io_meta(const char*p,u32*n,u8*present,u8 dir){u8 r;ENTER;r=meta_impl(p,n,present,dir);LEAVE;return r;}
+/* A missing game directory or cheats.txt is normal on a fresh card.
+ * Check each level so an inaccessible gamedata root still blocks launch. */
+u8 cs_io_stock_meta(char *path,u32 *size,u8 *present){
+    char *slash=strrchr(path,'/');
+    u8 error;
+    if(!slash)return CHEAT_STORE_ERR_INPUT;
+    error=cs_io_meta("edturbo/gamedata",size,present,1);
+    if(error)return error;
+    if(!*present)return CHEAT_STORE_ERR_DATA;
+    *slash=0;
+    error=cs_io_meta(path,size,present,1);
+    *slash='/';
+    if(error||!*present)return error;
+    return cs_io_meta(path,size,present,0);
+}
 u8 cs_io_read(const char*p,u32 size,u32 offset,u8*out,u16 n){u8 r;ENTER;r=read_impl(p,size,offset,out,n);LEAVE;return r;}
 u8 cs_io_crc(const char*p,u32 n,u32*c){u8 r;ENTER;r=crc_impl(p,n,0,c);LEAVE;return r;}
 u8 cs_io_equal(const char*a,const char*b,u32 n){u8 r;ENTER;r=equal_impl(a,b,n);LEAVE;return r;}

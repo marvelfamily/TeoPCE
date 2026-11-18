@@ -19,9 +19,10 @@ def main():
     output = args.output.resolve()
     output.mkdir(parents=True, exist_ok=True)
     resources = args.resources.resolve(strict=True)
+    from prepare_library import ROM_SHA256, ROM_VERSION
     import hashlib
-    if hashlib.sha256((resources / "TeoPCE.pce").read_bytes()).hexdigest() != "cb154a413102a2d56fd7695cb0735c85b90551e8ddf8d4814eeeef12683ca5ef":
-        raise ValueError("Use the verified 0.9.13 ROM")
+    if hashlib.sha256((resources / "TeoPCE.pce").read_bytes()).hexdigest() != ROM_SHA256:
+        raise ValueError(f"Use the verified {ROM_VERSION} ROM")
     modules = ["catalog_manager_view", "prepare_library", "library_media", "library_sources", "library_install", "library_cheats",
                "build_catalog", "build_index", "build_find_index", "build_launch_metadata",
                "build_game_metadata", "build_cheat_index", "prepare_cheat_groups",
@@ -52,7 +53,7 @@ def main():
         path = output / "TeoPCE Catalog Manager.app/Contents/Info.plist"
         with path.open("rb") as stream:
             document = plistlib.load(stream)
-        document.update(CFBundleShortVersionString="0.2.0", CFBundleVersion="5")
+        document.update(CFBundleShortVersionString="0.2.0", CFBundleVersion="7")
         with path.open("wb") as stream:
             plistlib.dump(document, stream)
         subprocess.run(["codesign", "--force", "--deep", "--sign", "-", str(path.parents[1])], check=True)

@@ -6,7 +6,7 @@
 
 The application interface is currently in English. These are translations of the instructions; button names match the application.
 
-For **Catalog Manager 0.2.0-rc4** and **TeoPCE 0.9.13**. Build your own catalog from your own games: no author's collection, AI subscription or API key is required.
+For **Catalog Manager 0.2.0-rc6** and **TeoPCE 0.9.15**. Build your own catalog from your own games: no author's collection, AI subscription or API key is required.
 
 ![Console library in the cover grid view](images/console-grid.png)
 
@@ -22,7 +22,9 @@ Turn off the console before removing the card. Use a computer card reader; cartr
 
 ## Download and open
 
-Get your platform ZIP from the [RC4 release](https://github.com/marvelfamily/TeoPCE/releases/tag/v0.2.0-rc4) and extract it completely. GitHub's automatic source archive is for development, not a standalone app.
+Get your platform ZIP from the [RC6 release](https://github.com/marvelfamily/TeoPCE/releases/tag/v0.2.0-rc6) and extract it completely. GitHub's automatic source archive is for development, not a standalone app.
+
+Already installed RC4? Back up your card, then replace only `TeoPCE.pce` at the SD root with the [release ROM](https://github.com/marvelfamily/TeoPCE/releases/download/v0.2.0-rc6/TeoPCE.pce). Keep `00TEOPCE`, your games and any recovery journal. If `edturbo/gamedata` is missing, create the empty folder. Safely eject and start TeoPCE. Use RC6 when you next prepare your catalog.
 
 **Mac:** open `TeoPCE Catalog Manager.app`. This download is for Apple Silicon, ad-hoc signed and not notarized. If first launch is blocked, check the download/checksum, then use Apple's **System Settings → Privacy & Security → Open Anyway** if offered. Do not disable Gatekeeper globally. There is no packaged Intel Mac build.
 
@@ -32,12 +34,12 @@ Packaged apps need no separate Python. To verify a ZIP, compare its full digest 
 
 ```sh
 # macOS Terminal
-shasum -a 256 TeoPCE-Manager-0.2.0-rc4-macOS-arm64.zip
+shasum -a 256 TeoPCE-Manager-0.2.0-rc6-macOS-arm64.zip
 ```
 
 ```powershell
 # Windows PowerShell
-Get-FileHash .\TeoPCE-Manager-0.2.0-rc4-Windows-x64.zip -Algorithm SHA256
+Get-FileHash .\TeoPCE-Manager-0.2.0-rc6-Windows-x64.zip -Algorithm SHA256
 ```
 
 ## Select and prepare
@@ -205,4 +207,4 @@ To restore: close the manager, copy the current `TeoPCE.pce` and `00TEOPCE` else
 
 Use the [issue form](https://github.com/marvelfamily/TeoPCE/issues/new/choose) with versions, steps, error text and native-launch comparison. Redact personal absolute paths. Do not attach games, BIOS, saves or card dumps.
 
-RC4's remaining manual/platform/hardware checks are in [RELEASE-STATUS.md](../RELEASE-STATUS.md). Attribution and redistribution terms are in [THIRD-PARTY.md](../THIRD-PARTY.md); prepared cards retain metadata/cheat attribution under `00TEOPCE/data`.
+RC6's remaining manual/platform/hardware checks are in [RELEASE-STATUS.md](../RELEASE-STATUS.md). Attribution and redistribution terms are in [THIRD-PARTY.md](../THIRD-PARTY.md); prepared cards retain metadata/cheat attribution under `00TEOPCE/data`.

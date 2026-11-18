@@ -169,12 +169,12 @@ static u8 cheat_state_impl(void) {
 }
 /* End native master status. */
 
-static u8 journal_guard(const char *path,u16 size,u8 allow_missing) {
+static u8 journal_guard(const char *path,u16 size) {
     u8 error=ed_cmd_file_open((u8*)path,FA_READ);
-    /* FR_NO_FILE=4 is allowed only for the optional HUC file. The registry
+    /* Stock treats FR_NO_FILE (4) as no pending journal for EXP and HUC. The registry
      * guard has just proved this same edturbo/sysdata parent is accessible.
      * FR_NO_PATH and every other error remain fatal. */
-    if(error) return allow_missing && error==4 ? 0 : error;
+    if(error) return error==4 ? 0 : error;
     if(ed_cmd_file_available()!=size) return close_with(NATIVE_BRIDGE_ERR_JOURNAL);
     error=file_zero(size,NATIVE_BRIDGE_ERR_JOURNAL);
     return close_with(error);
@@ -293,8 +293,8 @@ static u8 run_impl(const char *path,const NativeBridgeTarget *expected,
     }
     report->stage=3;error=registry_guard();if(error) goto failed;
     report->stage=4;
-    error=journal_guard("edturbo/sysdata/bram_exp.dat",2052,guard!=0);if(error) goto failed;
-    error=journal_guard("edturbo/sysdata/bram_huc.dat",8196,1);if(error) goto failed;
+    error=journal_guard("edturbo/sysdata/bram_exp.dat",2052);if(error) goto failed;
+    error=journal_guard("edturbo/sysdata/bram_huc.dat",8196);if(error) goto failed;
     report->stage=5;scratch[0]=0;ed_cmd_mem_rd(SAVE_ACK,scratch,1);report->detail=scratch[0];
     if(scratch[0]!=0xa0) {error=NATIVE_BRIDGE_ERR_ACK;goto failed;}
     report->stage=6;error=target_guard(path,expected,report);if(error) goto failed;

@@ -17,7 +17,7 @@
 #pragma rodata-name(push,"BNK04")
 #endif
 #endif
-static const char heading[]="TEOPCE 0.9.13 / FILE INFORMATION";
+static const char heading[]="TEOPCE 0.9.15 / FILE INFORMATION";
 static const char path_heading[]="PATH IN STOCK MENU";
 #ifdef PREVIEW
 static const char preview[]="PREVIEW: SD FILES ARE NOT READ";
@@ -38,8 +38,8 @@ static const char controls[]="I View cheat codes  II Back";
 static const char exit_note[]="Exit returns to the EverDrive menu.";
 static const char cd_no_states[]="NO QUICK SAVE STATES FOR CD";
 static const char cd_save[]="Use the game's own save option.";
-static const char start_heading[]="TEOPCE 0.9.13 / START GAME";
-static const char loading_heading[]="TEOPCE 0.9.13 / LOADING GAME";
+static const char start_heading[]="TEOPCE 0.9.15 / START GAME";
+static const char loading_heading[]="TEOPCE 0.9.15 / LOADING GAME";
 static const char start_question[]="Start this game?";
 static const char loading_note[]="Loading selected game...";
 static const char everdrive_note[]="The EverDrive will load this game.";

@@ -33,6 +33,9 @@ def _install(prepared, target, backups):
             raise ValueError("Application data must not contain symbolic links")
     if not target.is_dir() or not (target / "edturbo").is_dir():
         raise ValueError("Select a card containing the edturbo folder")
+    native_data = target / "edturbo/gamedata"
+    if native_data.resolve() != native_data or (native_data.exists() and not native_data.is_dir()):
+        raise ValueError("edturbo/gamedata must be a directory on this card")
     prepare_library.verify_result(prepared)
     rom = media.read_file(prepared / "TeoPCE.pce", 131072)
     if hashlib.sha256(rom).hexdigest() != prepare_library.ROM_SHA256:
@@ -48,7 +51,16 @@ def _install(prepared, target, backups):
     if {game["path"]: game["content_identity"] for game in games} != state["games"]:
         raise ValueError("The game list changed after preparation; prepare again")
     baseline = state.get("previous_app_files")
-    if baseline is not None:
+    if baseline is None:
+        # A first-install package has no profiles from this card to carry forward.
+        app_data = target / "00TEOPCE"
+        existing_rom = target / "TeoPCE.pce"
+        if (app_data / "data/catalog2.bin").is_file():
+            raise ValueError("This card already has a TeoPCE collection. Prepare again to keep its settings and profiles.")
+        if app_data.exists() or (existing_rom.exists() and not (
+                existing_rom.is_file() and media.fingerprint(existing_rom)["sha256"] == prepare_library.ROM_SHA256)):
+            raise ValueError("Incomplete TeoPCE installation. Back up and move the existing TeoPCE files off the card, then prepare again.")
+    else:
         actual = {p.relative_to(target).as_posix(): media.fingerprint(p)["sha256"]
                   for p in (target / "00TEOPCE").rglob("*") if p.is_file() and not p.name.startswith(".")}
         actual["TeoPCE.pce"] = media.fingerprint(target / "TeoPCE.pce")["sha256"]
@@ -83,10 +95,13 @@ def _install(prepared, target, backups):
         for name in originals:
             source = prepared / name
             if source.is_dir():
-                shutil.copytree(source, stage / name, symlinks=True)
+                # FAT/exFAT store the console bytes, not the Mac source's file flags.
+                prepare_library.copy_tree_checked(source, stage / name)
                 if any(p.is_symlink() for p in (stage / name).rglob("*")):
                     raise ValueError("Application data must not contain symbolic links")
                 for p in source.rglob("*"):
+                    if any(part.startswith(".") for part in p.relative_to(source).parts):
+                        continue
                     if p.is_file() and media.fingerprint(p)["sha256"] != media.fingerprint(stage / name / p.relative_to(source))["sha256"]:
                         raise ValueError("Staged write verification failed")
             else:
@@ -103,7 +118,10 @@ def _install(prepared, target, backups):
                 raise
             promoted.append(name)
         prepare_library.verify_result(target)
-        result = {"status": "INSTALLED_VERIFIED", "version": "0.9.13", "backup": str(backup)}
+        # The stock OS normally creates this directory after the first game.
+        # Make a fresh installation usable before any per-game data exists.
+        native_data.mkdir(exist_ok=True)
+        result = {"status": "INSTALLED_VERIFIED", "version": prepare_library.ROM_VERSION, "backup": str(backup)}
         (backup / "RESULT.json").write_text(json.dumps(result, indent=2) + "\n")
         cleanup = True
         return result

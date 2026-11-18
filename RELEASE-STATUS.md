@@ -1,36 +1,24 @@
-# Catalog Manager 0.2.0-rc4
+# Catalog Manager 0.2.0-rc6 · TeoPCE 0.9.15
 
-A public release candidate for macOS Apple Silicon and Windows x64. The console ROM remains the verified TeoPCE 0.9.13 binary.
+## On the console
 
-## Changes
+Black Hole Assault (Japan) reached combat on a CoreGrafx with a Turbo EverDrive Pro and all cheats off on 0.9.15. The same spare card had shown `DA / Stage 24` with 0.9.14. Batman (HuCard) also launched on that console with 0.9.14.
 
-An original TeoPCE desktop layout separates Your card, Collection and Activity. Setup explains included facts and cheats, online artwork and offline operation. Collection adds coverage counts, missing-cover filtering, source labels and original-image previews. Activity reports actual scan, cache and download operations. Preparation and installation remain separate; unsaved edits prevent a stale installation.
+## What went wrong in RC4
 
-Independent QA fixes preserve unspecified metadata during partial edits, preserve prose separately from publisher/developer facts, identify both legacy placeholder encodings, bind desktop previews to their prepared image digest, and reject unsafe cache/backup paths and symbolic links before promotion. Older cards without structured prose require an explicit description when changing developer/publisher through a metadata sidecar; their existing text is not silently replaced.
+RC4 was tested on an established personal card. Its desktop checks could build a new catalog, but its integration test substituted a successful cheat check before handing off a game. It missed two conditions that are normal on a fresh card. Ordinary HuCard launches could stop at a missing BRAM journal, and an ordinary CD launch with no per-game cheat folder could leave a pending recovery transaction. The intermediate 0.9.14 corrected that transaction and the HuCard launch. A later CD check still read the missing folder as an unsupported cheat combination. Version 0.9.15 shares the same file lookup between the two CD stages.
 
-## Verification
+## Checks for RC6
 
-The final clean Mac source passed 42 tests. Windows passed 37 with 5 skips: two C-reader checks, the optional cc65 build and two symlink-creation tests unavailable in that guest. An automated manager workflow prepared a collection, edited a game, prepared again and installed it into a disposable folder with a verified backup and unchanged game bytes. Backend checks cover failure/rollback and preserved profiles/native saves.
+- The local public source suite passed 62 tests on Mac. It includes both CD stages, an interrupted first launch, active codes, conflicting state, first install and refresh. Rebuilding the console ROM matched the distributed bytes.
+- Using the manager on disposable copies, we prepared a HuCard-only collection and a CD-only collection in different paths, starting with no native game-data directory. We also refreshed an RC4 installation and compared its games, native files and TeoPCE user files byte for byte.
+- For each resulting catalog entry a host replay ran the production preparation, file checks and launch code up to the native start call. The replay simulated cartridge status and RAM. The console test above is separate.
+- The desktop build workflow runs the public suite and starts the packaged app on macOS and Windows. Its logs give the per-platform results and any compiler-dependent skips. [Build history](https://github.com/marvelfamily/TeoPCE/actions/workflows/release.yml)
 
-Mac setup and collection screens were visually inspected, including the minimum supported window size. Mac and Windows frozen applications passed startup checks. macOS is ad-hoc signed and strictly verified. Windows was tested using x64 emulation on Windows 11 ARM64 in Parallels.
+## Compatibility
 
-A full manual preparation/install pass through the packaged interfaces remains pending; automated native input did not reliably exercise that flow. Source controller operations were exercised with real workers and disposable files. A new arbitrary collection still requires console validation. Manual testing of the distributed Windows binary on Intel/AMD hardware, Intel Mac, Apple notarization and Windows Authenticode signing remain pending. Release checksums identify the distributed artifacts.
+Use a PC Engine or CoreGrafx with **Turbo EverDrive Pro** and a card that already plays your games through the Krikzz menu. The launcher recognizes native `edturbo/menu.dat` files with CRC32 `3d7d8293` or `3a8c8ed7`. Supply your own working CD BIOS. The manager accepts supported HuCards and CUE sheets with their tracks in your own folder structure. Some CD cheat packs require a specific game revision and path.
 
-## Data and licenses
+Only the listed console configurations and games have the hardware coverage described here. The Mac download is for Apple Silicon, with an ad hoc signature. The Windows application is x64 and unsigned. Manual testing of every packaged GUI operation and every game remains open.
 
-TeoPCE code is MIT. The bundled Libretro-derived cheat library is CC BY-SA 4.0: 347 exact releases and 1,177 complete groups. Existing installed packs and selections keep priority. Full prose descriptions are supplied by the user or an owned reference, not downloaded automatically. Attribution and license files are included. No games or BIOS files are distributed.
-
-## GitHub CI — completed 16 November 2026
-
-Current published source at commit `8f1b35a5f6de3b63b19259c711e55db54ba4d70a` passed **41 tests with one optional cc65-prerequisite skip on each hosted platform**, macOS and Windows. Both platform packaging jobs passed: build, executable startup, archive creation and upload; macOS ad-hoc signing and strict verification also succeeded.
-
-- [Passed portable checks](https://github.com/marvelfamily/TeoPCE/actions/runs/43906527916)
-- [Passed Mac and Windows builds](https://github.com/marvelfamily/TeoPCE/actions/runs/43907155647)
-
-The workflows pin current official Node 24 actions. Their completed logs contain no Node 20 deprecation or workflow-warning annotations. The earlier macOS test-harness hang is resolved in these runs.
-
-These are source-build checks. The existing RC4 tag and downloadable application archives have not been replaced; their original checksums still identify the locally built release artifacts. Hosted startup checks do not replace the pending full manual packaged-GUI and fresh-collection console checks above.
-
-## Documentation and images
-
-The current documentation includes a [visual tour](docs/TOUR.md), [capture provenance](docs/SCREENSHOTS.md), and complete user guides in English, German, French, Spanish, Italian and Ukrainian. The application remains in English. Documentation screenshots demonstrate UI rendering and real sample preparation; they are not additional hardware-validation claims.
+[Installation and RC4 recovery](docs/USER-GUIDE.md) · [Machine-readable results](VERIFICATION.json)

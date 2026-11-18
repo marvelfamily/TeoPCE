@@ -81,7 +81,7 @@ The macOS application uses an ad-hoc signature, not notarization. The Windows ap
 
 ## Optional native ROM build
 
-The repository includes the hardware-confirmed TeoPCE 0.9.13 ROM. You do not need cc65 for desktop use or card preparation.
+The repository includes the TeoPCE 0.9.15 ROM. You do not need cc65 for desktop use or card preparation.
 
 For native development, install cc65 with its headers and `lib/nes.lib`:
 
@@ -89,7 +89,7 @@ For native development, install cc65 with its headers and `lib/nes.lib`:
 python tools/build_rom.py --cc65-bin /path/to/cc65/bin --native-only --app-root 00TEOPCE --output-dir build/native
 ```
 
-This builds the 128 KiB console ROM independently of private preview assets. The historical compiler commit for the bundled ROM was not recorded, so byte-identical reproduction has not been demonstrated. A rebuilt ROM is a developer build, not automatically equivalent to hardware validation of the distributed binary. The manager intentionally verifies the bundled release ROM hash.
+This builds the 128 KiB console ROM independently of private preview assets. The release build with cc65 V2.19 reproduced the bundled ROM byte for byte. Other compiler builds can produce different binaries. A rebuilt ROM is a developer build, not automatically equivalent to hardware validation of the distributed binary. The manager intentionally verifies the bundled release ROM hash.
 
 ## Repository map
 

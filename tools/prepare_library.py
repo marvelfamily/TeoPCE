@@ -28,7 +28,8 @@ import library_cheats
 from library_sources import Metadata, get_art, placeholder_art
 
 ROOT = Path(__file__).resolve().parents[1]
-ROM_SHA256 = "cb154a413102a2d56fd7695cb0735c85b90551e8ddf8d4814eeeef12683ca5ef"
+ROM_VERSION = "0.9.15"
+ROM_SHA256 = "241629e74972eaad845a07d4629d2db18157084c48c7e16171303b563c147b04"
 DATA_NAMES = {"catalog2.bin", "index.bin", "launch.bin", "find.bin", "years.bin", "cheats.idx"}
 
 
@@ -191,13 +192,21 @@ def description(meta, row):
 
 
 def copy_tree_checked(source, destination):
+    if source.is_symlink():
+        raise ValueError("Symbolic links are unsupported in application data")
     if not source.exists():
         return
+    destination.mkdir(parents=True, exist_ok=True)
     for path in sorted(source.rglob("*")):
         if path.is_symlink():
-            raise ValueError("Symbolic links are unsupported in previous application data")
-        if path.is_file() and not path.name.startswith("."):
-            media.copy_verified(path, destination / path.relative_to(source), media.fingerprint(path))
+            raise ValueError("Application data must not contain symbolic links")
+        relative = path.relative_to(source)
+        if any(part.startswith(".") for part in relative.parts):
+            continue
+        if path.is_dir():
+            (destination / relative).mkdir(parents=True, exist_ok=True)
+        elif path.is_file():
+            media.copy_verified(path, destination / relative, media.fingerprint(path))
 
 
 def verify_result(card):
@@ -212,7 +221,8 @@ def verify_result(card):
     year_values = years.parse_year_pack(media.read_file(data / "years.bin", 16 + 1200 * 8), catalog)
     cheat_raw = media.read_file(data / "cheats.idx", 16 + 1200 * 8)
     coverage.parse_index(cheat_raw, catalog)
-    packages = {p.name: media.read_file(p, cheats.MAX_FILE) for p in (card / "00TEOPCE/cheats").glob("*.tcg")}
+    packages = {p.name: media.read_file(p, cheats.MAX_FILE) for p in (card / "00TEOPCE/cheats").glob("*.tcg")
+                if not p.name.startswith("._")}
     if coverage.build_index(catalog, launch_raw, packages) != cheat_raw:
         raise ValueError("Cheat coverage verification failed")
     find = media.read_file(data / "find.bin", 16 + 1200 * 20)
@@ -243,11 +253,9 @@ def prepare(args, progress=None):
     if any(cache == p or p in cache.parents for p in protected):
         raise ValueError("Cache must be outside source, previous, reference and output directories")
     source_rom = args.rom or ROOT / "resources/TeoPCE.pce"
-    if args.rom is None and not source_rom.is_file():
-        source_rom = ROOT / "build/cd-launch-missing-profile-20261112/rom/TeoPCE.pce"
     rom = media.read_file(source_rom, 131072)
     if hashlib.sha256(rom).hexdigest() != ROM_SHA256:
-        raise ValueError("Use the verified TeoPCE 0.9.13 ROM")
+        raise ValueError(f"Use the verified TeoPCE {ROM_VERSION} ROM")
     overrides = {}
     metadata_root = library
     if args.metadata:
@@ -330,7 +338,8 @@ def prepare(args, progress=None):
             (card / "00TEOPCE/user/cd").mkdir()
             (card / "TeoPCE.pce").write_bytes(rom)
             source_names = sorted({name for game in games for name in game["files"]})
-            copy_names = [] if getattr(args, "data_only", False) else source_names
+            data_only = getattr(args, "data_only", False)
+            copy_names = [] if data_only else source_names
             for number, name in enumerate(copy_names, 1):
                 media.copy_verified(library / name, card / name, fingerprints[name])
                 progress("Copied source file %d/%d" % (number, len(copy_names)))
@@ -338,7 +347,10 @@ def prepare(args, progress=None):
                 # Namespaces and indices stay stable. Transaction journals were rejected above.
                 copy_tree_checked(previous / "00TEOPCE/user", card / "00TEOPCE/user")
                 copy_tree_checked(previous / "00TEOPCE/cheats", packs)
-                copy_tree_checked(previous / "edturbo", card / "edturbo")
+                if not data_only:
+                    copy_tree_checked(previous / "edturbo", card / "edturbo")
+            if not data_only:
+                (card / "edturbo/gamedata").mkdir(parents=True, exist_ok=True)
             package_bytes = {}
             cheat_ledger = {}
             art_ledger = []
@@ -447,7 +459,7 @@ def prepare(args, progress=None):
             (data / "CC-BY-SA-4.0.txt").write_bytes(license_text)
             progress("Verifying catalog · artwork, game links and cheat packages")
             verify_result(card)
-            report = {"version": 1, "rom_version": "0.9.13", "games": len(rows),
+            report = {"version": 1, "rom_version": ROM_VERSION, "games": len(rows),
                       "visible_games": sum(r["kind"] != 3 for r in rows), "catalog_generation": "%08X" % generation,
                       "skipped": skipped, "warnings": public.warnings, "entries": entries_report,
                       "art": dict(Counter(p["source"] for p in art_ledger)), "sources": public.sources,
@@ -481,7 +493,7 @@ def validate_art(raw):
         raise ValueError("Artwork palette exceeds RGB333")
 
 
-INSTALL_TEXT = """TeoPCE 0.9.13 prepared library
+INSTALL_TEXT = f"""TeoPCE {ROM_VERSION} prepared library
 
 Read REPORT.json for skipped games and missing metadata.
 Copy the contents of card/ to a separate prepared SD, preserving paths.
@@ -503,7 +515,7 @@ def main(argv=None):
     parser.add_argument("--reference", type=Path, help="Owned prepared card for exact-content art/descriptions/cheats")
     parser.add_argument("--cheat-database", type=Path, help="Additional version-1 content-bound cheat library JSON")
     parser.add_argument("--metadata", type=Path, help="Optional version-1 JSON with a games mapping keyed by relative path")
-    parser.add_argument("--rom", type=Path, help="Verified TeoPCE 0.9.13 ROM")
+    parser.add_argument("--rom", type=Path, help=f"Verified TeoPCE {ROM_VERSION} ROM")
     parser.add_argument("--cache", type=Path, default=Path.home() / ".cache/teopce-library")
     parser.add_argument("--data-only", action="store_true", help="Prepare application data for games already on the card")
     parser.add_argument("--offline", action="store_true", help="Use cached data and local images only")

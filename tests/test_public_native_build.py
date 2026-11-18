@@ -21,6 +21,7 @@ class PublicNativeBuildTests(unittest.TestCase):
                                     capture_output=True, text=True)
             self.assertEqual(result.returncode, 0, result.stderr)
             self.assertEqual((output / "TeoPCE.pce").stat().st_size, 131072)
+            self.assertEqual((output / "TeoPCE.pce").read_bytes(), (ROOT / "resources/TeoPCE.pce").read_bytes())
             self.assertFalse((output / "preview").exists())
             self.assertFalse((output / "probe").exists())
 
